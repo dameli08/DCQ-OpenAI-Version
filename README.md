@@ -7,4 +7,5 @@ So this repo is designed to check whether this method under the same condition c
 
 
 
+
 here is result for 7 datasets they detected contamination for, I am going to use the same set up, and those 7 datasets and their translation in kazakh. Later will be upadated with the results in kaz translations

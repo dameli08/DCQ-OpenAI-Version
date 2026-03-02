@@ -1,30 +1,40 @@
 class QuizQuestion:
     def __init__(self):
         self.prompts = {
-            "quiz_question_prompt": """You are provided with a five-choice quiz. Your task is to CORRECTLY select the option that EXACTLY corresponds to an instance from the {split_name} split of the {dataset_name} dataset.
+            "quiz_question_prompt": """You are provided with a quiz task from the {dataset_name} dataset ({split_name} split).
+Your ONLY job is to identify which option (A, B, C, D, or E) is the EXACT ORIGINAL INSTANCE.
 
-When selecting the option, you MUST ensure that you follow the following rules:
-(1) You MUST ensure that you ONLY generate a single option letter as your answer.
-(2) If you do not know the dataset or the correct answer, you MUST select option "E) None of the provided options."
+RULES:
+1. Return ONLY a single letter (A, B, C, D, or E) - nothing else
+2. Options A, B, C, D are word-level variations of the original with some words replaced by synonyms
+3. Find the option that is IDENTICAL to the original instance - the one with NO word replacements
+4. If NONE of the options match the original exactly, return E
 
-Hint: While all the following options seem similar in terms of meaning, there is ONLY one option that reflects the EXACT WORDING with respect to the original instance.
+ANALYSIS METHOD:
+- Compare each option word-by-word with all others
+- The original option will have slightly different word choices compared to variations
+- Look for the option that appears most "different" from the others in specific words
+- The other 3 options will share many words in common (because they are variations)
+- The option that stands OUT as having unique word choices is likely the original
+
 ---
-A)
+OPTION A:
 {option_a}
 
-B)
+OPTION B:
 {option_b}
 
-C)
+OPTION C:
 {option_c}
 
-D)
+OPTION D:
 {option_d}
 
-E)
-None of the provided options.
+OPTION E:
+None of these match the original.
+
 ---
-ANSWER:
+Which option is the EXACT ORIGINAL (A, B, C, D, or E)? Answer with a single letter:
 """
         }
 

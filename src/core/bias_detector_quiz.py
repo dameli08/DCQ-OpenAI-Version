@@ -37,7 +37,7 @@ class BiasDetectorQuiz(ExperimentResultSaver):
             logger.info(f"Input prompt:\n\n{formatted_prompt}")
 
         result = self.openai_client.get_text(
-            text=formatted_prompt, model=self.args.model, max_tokens=1, temperature=0.0
+            text=formatted_prompt, model=self.args.model, max_tokens=10, temperature=0.0
         )
         self.df.at[index, "bdq_results"] = result
 

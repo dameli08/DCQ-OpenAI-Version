@@ -7,8 +7,22 @@ logger = configure_logger(__name__)
 
 
 def letter_counter(df, column_name, letter):
-    pattern = rf"\b{re.escape(letter)}\b"
-    total_count = df[column_name].str.lower().str.count(pattern).sum()
+    """Count occurrences of a letter (A-E) in BDQ/BCQ results.
+    Handles various response formats: 'A', 'a', 'A)', 'a)', 'A)\n', etc."""
+    # Extract just the first character and convert to lowercase
+    # This handles responses like 'E', 'E)', 'E\n', etc.
+    def extract_letter(val):
+        if pd.isna(val):
+            return ""
+        val_str = str(val).strip()
+        if not val_str:
+            return ""
+        # Get first character and lowercase it
+        return val_str[0].lower()
+    
+    import pandas as pd
+    first_letters = df[column_name].apply(extract_letter)
+    total_count = (first_letters == letter.lower()).sum()
     return total_count
 
 
