@@ -53,15 +53,25 @@ class QuizGeneration(ExperimentResultSaver):
         pbar.close()
 
     def parse_generated_options(self, text, option_columns):
-        pattern = re.compile(r"(?<!\w)([A-D])\)\s*\n")
-        chunks = pattern.split(text)
         options = {col: "" for col in option_columns}
+        if pd.isna(text):
+            return options
+
+        normalized_text = str(text).replace("\r\n", "\n")
         option_map = {letter: col for letter, col in zip("ABCD", option_columns)}
 
-        for i in range(1, len(chunks), 2):
-            letter, content = chunks[i], chunks[i + 1].strip()
-            if letter in option_map:
-                options[option_map[letter]] = content
+        patterns = {
+            "A": r"(?is)(?:^|\n)A\)\s*\n?(.*?)(?=\n\s*B\)\s*\n?)",
+            "B": r"(?is)(?:^|\n)B\)\s*\n?(.*?)(?=\n\s*C\)\s*\n?)",
+            "C": r"(?is)(?:^|\n)C\)\s*\n?(.*?)(?=\n\s*D\)\s*\n?)",
+            "D": r"(?is)(?:^|\n)D\)\s*\n?(.*?)(?=\n\s*---|$)",
+        }
+
+        for letter, pattern in patterns.items():
+            match = re.search(pattern, normalized_text)
+            if match:
+                options[option_map[letter]] = match.group(1).strip()
+
         return options
 
     def concat_generated_options_to_df(self):
@@ -71,7 +81,12 @@ class QuizGeneration(ExperimentResultSaver):
             )
         )
         parsed_df = pd.DataFrame(parsed_data.tolist())
-        self.df = pd.concat([self.df, parsed_df], axis=1)
+        for column in self.args.quiz_options_column_names:
+            if column not in self.df.columns:
+                self.df[column] = pd.NA
+
+            parsed_values = parsed_df[column].where(parsed_df[column].astype(str).str.strip() != "", pd.NA)
+            self.df[column] = parsed_values.combine_first(self.df[column])
 
     def check_empty_cells(self):
         logger.info("Checking for any potential missing options ...")
