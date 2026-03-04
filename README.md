@@ -22,7 +22,7 @@ UPDATE:
 # how to run? 
 1. First put the xlsx file into the excel translations folder, then run the xlsxl_to_csv.py to convert excel dataset to csv then run the following code with just one command. In the result u will get contamination percent
 
-'''
+''
 chcp 65001 > $null
 $ErrorActionPreference = "Stop"
 
@@ -53,4 +53,4 @@ Write-Host "✓ Contamination detection complete" -ForegroundColor Green
 Write-Host "`nStep 4: Report:" -ForegroundColor Cyan
 Get-Content ".\results\our_dcq\wild_evaluation\samsum_kaz_100\data_contamination_report_for_SAMSum_KAZ_Translation_100.txt"
 
-''' 
+''
