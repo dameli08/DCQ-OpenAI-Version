@@ -1,0 +1,29 @@
+chcp 65001 > $null
+$ErrorActionPreference = "Stop"
+
+Set-Location "C:\Users\Дамош\DCQ"
+
+Write-Host "Step 1: Creating random 100 samples from SAMSum..." -ForegroundColor Cyan
+$rows = Import-Csv ".\data\csv_translations\SAMSum_KAZ_Translation.csv" | Get-Random -Count 100
+$rows | ConvertTo-Csv -NoTypeInformation | Set-Content ".\data\csv_translations\SAMSum_KAZ_Translation_100.csv" -Encoding utf8
+Write-Host "✓ Saved 100 samples to SAMSum_KAZ_Translation_100.csv" -ForegroundColor Green
+
+Write-Host "`nStep 2: Generating quiz options..." -ForegroundColor Cyan
+python .\src\generating_quiz_options.py `
+  --filepath ".\data\csv_translations\SAMSum_KAZ_Translation_100.csv" `
+  --processed_dir ".\results\our_dcq\processed\samsum_kaz_100" `
+  --columns_to_form_instances "диалог" "қысқаша мазмұны" `
+  --model "gpt-4o-mini"
+Write-Host "✓ Quiz options generated" -ForegroundColor Green
+
+Write-Host "`nStep 3: Running contamination detection..." -ForegroundColor Cyan
+python .\src\taking_quiz.py `
+  --filepath ".\results\our_dcq\processed\samsum_kaz_100\SAMSum_KAZ_Translation_100.csv" `
+  --dataset "SAMSum_KAZ" `
+  --split "test" `
+  --experiment ".\results\our_dcq\wild_evaluation\samsum_kaz_100" `
+  --model "gpt-4o-mini"
+Write-Host "✓ Contamination detection complete" -ForegroundColor Green
+
+Write-Host "`nStep 4: Report:" -ForegroundColor Cyan
+Get-Content ".\results\our_dcq\wild_evaluation\samsum_kaz_100\data_contamination_report_for_SAMSum_KAZ_Translation_100.txt"
