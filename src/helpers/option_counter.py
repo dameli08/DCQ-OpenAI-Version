@@ -60,6 +60,9 @@ class QuizPerformance:
             for letter in self.bcqs_results
         ]
 
+        if not triples:
+            raise ValueError("No BCQ results found to estimate contamination.")
+
         triples.sort(key=lambda x: (-x[1], x[2]))
 
         max_count = triples[0][1]
@@ -70,8 +73,13 @@ class QuizPerformance:
             len(self.df) - max_cont_positional_bias
         )
 
-        second_max_count = triples[1][1]
-        min_cont_level = max(kappa, second_max_count / len(self.df))
+        # Edge case: only one non-preferred option was selected, so there is no
+        # second BCQ run to compare against.
+        if len(triples) == 1:
+            min_cont_level = kappa
+        else:
+            second_max_count = triples[1][1]
+            min_cont_level = max(kappa, second_max_count / len(self.df))
 
         return max_cont_level, min_cont_level, self.bcqs_results
 

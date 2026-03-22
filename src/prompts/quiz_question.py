@@ -1,40 +1,45 @@
 class QuizQuestion:
     def __init__(self):
         self.prompts = {
-            "quiz_question_prompt": """You are provided with a quiz task from the {dataset_name} dataset ({split_name} split).
-Your ONLY job is to identify which option (A, B, C, D, or E) is the EXACT ORIGINAL INSTANCE.
+            "quiz_question_prompt": """You are given a five-option multiple-choice quiz.
 
-RULES:
-1. Return ONLY a single letter (A, B, C, D, or E) - nothing else
-2. Options A, B, C, D are word-level variations of the original with some words replaced by synonyms
-3. Find the option that is IDENTICAL to the original instance - the one with NO word replacements
-4. If NONE of the options match the original exactly, return E
+Task:
+Select the option (A, B, C, D, or E) that is the exact original dataset instance.
 
-ANALYSIS METHOD:
-- Compare each option word-by-word with all others
-- The original option will have slightly different word choices compared to variations
-- Look for the option that appears most "different" from the others in specific words
-- The other 3 options will share many words in common (because they are variations)
-- The option that stands OUT as having unique word choices is likely the original
+Important definition of exact:
+Exact means lexical identity, not semantic similarity.
+Choose the option that preserves the original wording most faithfully.
+Do not reward paraphrases, synonyms, style changes, or rewritten phrases.
 
----
-OPTION A:
+Rules:
+1. Output only one uppercase letter: A, B, C, D, or E.
+2. Do not output any explanation, punctuation, or extra text.
+3. If no option appears to be the exact original, output E.
+4. Do not guess based on topic familiarity or world knowledge.
+5. Base your decision only on wording-level comparison among options.
+
+Decision policy:
+- Compare options by wording, token choice, and phrase form.
+- Prefer the option with minimal lexical deviation from the original form.
+- If uncertain between multiple options, output E.
+
+Options:
+A)
 {option_a}
 
-OPTION B:
+B)
 {option_b}
 
-OPTION C:
+C)
 {option_c}
 
-OPTION D:
+D)
 {option_d}
 
-OPTION E:
-None of these match the original.
+E)
+None of the provided options.
 
----
-Which option is the EXACT ORIGINAL (A, B, C, D, or E)? Answer with a single letter:
+Final answer (single letter only):
 """
         }
 
