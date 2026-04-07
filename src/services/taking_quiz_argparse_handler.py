@@ -62,6 +62,14 @@ class TakingQuizArgumentParser:
             "automatically after generating the quiz options. (default: %(defualt)s)",
         )
 
+        self.parser.add_argument(
+            "--thinking",
+            action="store_true",
+            default=False,
+            help="Enable thinking mode by injecting a system prompt '/think'. "
+            "Use for models that support think/no-think mode (e.g. Qwen3.5).",
+        )
+
     def parse_args(self):
         args = self.parser.parse_args()
         return args

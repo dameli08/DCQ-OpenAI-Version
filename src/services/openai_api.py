@@ -17,13 +17,25 @@ class OpenAIClient:
         top_p=1.00,
         frequency_penalty=0.0,
         presence_penalty=0.0,
+        thinking=False,
     ):
+        import re
+        messages = [{"role": "user", "content": text}]
+        if thinking:
+            # thinking_budget is a Qwen3 hard cap: once that many reasoning tokens are used,
+            # the model is forced to emit </think> and proceed to the answer.
+            # max_tokens must be > thinking_budget so there is always room for the answer letter.
+            extra = {"chat_template_kwargs": {"enable_thinking": True, "thinking_budget": 1024}}
+            max_tokens = 1200  # 1024 thinking budget + 176 buffer for the answer letter
+        else:
+            extra = {}
+
         for attempt in range(self.max_retries):
             try:
                 # Newer models (gpt-5+, o1, o3, etc.) use max_completion_tokens
                 # These reasoning models need more tokens (they use tokens for internal reasoning)
                 is_reasoning_model = any(prefix in model.lower() for prefix in ['gpt-5', 'o1', 'o3'])
-                
+
                 if is_reasoning_model:
                     # Reasoning models need significantly more tokens
                     # Original max_tokens is multiplied by 10 to account for reasoning overhead
@@ -35,7 +47,8 @@ class OpenAIClient:
                         top_p=top_p,
                         frequency_penalty=frequency_penalty,
                         presence_penalty=presence_penalty,
-                        messages=[{"role": "user", "content": text}],
+                        messages=messages,
+                        extra_body=extra,
                     )
                 else:
                     response = self.client.chat.completions.create(
@@ -45,7 +58,8 @@ class OpenAIClient:
                         top_p=top_p,
                         frequency_penalty=frequency_penalty,
                         presence_penalty=presence_penalty,
-                        messages=[{"role": "user", "content": text}],
+                        messages=messages,
+                        extra_body=extra,
                     )
 
                 # Check if the response has valid data
@@ -62,7 +76,22 @@ class OpenAIClient:
                         
                         # Get content
                         if hasattr(message, 'content') and message.content:
-                            return str(message.content)
+                            content = str(message.content)
+                            # Strip thinking block (model may omit opening <think> tag,
+                            # so strip everything up to and including </think>)
+                            content = re.sub(r'^.*?</think>\s*', '', content, flags=re.DOTALL).strip()
+                            # Fallback: </think> should always be present when thinking_budget
+                            # < max_tokens, but if it's somehow missing, retry once with
+                            # thinking still enabled so the model always reasons properly.
+                            if thinking and not re.match(r'^[A-E]$', content):
+                                print(f"⚠️ </think> missing in thinking response — retrying with thinking enabled.")
+                                return self.get_text(
+                                    text=text, model=model, max_tokens=max_tokens,
+                                    temperature=temperature, top_p=top_p,
+                                    frequency_penalty=frequency_penalty,
+                                    presence_penalty=presence_penalty, thinking=True,
+                                )
+                            return content
                         
                         # Handle empty content (usually means hit token limit)
                         if first_choice.finish_reason == 'length':
