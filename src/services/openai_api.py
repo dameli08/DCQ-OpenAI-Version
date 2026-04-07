@@ -22,11 +22,8 @@ class OpenAIClient:
         import re
         messages = [{"role": "user", "content": text}]
         if thinking:
-            # thinking_budget is a Qwen3 hard cap: once that many reasoning tokens are used,
-            # the model is forced to emit </think> and proceed to the answer.
-            # max_tokens must be > thinking_budget so there is always room for the answer letter.
-            extra = {"chat_template_kwargs": {"enable_thinking": True, "thinking_budget": 1024}}
-            max_tokens = 1200  # 1024 thinking budget + 176 buffer for the answer letter
+            extra = {"chat_template_kwargs": {"enable_thinking": True}}
+            max_tokens = 4096
         else:
             extra = {}
 
@@ -77,20 +74,14 @@ class OpenAIClient:
                         # Get content
                         if hasattr(message, 'content') and message.content:
                             content = str(message.content)
-                            # Strip thinking block (model may omit opening <think> tag,
-                            # so strip everything up to and including </think>)
-                            content = re.sub(r'^.*?</think>\s*', '', content, flags=re.DOTALL).strip()
-                            # Fallback: </think> should always be present when thinking_budget
-                            # < max_tokens, but if it's somehow missing, retry once with
-                            # thinking still enabled so the model always reasons properly.
-                            if thinking and not re.match(r'^[A-E]$', content):
-                                print(f"⚠️ </think> missing in thinking response — retrying with thinking enabled.")
-                                return self.get_text(
-                                    text=text, model=model, max_tokens=max_tokens,
-                                    temperature=temperature, top_p=top_p,
-                                    frequency_penalty=frequency_penalty,
-                                    presence_penalty=presence_penalty, thinking=True,
-                                )
+                            if thinking:
+                                # Strip everything up to and including </think>
+                                content = re.sub(r'^.*?</think>\s*', '', content, flags=re.DOTALL).strip()
+                                # If </think> was missing (model cut off mid-thinking),
+                                # grab the last A-E letter that appeared in the text
+                                if not re.match(r'^[A-E]$', content):
+                                    match = re.search(r'([A-E])(?!.*[A-E])', content, flags=re.DOTALL)
+                                    content = match.group(1) if match else 'E'
                             return content
                         
                         # Handle empty content (usually means hit token limit)
