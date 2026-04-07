@@ -16,7 +16,7 @@ cd /home/dameli/DCQ-Gemini-Version
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate dcq
 
-export GOOGLE_API_KEY="AIzaSyA6Z46OJwIFLWFPlH9i3ZgZpICd7R5coJo"
+export GOOGLE_API_KEY=""
 
 # Sample 100 rows from the dataset
 python - <<PY
