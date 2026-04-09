@@ -23,7 +23,7 @@ class OpenAIClient:
         messages = [{"role": "user", "content": text}]
         if thinking:
             extra = {"chat_template_kwargs": {"enable_thinking": True}}
-            max_tokens = 4096
+            max_tokens = 12000
         else:
             extra = {}
 
