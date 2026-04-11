@@ -55,9 +55,8 @@ class BiasDetectorQuiz(ExperimentResultSaver):
         with tqdm(total=len(self.df), desc="Taking BDQ") as pbar:
             for index, row in self.df.iterrows():
                 self._take_quiz(index, row)
+                self.save_to_csv()
                 pbar.update(1)
                 time.sleep(3)
-
-        self.save_to_csv()
 
         return self._log_non_preferred_options()
