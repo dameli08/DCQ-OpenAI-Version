@@ -2,10 +2,10 @@
 # ════════════════════════════════════════════════════════════════════
 # Step 3: Run contamination detection (non-thinking mode)
 # Run this in a second terminal while vLLM server is running.
-# Change ONLY these three variables:
-DATASET="mmlu_pro_all"
-MODEL_NAME="qwen3_5_2b"
-MODEL_PATH="/data/models/Qwen3.5-2B"
+# Change ONLY these three variables (or pass as env vars):
+DATASET="${DATASET:-MMLU_KAZ_Translation}"
+MODEL_NAME="${MODEL_NAME:-qwen3_5_9b}"
+MODEL_PATH="${MODEL_PATH:-/data/models/Qwen3.5-9B}"
 # ════════════════════════════════════════════════════════════════════
 
 # Auto-derived (do not change)

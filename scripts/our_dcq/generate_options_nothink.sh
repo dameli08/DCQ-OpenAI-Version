@@ -1,9 +1,9 @@
 #!/bin/bash
 # ════════════════════════════════════════════════════════════════════
 # Step 1: Generate paraphrase options via Gemini (non-thinking mode)
-# Change ONLY these two variables:
-DATASET="mmlu_pro_all"
-MODEL_NAME="qwen3_5_2b"
+# Change ONLY these two variables (or pass as env vars):
+DATASET="${DATASET:-MMLU_KAZ_Translation}"
+MODEL_NAME="${MODEL_NAME:-qwen3_5_9b}"
 # ════════════════════════════════════════════════════════════════════
 
 DATASETS_DIR="/home/dameli/DCQ-OpenAI-Version/8_datasets"
@@ -16,7 +16,11 @@ cd /home/dameli/DCQ-Gemini-Version
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate dcq
 
-export GOOGLE_API_KEY=""
+if [ -z "${GOOGLE_API_KEY:-}" ]; then
+    echo "ERROR: GOOGLE_API_KEY is not set."
+    echo "Run: export GOOGLE_API_KEY=your_key"
+    exit 1
+fi
 
 # Sample 100 rows from the dataset
 python - <<PY

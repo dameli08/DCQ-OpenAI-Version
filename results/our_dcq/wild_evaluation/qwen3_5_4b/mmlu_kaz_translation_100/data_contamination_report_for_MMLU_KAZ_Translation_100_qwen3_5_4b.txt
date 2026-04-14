@@ -1,0 +1,23 @@
+BDQ results (positional biases):
+Option A: 41.00%
+Option B: 4.00%
+Option C: 9.00%
+Option D: 21.00%
+Option E: 25.00%
+Non-preferred Options: B, C
+==================================================
+BCQ results with correct answers in position B:
+Option A: 39.00%
+Option B: 21.00%
+Option C: 6.00%
+Option D: 11.00%
+Option E: 23.00%
+==================================================
+BCQ results with correct answers in position C:
+Option A: 16.00%
+Option B: 3.00%
+Option C: 51.00%
+Option D: 10.00%
+Option E: 20.00%
+==================================================
+Detected Contamination Level: [46.15%, 51.00%]

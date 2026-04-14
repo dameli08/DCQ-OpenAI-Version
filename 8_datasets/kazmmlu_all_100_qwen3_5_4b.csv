@@ -1,0 +1,309 @@
+id,source,group,subject,level,language,subset,question,choice_A,choice_B,choice_C,choice_D,choice_E,answer,split
+18445,https://itest.kz/ru/endless,STEM,Physics,High School,Russian,Physics (High School in rus),После удара клюш­кой шайба стала сколь­зить вверх по ле­дя­ной горке от ее ос­но­ва­ния и у ее вер­ши­ны имела ско­рость 5 м/с. Вы­со­та горки 10 м. Тре­ние шайбы о лед пре­не­бре­жи­мо мало. Ка­ко­ва была ско­рость шайбы сразу после удара?,10 м/с,15 м/с,"12,5 м/с","7,5 м/с",,B,test
+14130,https://itest.kz/kz/endless,STEM,Math,High School,Kazakh,Math (High School in kaz),"Өрнектің мәнін табыңыз.
+\((5a^2 – 3b)·(5a^2 + 3b)\), мұндағы \(a = – 1\), \(b = – 1\)",\(10\),\(16\),\(15\),\(34\),,B,test
+16675,https://oltest.kz/tests/filosofiya_i_psihologiya/,Humanities,Philosophy and psychology,University,Russian,Philosophy and Psychology (Professional & University in rus),"Процесс воздействия на сознание личности:
+","внушение
+",идентификация,заражение,убеждение,"подражание
+",D,test
+10810,https://itest.kz/kz/endless,Language,Kazakh_Language,High School,Kazakh,Kazakh Language (High School in kaz),Туынды тұлғадағы дара сөзді көрсетіңіз.,Кенші,Бедел,Әңгіме,Ақыл,,A,test
+11039,https://itest.kz/kz/endless,Language,Kazakh_Language,High School,Kazakh,Kazakh Language (High School in kaz),Күрделі анықтауыш,Аса бағалы тері,Орманды алқап,Күрсінген жан,Ауырған жүрек,,A,test
+3757,https://itest.kz/ru/endless,STEM,Chemistry,High School,Russian,Chemistry (High School in rus),"Молекулярная формула углеводорода, если в состав 3 его молей входит 1,26 – 10\(^{25}\) атомов углерода и 2,88 · 10\(^{25}\) атомов водорода",\(C_7H_{16}\),\(CH_4\),\(C_4H_{10}\),\(C_3H_8\),,A,test
+5612,https://oltest.kz/tests/finansy_i_kredit/,"Social Science
+
+
+
+
+
+","Finance, credit, insurance ",University,Russian,Finance (Professional & University in rus),"Ссудные сделки в денежной форме оформляются:
+","финансовыми векселями
+","депозитным сертификатом
+",индоссаментом,"страховыми полисами
+","фиктивными векселями
+",A,test
+15670,https://itest.kz/ru/endless,STEM,Math,High School,Russian,Math (High School in rus),"Чему равно значение выражения?
+\(233^0 +\cos 66^0\)",1,–2,2,–1,,A,test
+4429,https://itest.kz/ru/endless,STEM,Chemistry,High School,Russian,Chemistry (High School in rus),Укажите продукт реакции Вюрца с 2-бромгексаном.,н-Декан,"5,6-диметилдекан","4,5-диэтилоктан",н-Нонан,,B,test
+21778,https://ymnik.kz/tests_old/worldhistory_kz/?v=9,Humanities,World_History,High School,Kazakh,World History (High School in kaz),XІІІ-XV ғасырларда сауда-теңіз державасына айналған Италия қаласы:,Рим.,Венеция.,Милан.,Генуя.,Флоренция.,B,test
+21261,https://itest.kz/kz/endless,Humanities,World_History,High School,Kazakh,World History (High School in kaz),1936 жылы Монтре қаласында өткен Халықаралық конференцияның Түркия республикасы үшін маңызы,Босфор мен Дарданелл бұғаздары қайтарылды,Швейцариямен өзара экономикалық келісімге қол қойылды,Антанта елдерімен бейбітшілік бітіміне қол қойылды,Балкан түбегінің шығыс аймағы қайтарылды,,A,test
+1605,https://ymnik.kz/tests_old/biology/?v=42,STEM,Biology,High School,Russian,Biology (High School in rus),Поедание птицами гусениц - фактор,Биотический,Абиотический,Социальный,Антропогенный,Ограничивающий,A,test
+6506,https://itest.kz/kz/endless,Social Science,Geography,High School,Kazakh,Geography (High School in kaz),"""Беловеж нуы"" орналасқан мемлекетті белгілеңіз.",Чехия,Ресей,Беларусия,Украина,,C,test
+1403,https://ymnik.kz/tests_old/biology/?v=28,STEM,Biology,High School,Russian,Biology (High School in rus),"Заболевание, связанное с резким снижением свертываемости крови",Гемофилия,Варикозное расширение вен,Стенокардия,Тромбоз,Лейкемия,A,test
+13096,https://itest.kz/kz/endless,Humanities,Law,High School,Kazakh,Law (High School in kaz),"Әлеуметтанушы және философ, әлеуметтанудың француз ұлттық мектебін жасаушы",Г. Зиммель,О. Конт,Э. Дюркгейм,М. Вебер,,C,test
+21931,https://ymnik.kz/tests_old/worldhistory_kz/?v=13,Humanities,World_History,High School,Kazakh,World History (High School in kaz),"Илиада, ""Одиссей"" поэмасында суреттелетін қала:",Афин.,Троя.,Олимп.,Спарта.,Микены.,B,test
+22797,https://ymnik.kz/tests_old/worldhistory/?v=29,Humanities,World_History,High School,Russian,World History (High School in rus),"Государство, предпринявшее колониальную экспансию после Вашингтонской мирной конференции:",Бельгия,Китай,Германия,Япония,Испания,D,test
+15919,https://itest.kz/ru/endless,STEM,Math,High School,Russian,Math (High School in rus),"Вычислите.
+\(sin90°\)","\(0,5\)",\(-1\),"\(-0,5\)",\(1\),,D,test
+6803,https://itest.kz/kz/endless,Social Science,Geography,High School,Kazakh,Geography (High School in kaz),Мұсылмандардың саны жөнінен көзге түсетін мемлекеттер.,"Кувейт, Сауд Арабиясы, Оман","Бангладеш, Нигерия, Алжир","Индонезия, Пәкстан, Үндістан","Сауд Арабиясы, Иран, Ирак",,C,test
+8289,https://oltest.kz/tests/gosudarstvo_i_pravo/,"Social Science
+
+
+
+
+
+","Jurisprudence, state and law",University,Russian,Jurisprudence (Professional & University in rus),"Сунна является одним из источников:
+","романо-германского права
+","правовой системы Казахстана
+","мусульманского права
+","англосаксонского права
+","индусского права
+",C,dev
+10881,https://itest.kz/kz/endless,Language,Kazakh_Language,High School,Kazakh,Kazakh Language (High School in kaz),Тұрлаусыз мүшелердің болу-болмауына қарай жай сөйлемдер қалай бөлінетінін көрсетіңіз.,"Жақты, жақсыз","Жалаң, жайылма",Атаулы,"Толымды, толымсыз",,B,test
+11034,https://ymnik.kz/tests_old/kazakh_kz/?v=6,Language,Kazakh_Language,High School,Kazakh,Kazakh Language (High School in kaz),Мақал - мәтелді табыңыз.,Жүрегінің түгі бар.,Ит жеккен жер.,Ит арқасы қиянда.,Су жұқпайтын жорға.,Ел іші - алтын бесік.,E,test
+7497,https://ymnik.kz/tests_old/geography/?v=71,Social Science,Geography,High School,Russian,Geography (High School in rus),Центры мукомольной промышленности:,"Алматы. Атырау, Актау.",Костанай. Шахтииск. Аральск.,Алматы. Астана. Костанай. Петропавловск.,Астана. Жезказган. Алга.,Петропавловск. Таволжан. Саян.,C,test
+22207,https://ymnik.kz/tests_old/worldhistory/?v=14,Humanities,World_History,High School,Russian,World History (High School in rus),К последствиям Февральской революции 1917 г. не относятся,Завоевание ряда политических свобод,Образование временного правительства,Передача земли крестьянам,Ликвидация монархии,Установление двоевластия,C,test
+18755,https://ymnik.kz/tests_old/russian/?v=15,Humanities,Russian_Language,High School,Russian,Russian Language (High School in rus),Сочинительная связь в сочетании слов:,Мой ученик.,Думать об учителе.,Спорить с учителем.,Учитель с учеником.,Учитель и ученик.,E,test
+17254,https://itest.kz/kz/endless,STEM,Physics,High School,Kazakh,Physics (High School in kaz),"Таразыға жартылай су құйылған стакан қойылғанда оның көрсетуі 115 г болды. Егер стакандағы суға қасықты салып стаканға тигізбей қолмен ұстап тұрса, таразының көрсетуі",0-ге тең,105 г,115 г,Артады,,D,test
+1632,https://itest.kz/ru/endless,STEM,Biology,High School,Russian,Biology (High School in rus),Заболевание рыб – ихтиофтириоз – вызывается простейшим,Лямблией,Дизентерийной амебой,Вольвоксом,Равноресничной инфузорией,,D,test
+20032,https://itest.kz/ru/endless,Humanities,Russian_Literature,High School,Russian,Russian Literature (High School in rus),Автор критической статьи «Обломов»,Д.И. Писарев,И.А. Гончаров,А.В. Дружинин,Н.А. Добролюбов,,C,test
+15238,https://itest.kz/ru/endless,STEM,Math,High School,Russian,Math (High School in rus),"Выполните действие.
+\(\frac{(6,5-4\cdot 1,5)\cdot(-9)}{-3\cdot 1,5}\)",\(–2\),\(1\),\(–1\),\(2\),,B,test
+19386,https://ymnik.kz/tests_old/russian/?v=35,Humanities,Russian_Language,High School,Russian,Russian Language (High School in rus),"Монографии, диссертации, доклады, рефераты – жанры:",Публицистического стиля.,Официально-делового стиля.,Научного стиля.,Художественного стиля.,Разговорного стиля.,C,test
+811,https://itest.kz/kz/endless,STEM,Biology,High School,Kazakh,Biology (High School in kaz),Жануарлар  мен өсімдіктер дүниесінің жер бетінде таралу заңдылықтарын зерттейтін ғылым саласын ата:,Биология,Биогеография,Экология,Эмбриология,,B,test
+8181,https://itest.kz/ru/endless,STEM,Informatics,High School,Russian,Informatics (High School in rus),"Укажи элемент формы <input>, который  определяет кнопку «Отправить» (для отправки формы).",<select> … </select>,<input type=”text”>,<input type=”submit”>,<input type=”radio”>,,C,test
+13955,https://oltest.kz/tests/menedzhment_i_marketing/,"Social Science
+
+
+
+
+
+",Management and Marketing ,University,Russian,Management and Marketing (Professional & University in rus),"На какие виды подразделяются функции выполняемые административным аппаратом:
+","министерво, административные, департамент, личный аппарат
+","парламент, маслихаты, личный аппарат
+","партия, политическое бюро, отделы
+","консультативные, оказание услуг и личный аппарат
+","аппарат президента, Правитество Казахстан
+",D,test
+22809,https://ymnik.kz/tests_old/worldhistory/?v=85,Humanities,World_History,High School,Russian,World History (High School in rus),"""Билль о правах"", внесший демократические поправки в конституцию США, был принят в:",1787 г,1791 г,1792 г,1795 г,1780 г,B,test
+21244,https://itest.kz/kz/endless,Humanities,World_History,High School,Kazakh,World History (High School in kaz),Христиан дініне ашық қолдау көрсеткен император,Диоклетиан,Константин,Траян,Гай Юлий Цезарь,,B,test
+3256,https://itest.kz/kz/endless,STEM,Chemistry,High School,Kazakh,Chemistry (High School in kaz),Мырыш катионының электрондық формуласы.,\(1s^22s^22p^63s^23p^63d^{10}\),\(1s^22s^22p^63s^23p^6\),\(1s^22s^22p^63s^23p^63s^1\),\(1s^22s^22p^63s^22p^63d^{10}4s^2\),,A,test
+13765,https://oltest.kz/tests/menedzhment_i_marketing/,"Social Science
+
+
+
+
+
+",Management and Marketing ,University,Russian,Management and Marketing (Professional & University in rus),"Совокупность конкретных способов взаимодействия руководителей и подчиненных называется:
+","Манипулированием
+",Лидерством,"Стилем руководства
+",Авторитетом,"Статусом
+",C,test
+5371,https://oltest.kz/tests/vospitanie_i_obuchenie/,Humanities,Education and training ,University,Russian,Education and Training (Professional & University in rus),В каком возрасте у ребенка обычно устанавливается связь цвета с его названием:,"
+после 5 лет","
+после 2 лет",после 3 лет,"
+после 4 лет","
+после 1 года",E,test
+10236,https://ymnik.kz/tests_old/history/?v=79,Humanities,Kazakh_History,High School,Russian,Kazakh History (High School in rus),"Союзные республики получили возможность самостоятельно осуществлять руководство в органах юстиции, утверждать гражданские и уголовные кодексы в:",1956-1957 гг.,1956-1958 гг.,1960-1961 гг.,1955-1958 гг.,1958-1959 гг.,B,test
+9543,https://ymnik.kz/tests_old/history_kz/?v=2,Humanities,Kazakh_History,High School,Kazakh,Kazakh History (High School in kaz),Үйсіндерде малдың қай түрінің саны басым болды?,"Жылқы, ірі қара.","Қой, жылқы.","Жылқы, түйе.","Қой, ірі қара.","Қой, түйе.",B,test
+6713,https://itest.kz/kz/endless,Social Science,Geography,High School,Kazakh,Geography (High School in kaz),Жазықтардың астындағы жер қыртысының орташа қалыңдығын көрсетіңіз.,35-45 км,70 км,78-80 км,5-10 км,,A,test
+16020,https://itest.kz/ru/endless,STEM,Math,High School,Russian,Math (High School in rus),"Вычислите \(cos^2\frac\alpha2,\) если \(cos\alpha=0,6\)","0,4","0,25","0,8","0,2",,C,test
+16722,https://oltest.kz/tests/filosofiya_i_psihologiya/,Humanities,Philosophy and psychology,University,Russian,Philosophy and Psychology (Professional & University in rus),"Какой ученый изучал квазипотребности в поле поведения человека
+","С.Л. Рубинштейн
+","У. Магдауголл
+","Д. Уотсон
+","К. Левин
+","З. Фрейд
+",D,test
+16132,https://itest.kz/ru/endless,Humanities,Math_Literacy,High School,Russian,Math Literacy (High School in rus),"Средний рост группы ребят – 158 см. После того, как в группу пришел участник с ростом 138 см, средний рост группы стал 154 см. Сколько стало участников группы?",5,6,4,12,,A,test
+12565,https://ymnik.kz/tests_old/literature_kz/?v=20,Humanities,Kazakh_Literature,High School,Kazakh,Kazakh Literature (High School in kaz),Ассонанс дегеніміздің не екенін табыңыз.,"Дауысты,  дауыссыздар араласып келеді.",Шумақтың басқы дыбыстары дауыссыздан басталады.,Өлеңнің бірнеше бунақтан тұруы.,Шумақтың басқы дыбыстары бірдей дауыстыдан басталады.,Соңғы дыбыстардың ұйқасып келуі.,D,test
+189,https://oltest.kz/tests/buhgalterskiy_uchet_i_audit/,"Social Science
+
+
+
+
+
+",Accounting and auditing,University,Russian,Accounting and Auditing (Professional & University in rus),"Дать журнальную запись: Оприходованы запасные части при ликвидации основных средств:
+","
+Д-т сч. 1310 К-т сч. 2740","
+Д-т сч. 1310 К-т сч. 2410",Д-т сч. 1310 К-т сч. 6210,"
+Д-т сч. 1310 К-т сч. 2420",Д-т сч. 1310 К-т сч. 2310,C,test
+19588,https://itest.kz/ru/endless,Humanities,Russian_Language,High School,Russian,Russian Language (High School in rus),Найдите слова-неологизмы.,"Гонки, транспорт, велосипед","Трайки, самокаты, гонщик","Бициклы, моноциклы, байкер","Квадроциклы, водитель, внедорожник",,C,test
+5224,https://oltest.kz/tests/vospitanie_i_obuchenie/,Humanities,Education and training ,University,Russian,Education and Training (Professional & University in rus),"На сколько видов делится депривация?
+",8,7,10,9,4,E,test
+15330,https://itest.kz/ru/endless,STEM,Math,High School,Russian,Math (High School in rus),"Окруж­ность, впи­сан­ная в рав­но­бед­рен­ный тре­уголь­ник, делит в точке ка­са­ния одну из бо­ко­вых сто­рон на два от­рез­ка, длины ко­то­рых равны 5 и 3, счи­тая от про­ти­во­ле­жа­щей ос­но­ва­нию вер­ши­ны. Най­ди­те пе­ри­метр тре­уголь­ни­ка.",22,30,15,25,,A,test
+17865,https://itest.kz/kz/endless,STEM,Physics,High School,Kazakh,Physics (High School in kaz),Массасы 6 кг көлемі \(5м^3\)газдың қысымы 200 кПа. Осы жағдайдағы газ молекулаларының орташа квадраттық жылдамдығы,\(\approx707  \)м\с,\(\approx610\) м\с,\(\approx807  \) м\с,\(\approx510 \) м\с,,A,test
+3134,https://itest.kz/kz/endless,STEM,Chemistry,High School,Kazakh,Chemistry (High School in kaz),Хромды алюминотермиялық әдіспен алу реакциясы теңдеуіндегі түзілетін металдың коэффициент саны,2,5,4,3,,A,test
+14799,https://itest.kz/kz/endless,STEM,Math,High School,Kazakh,Math (High School in kaz),Тапсырманы 4 жұмысшы 9 күнде орындайды. Осы тапсырманы 6 жұмысшы қанша күнде орындай алады?,6 күн,10 күн,12 күн,8 күн,,A,test
+19236,https://ymnik.kz/tests_old/russian/?v=49,Humanities,Russian_Language,High School,Russian,Russian Language (High School in rus),"Определите местоимение, в котором частица пишется раздельно:",(Кое)кто.,Что(нибудь).,Мне(ли).,Кто(нибудь).,Какой(то).,C,test
+6586,https://itest.kz/kz/endless,Social Science,Geography,High School,Kazakh,Geography (High School in kaz),"Іле Алатауының етегінде ауаның температурасы +28°С, туристер 3000 м биіктікке көтерілді. Туристер көтерілген биіктіктегі ауаның температурасы",+21°С,+10°С,+46°С,-10°С,,B,test
+5946,https://oltest.kz/tests/obshcheobrazovatelnye_discipliny/,Others,General education disciplines,University,Russian,General Education Disciplines (Professional & University in rus),"Находясь в квартире, вы услышали звуки сирены («ВНИМАНИЕ ВСЕМ») и объявление по радио об аварии с утечкой хлора. Какой раствор вы приготовите, чтобы смочить ватно-марлевую повязку?
+","5% раствор лимонной кислоты
+","2% раствор соды
+","10% раствор нашатырного спирта
+","10% раствор борной кислоты
+","водой
+",B,test
+8885,https://ymnik.kz/tests_old/history_kz/?v=3,Humanities,Kazakh_History,High School,Kazakh,Kazakh History (High School in kaz),Ф. Голощекиннің саясатына қарсы оппозиция (қарсыласы) басшыларының бірі:,А.Андреев.,І.Құрамысов.,С.Сәдуақасов.,В.Ленин.,А.Иманов.,C,test
+17867,https://itest.kz/kz/endless,STEM,Physics,High School,Kazakh,Physics (High School in kaz),"Доп 3 м биіктіктен еденге құлап, одан ыршып 1 м биіктікке көтерілгенде, Асан оны ұстап алды. Доптың жолы және орын ауыстыруы",(6 м; 3 м),(4 м; 2 м),(8 м; 4 м),(3 м; 1 м),,B,test
+22726,https://itest.kz/ru/endless,Humanities,World_History,High School,Russian,World History (High School in rus),В состав СССР в 1922 году вошло республик:,4,15,10,3,,A,test
+8976,https://itest.kz/kz/endless,Humanities,Kazakh_History,High School,Kazakh,Kazakh History (High School in kaz),Жетісу облысында Кеңес өкіметі орнаған мерзім:,1918 жылғы шілде,1918 жылдың басы,1918 жылғы сәуір,1918 жылғы наурыз,,D,test
+12828,https://itest.kz/kz/endless,Humanities,Law,High School,Kazakh,Law (High School in kaz),«Заңда тыйым салынбағанның бәріне рұқсат» ұстанымын басшылыққа алатын мемлекет түрі:,Парламенттік,Конституциялық,Диктатуралық,Президенттік,,B,test
+16858,https://oltest.kz/tests/filosofiya_i_psihologiya/,Humanities,Philosophy and psychology,University,Russian,Philosophy and Psychology (Professional & University in rus),"В каком возрасте, по данным А.М. Фонарёва, младенец способен следовать взором за движущимся в непосредственной близости предметом, при условии его медленного перемещения:
+","10 месяцев
+","6 месяцев
+","после 1-2 месяцев
+","после 2-3 недель
+","5-6 дней
+",E,test
+20332,https://itest.kz/ru/endless,Humanities,Russian_Literature,High School,Russian,Russian Literature (High School in rus),Продолжатель традиций В. Хлебникова и В. Маяковского,Т. Кибиров,Д.А. Григорович,О.О. Сулейменов,Л. Рубинштейн,,C,test
+20427,https://itest.kz/ru/endless,Humanities,Russian_Literature,High School,Russian,Russian Literature (High School in rus),Рыцарь Печального образа – произвище,Дон Кихота,А. де Сент-Экзюпери,Санчо Пагса,М. Сервантеса,,A,test
+6580,https://itest.kz/kz/endless,Social Science,Geography,High School,Kazakh,Geography (High School in kaz),Ламаизм дінінің орталығы болып есептелетін Тибеттің астанасын атаңыз.,Агра,Бомбей,Лхаса,Мадрас,,C,test
+12259,https://itest.kz/kz/endless,Humanities,Kazakh_Literature,High School,Kazakh,Kazakh Literature (High School in kaz),Қ. Әбдіқадыровтың туған жерін көрсетіңіз.,Кереку,Жамбыл,Өскемен,Қызылорда,,D,test
+11661,https://ymnik.kz/tests_old/kazakh_kz/?v=2,Language,Kazakh_Language,High School,Kazakh,Kazakh Language (High School in kaz),Сын есімнен жасалған (заттанған) бастауышты табыңыз.,Анда - санда өткінші жаңбыр бүркіп өтеді.,Ақылды – ісіне сенеді.,Сәске түс еді.,Ердің атын еңбек шығарады.,Мынау аппақ топ – шағала.,B,test
+8634,https://itest.kz/kz/endless,Humanities,Kazakh_History,High School,Kazakh,Kazakh History (High School in kaz),1990 жылдың жазында құрылған қозғалыс:,“Славян”,“Невада-Семей”,“Видергебурд”,“Азат”,,D,test
+13733,https://oltest.kz/tests/menedzhment_i_marketing/,"Social Science
+
+
+
+
+
+",Management and Marketing ,University,Russian,Management and Marketing (Professional & University in rus),"Основные направления деятельности государства, которые вытекают из его социальной природы и связаны с решением задач, стоящих перед обществом на том или ином этапе его развития — это:
+","Система государства
+","Механизм государства
+","Функции государства
+","Форма правления государства
+","Политический режим государства
+",C,dev
+1662,https://ymnik.kz/tests_old/biology/?v=47,STEM,Biology,High School,Russian,Biology (High School in rus),Яркие цветки с сильным запахом опыляются,легким опылением,искусственным опылением,самоопылением,ветром,насекомыми,E,test
+5572,https://oltest.kz/tests/finansy_i_kredit/,"Social Science
+
+
+
+
+
+","Finance, credit, insurance ",University,Russian,Finance (Professional & University in rus),"Назовите пути антиинфляционной политики?
+","дефляция, девальвация
+","гиперинфляция, деноминация
+","дефляционная политика и политика доходов
+","деноминация, нуллификация
+","реставрация, нуллификация
+",C,test
+1659,https://ymnik.kz/tests_old/biology/?v=56,STEM,Biology,High School,Russian,Biology (High School in rus),Яйца покрыты известковой скорлупой у:,Рыб,Земноводны,Пресмыкающихся,Млекопитающи,Птиц,E,test
+15914,https://itest.kz/ru/endless,STEM,Math,High School,Russian,Math (High School in rus),"Найдите значение выражения \(2(a-3b)+3a+b\), если \(a-b=4\).",\(10\),\(4\),\(-20\),\(20\),,D,test
+3249,https://itest.kz/kz/endless,STEM,Chemistry,High School,Kazakh,Chemistry (High School in kaz),Поливинилхлорид пластмассасындағы хлордың  массалық үлесі (%):,"55,8%","56,8%","57,8%","54,8%",,B,test
+18781,https://itest.kz/ru/endless,Humanities,Russian_Language,High School,Russian,Russian Language (High School in rus),"Порывистый ветер срывал с берёз мокрые и пахучие листья.
+Предложение осложнено однородными",Определениями,Обстоятельствами,Дополнениями,Подлежащими,,A,test
+11282,https://ymnik.kz/tests_old/kazakh_kz/?v=17,Language,Kazakh_Language,High School,Kazakh,Kazakh Language (High School in kaz),Бөлек жазылатын сөзді көрсетіңіз.,"Ащы шек, Жез қазған.","Шала сауатты, мақтау қағаз.","Мойын жіп, мұз жарғыш.","Ат қора, бір қазан.","Жел диірмен, түйе жапырақ.",B,test
+6282,https://ymnik.kz/tests_old/geography_kz/?v=10,Social Science,Geography,High School,Kazakh,Geography (High School in kaz),Алматы өнеркәсіп торабы... маманданған:,халық тұтынатын тауарлар шығаруға,"химия, тамақ өнеркәсібіне",металл өңдейтін станоктар жасауға,"кен өндіру, формацевтикаға",ауылшаруашылық шикізаттарын өңдеу,A,test
+7156,https://ymnik.kz/tests_old/geography/?v=14,Social Science,Geography,High School,Russian,Geography (High School in rus),"Заповедник, где обитает редко встречающийся в Казахстане степной баран «муфлон»:",Наурзумский.,Маркакольский.,Аксу-Жабаглинский.,Коргальджинский.,Устюртский.,E,test
+20425,https://itest.kz/ru/endless,Humanities,Russian_Literature,High School,Russian,Russian Literature (High School in rus),"Укажите произведения, которые вошли в трилогию романов И.А. Гончарова.","«Обломов», «Евгений Онегин», «Герой нашего времени»","«Обломов», «Фрегат «Паллада», «На родине»","«Обыкновенная история», «Обломов», «Обрыв»","«Обломов», «Обрыв», «На родине»",,C,test
+9395,https://itest.kz/kz/endless,Humanities,Kazakh_History,High School,Kazakh,Kazakh History (High School in kaz),Мұхаммед Хайдар Дулати өз деректерінде Қасым ханды қай жылы қайтыс болған деп көрсеткен?,1521 ж.,1514 ж.,1474 ж.,1518 ж.,,D,test
+9816,https://itest.kz/ru/endless,Humanities,Kazakh_History,High School,Russian,Kazakh History (High School in rus),Наряду с тюркским письмом в VI-IX вв. широкое распростанение на территории Казахстана получило письмо:,Греков,Китайцев,Согдийцев,Арабов,,C,test
+16537,https://oltest.kz/tests/medicina/,STEM,Medicine,University,Russian,Medicine (Professional & University in rus),"Полное созревание скелета завершается:
+","На 7-8 году жизни
+","40-45 годам жизни
+","После 50 лет
+","На 21-24 году жизни
+","На 33-35 году жизни
+",D,test
+22949,https://ymnik.kz/tests_old/worldhistory/?v=81,Humanities,World_History,High School,Russian,World History (High School in rus),"Европейская страна, создавшая свою ядерно-ракетную триаду в 60-е годы XX века:",Германии,Франции,Италия,Испания,Австрия,B,test
+17500,https://itest.kz/kz/endless,STEM,Physics,High School,Kazakh,Physics (High School in kaz),"Температурасы 47°C, зат мөлшері 2 моль оттегі газы бар баллонға қосымша \(3\cdot 10^3\) оттегі молекулаларын енгізді. Егер температура өзгермесе, баллондағы газдың ішкі энергиясы \((N_A=6\cdot 10^{23}\;моль^{-1},\;R=8,31\frac{Дж}{моль\;\cdot\;К})\)",15 500 Дж,15 580 Дж,16 620 Дж,14 800 Дж,,C,test
+4187,https://itest.kz/ru/endless,STEM,Chemistry,High School,Russian,Chemistry (High School in rus),"Известно, что 8 г ацетиленового углеводорода полностью прореагировали с 8,96 л хлороводорода (н. у.). Определите молекулярную формулу этого углеводорода.",\(C_5H_8\),\(C_6H_{10}\),\(C_3H_4\),\(C_4H_6\),,C,test
+11424,https://ymnik.kz/tests_old/kazakh_kz/?v=57,Language,Kazakh_Language,High School,Kazakh,Kazakh Language (High School in kaz),Есептік сан есімнің сұрағын табыңыз.,Нешінші?,Нешеден?,Неше?,Нешеу?,Қаншадан?,C,test
+4259,https://itest.kz/ru/endless,STEM,Chemistry,High School,Russian,Chemistry (High School in rus),"При обработке 9 г смеси алюминия и меди хлороводородной кислотой выделилось 5,6 л (н.у.) газа. Массовая доля (в %) меди в смеси.",60%,30%,50%,40%,,C,test
+19844,https://ymnik.kz/tests_old/literature/?v=8,Humanities,Russian_Literature,High School,Russian,Russian Literature (High School in rus),Укажите эпический жанр:,Комедия.,Поэма.,Ода.,Новелла.,Драма.,D,test
+19724,https://itest.kz/ru/endless,Humanities,Russian_Literature,High School,Russian,Russian Literature (High School in rus),"Мастер (М.А. Булгаков, «Мастер и Маргарита») по образованию был",биологом,физиком,историком,врачом,,C,test
+20377,https://ymnik.kz/tests_old/literature/?v=5,Humanities,Russian_Literature,High School,Russian,Russian Literature (High School in rus),"Определить размер стихов Н. Некрасова.""У людей-то в дому – чистота, лепота,А у нас-то в дому – теснота, духота"":",Анапест.,Ямб.,Хорей.,Амфибрахий.,Дактиль.,A,test
+4471,https://itest.kz/ru/endless,STEM,Chemistry,High School,Russian,Chemistry (High School in rus),Как изменятся скорость прямой и обратной реакции в системе \(N_2(г) + 3H_2(г) = 2NH_3(г)\) при увеличении давления в 2 раза?,"Прямой – увеличится в 16 раз, обратной – уменьшится в 4 раза","Прямой – уменьшится в 32 раза, обратной – увеличится в 16 раз","Прямой – увеличится в 9 раз, обратной – увеличится в 6 раз","Прямой – увеличится в 16 раз, обратной – увеличится в 4 раза",,D,test
+16142,https://itest.kz/ru/endless,Humanities,Math_Literacy,High School,Russian,Math Literacy (High School in rus),Определите размах числового ряда 31; 29; 27; 17; 28; 54; 37; 29; 31; 31.,31,54,37,29,,C,test
+16116,https://itest.kz/ru/endless,Humanities,Math_Literacy,High School,Russian,Math Literacy (High School in rus),"В таблице приведено количество рабочих дней и количество произведенных деталей. Определите, чья производительность выше.
+ 
+
+
+
+
+
+
+
+
+ 
+
+Дни
+
+
+Детали
+
+
+
+
+Асан
+
+
+4
+
+
+224
+
+
+
+
+Арслан
+
+
+3
+
+
+321
+
+
+
+
+Самат
+
+
+2
+
+
+180
+
+
+
+
+Серик
+
+
+4
+
+
+600
+
+
+
+
+Сергей
+
+
+5
+
+
+720
+
+
+
+
+Виктор
+
+
+3
+
+
+450
+
+
+
+
+Данияр
+
+
+2
+
+
+380",Данияр,Асан,Серик,Виктор,,A,test
+6395,https://ymnik.kz/tests_old/geography_kz/?v=28,Social Science,Geography,High School,Kazakh,Geography (High School in kaz),Орал қаласында... шығарылады.,рентген аппаратурасы,мұнай өнеркәсібі үшін жабдықтар,ауыл шаруашылық машиналары,"механикалық арматура, жел двигательдері",құрылыс жабдықтары,D,test
+8781,https://ymnik.kz/tests_old/history_kz/?v=61,Humanities,Kazakh_History,High School,Kazakh,Kazakh History (High School in kaz),«Атбасар мыс кендері» акционерлік қоғамы жұмысшыларының ереуілі болған жыл,1910 жыл,1918 жыл,1907 жыл,1911 жыл,1909 жыл,D,test
+13476,https://itest.kz/ru/endless,Humanities,Law,High School,Russian,Law (High School in rus),Мысленное объединение однородных предметов на основе тех или иных общих признаков,Ощущение,Абстрагирование,Обобщение,Сравнение,,C,test
+18955,https://itest.kz/ru/endless,Humanities,Russian_Language,High School,Russian,Russian Language (High School in rus),Укажите слово с пропущенной буквой Е.,Цариц…но,Вакц…на,Гарц…вать,Рац…я,,C,test
+8079,https://itest.kz/kz/endless,STEM,Informatics,High School,Kazakh,Informatics (High School in kaz),Өрнектің он алтылық санау жүйесіндегі мәнін жаз:126₂ → Х₁₆.,D8,7F,7E,16D,,C,test
+22260,https://ymnik.kz/tests_old/worldhistory/?v=78,Humanities,World_History,High School,Russian,World History (High School in rus),Начало европейскому колониализму положила:,Эпоха Просвещения,Эпоха Великих географических открытий,Эпоха-Возрождения,Эпоха научно - технического прогресса,Эпоха промышленного переворота,B,test
+19239,https://ymnik.kz/tests_old/russian/?v=32,Humanities,Russian_Language,High School,Russian,Russian Language (High School in rus),Определите строку с деепричастиями несовершенного вида:,"Прищурясь от яркого света, прочтя письмо.","Поблагодарив за помощь, закрыв окно.","Ответив на вопрос, заступив на дежурство.","Поднявшись в гору, прикрыв дверь.","Поднимаясь в гору, организуя вечер.",E,test
+14256,https://itest.kz/kz/endless,STEM,Math,High School,Kazakh,Math (High School in kaz),"\(f(x)=x^4-2x^2\) функциясының графигіне \(x_0=0,5\) нүктесінде жүргізілген жанаманың теңдеуін жазыңыз",\(y=-3x+16\),"\(y=-1,5x+\frac{7}{16}\)",\(y=-\frac23x+\frac{15}{16}\),\(y=-\frac32x+\frac{5}{16}\),,D,test

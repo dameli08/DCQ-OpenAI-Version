@@ -25,7 +25,8 @@ class OpenAIClient:
             extra = {"chat_template_kwargs": {"enable_thinking": True}}
             max_tokens = 12000
         else:
-            extra = {}
+            # Explicitly disable thinking for models that support it.
+            extra = {"chat_template_kwargs": {"enable_thinking": False}}
 
         for attempt in range(self.max_retries):
             try:
@@ -73,15 +74,26 @@ class OpenAIClient:
                         
                         # Get content
                         if hasattr(message, 'content') and message.content:
-                            content = str(message.content)
+                            content = str(message.content).strip()
+
                             if thinking:
                                 # Strip everything up to and including </think>
                                 content = re.sub(r'^.*?</think>\s*', '', content, flags=re.DOTALL).strip()
-                                # If </think> was missing (model cut off mid-thinking),
-                                # grab the last A-E letter that appeared in the text
-                                if not re.match(r'^[A-E]$', content):
-                                    match = re.search(r'([A-E])(?!.*[A-E])', content, flags=re.DOTALL)
-                                    content = match.group(1) if match else 'E'
+
+                            # Normalize to a single option letter for downstream counting.
+                            if not re.match(r'^[A-E]$', content):
+                                # Prefer explicit "Final answer" marker when present.
+                                final_answer_match = re.search(
+                                    r'(?is)final\s*answer\s*[:\-]?\s*([A-E])\b',
+                                    content,
+                                )
+                                if final_answer_match:
+                                    content = final_answer_match.group(1)
+                                else:
+                                    # Fallback: use the last standalone option letter.
+                                    all_letters = re.findall(r'\b([A-E])\b', content)
+                                    content = all_letters[-1] if all_letters else 'E'
+
                             return content
                         
                         # Handle empty content (usually means hit token limit)
