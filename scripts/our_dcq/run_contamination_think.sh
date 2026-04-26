@@ -3,10 +3,10 @@
 # Step 3: Run contamination detection (thinking mode)
 # Run this in a second terminal while vLLM server is running.
 # Change ONLY these three variables:
-DATASET="mmlu_pro_all"
-MODEL_NAME="qwen3_5_2b"        # name used when paraphrases were generated
-RESULTS_MODEL_NAME="qwen3_5_2b_think"   # separate folder for thinking results
-MODEL_PATH="/data/models/Qwen3.5-2B"
+DATASET="mmlu_all"
+MODEL_NAME="qwen3_5_4b"        # name used when paraphrases were generated
+RESULTS_MODEL_NAME="qwen3_5_4b_think"   # separate folder for thinking results
+MODEL_PATH="/data/models/Qwen3.5-4B"
 # ════════════════════════════════════════════════════════════════════
 
 # Auto-derived (do not change)

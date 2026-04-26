@@ -3,7 +3,7 @@
 # Step 2: Start vLLM server (thinking mode)
 # Keep this terminal open while running contamination detection.
 # Change ONLY this variable:
-MODEL_PATH="/data/models/Qwen3.5-2B"
+MODEL_PATH="/data/models/Qwen3.5-4B"
 # ════════════════════════════════════════════════════════════════════
 
 source ~/miniconda3/etc/profile.d/conda.sh

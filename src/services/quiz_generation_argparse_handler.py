@@ -47,7 +47,7 @@ class QuizGenerationArgumentParser:
         self.parser.add_argument(
             "--model",
             type=str,
-            default="gpt-4-0613",
+            default="gpt-5-mini",
             help="OpenAI model snapshot used for quiz option generation. "
             "(default: %(default)s)",
         )

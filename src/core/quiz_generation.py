@@ -34,9 +34,12 @@ class QuizGeneration(ExperimentResultSaver):
         return prompt.format(original_instance=instance)
 
     def _generate_quiz_options(self, index, row, retry_attempt=0):
-        formatted_prompt = self._prepare_prompt(row["instance"])
-        if index == 0 and retry_attempt == 0:
-            logger.info(f"Input prompt:\n\n{formatted_prompt}")
+        instance_text = row["instance"]
+        formatted_prompt = self._prepare_prompt(instance_text)
+        # Debug: Show the instance and prompt for the first 3 rows and first retry
+        if index < 3 and retry_attempt == 0:
+            logger.info(f"[DEBUG] Row {index} instance text:\n{instance_text}")
+            logger.info(f"[DEBUG] Row {index} prompt sent to model:\n{formatted_prompt}")
         self.df.at[index, "generated_options"] = self.openai_client.get_text(
             text=formatted_prompt,
             model=self.args.model,
@@ -58,19 +61,27 @@ class QuizGeneration(ExperimentResultSaver):
             return options
 
         normalized_text = str(text).replace("\r\n", "\n")
+        # Log the raw model output for debugging
+        logger.info(f"Raw model output before parsing:\n{normalized_text}")
+
         option_map = {letter: col for letter, col in zip("ABCD", option_columns)}
 
+        # More robust regex: allow for extra whitespace, optional blank lines, and alternative section separators
         patterns = {
-            "A": r"(?is)(?:^|\n)A\)\s*\n?(.*?)(?=\n\s*B\)\s*\n?)",
-            "B": r"(?is)(?:^|\n)B\)\s*\n?(.*?)(?=\n\s*C\)\s*\n?)",
-            "C": r"(?is)(?:^|\n)C\)\s*\n?(.*?)(?=\n\s*D\)\s*\n?)",
-            "D": r"(?is)(?:^|\n)D\)\s*\n?(.*?)(?=\n\s*---|$)",
-        }
+            "A": r"(?is)(?:^|\n)A\)\s*\n*(.*?)(?=\n\s*B\)\s*\n|\n\s*B\)|\nB\)|B\))",
+            "B": r"(?is)(?:^|\n)B\)\s*\n*(.*?)(?=\n\s*C\)\s*\n|\n\s*C\)|\nC\)|C\))",
+            "C": r"(?is)(?:^|\n)C\)\s*\n*(.*?)(?=\n\s*D\)\s*\n|\n\s*D\)|\nD\)|D\))",
+            "D": r"(?is)(?:^|\n)D\)\s*\n*(.*?)(?=\n\s*---|$)",
+        } 
 
         for letter, pattern in patterns.items():
             match = re.search(pattern, normalized_text)
             if match:
                 options[option_map[letter]] = match.group(1).strip()
+
+        # If all options are still empty, log a warning
+        if all(not v for v in options.values()):
+            logger.warning(f"Parsing failed for model output:\n{normalized_text}")
 
         return options
 
