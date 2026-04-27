@@ -7,7 +7,7 @@ MODEL_PATH="${MODEL_PATH:-/data/models/Qwen3.5-2B}"
 
 DATASETS=(
   # mmlu_all
-  mmlu_pro_all
+  # mmlu_pro_all
   mmlu_cf_all
   # mmlu_redux_all
   kazmmlu_all
