@@ -2,6 +2,16 @@ import time
 from openai import OpenAI
 
 
+THINKING_MODE_SAMPLING_PARAMS = {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "presence_penalty": 1.5,
+    "repetition_penalty": 1.0,
+}
+
+
 class OpenAIClient:
     def __init__(self):
         self.client = OpenAI()
@@ -22,8 +32,16 @@ class OpenAIClient:
         import re
         messages = [{"role": "user", "content": text}]
         if thinking:
-            extra = {"chat_template_kwargs": {"enable_thinking": True}}
             max_tokens = 12000
+            temperature = THINKING_MODE_SAMPLING_PARAMS["temperature"]
+            top_p = THINKING_MODE_SAMPLING_PARAMS["top_p"]
+            presence_penalty = THINKING_MODE_SAMPLING_PARAMS["presence_penalty"]
+            extra = {
+                "chat_template_kwargs": {"enable_thinking": True},
+                "top_k": THINKING_MODE_SAMPLING_PARAMS["top_k"],
+                "min_p": THINKING_MODE_SAMPLING_PARAMS["min_p"],
+                "repetition_penalty": THINKING_MODE_SAMPLING_PARAMS["repetition_penalty"],
+            }
         else:
             # Explicitly disable thinking for models that support it.
             extra = {"chat_template_kwargs": {"enable_thinking": False}}
