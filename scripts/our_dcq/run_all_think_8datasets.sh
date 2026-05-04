@@ -2,13 +2,13 @@
 set -euo pipefail
 
 # Configure once
-MODEL_NAME="${MODEL_NAME:-qwen3_5_4b}"
+MODEL_NAME="${MODEL_NAME:-qwen3_5_2b}"
 RESULTS_MODEL_NAME="${RESULTS_MODEL_NAME:-${MODEL_NAME}_think}"
-MODEL_PATH="${MODEL_PATH:-/data/models/Qwen3.5-4B}"
+MODEL_PATH="${MODEL_PATH:-/data/models/Qwen3.5-2B}"
 
 DATASETS=(
-  mmlu_all
-  mmlu_pro_all
+  #mmlu_all
+  #mmlu_pro_all
   mmlu_cf_all
   kazmmlu_all
   rummlu_all
