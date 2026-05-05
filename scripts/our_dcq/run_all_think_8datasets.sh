@@ -7,13 +7,13 @@ RESULTS_MODEL_NAME="${RESULTS_MODEL_NAME:-${MODEL_NAME}_think}"
 MODEL_PATH="${MODEL_PATH:-/data/models/Qwen3.5-2B}"
 
 DATASETS=(
-  #mmlu_all
-  #mmlu_pro_all
-  mmlu_cf_all
-  kazmmlu_all
-  rummlu_all
-  MMLU_RUS_Translation
-  MMLU_KAZ_Translation
+  mmlu_all
+  mmlu_pro_all
+  #mmlu_cf_all
+  #kazmmlu_all
+  #rummlu_all
+  #MMLU_RUS_Translation
+  #MMLU_KAZ_Translation
 )
 
 DATASETS_DIR="/home/dameli/DCQ-OpenAI-Version/8_datasets"
