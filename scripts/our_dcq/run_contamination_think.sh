@@ -4,9 +4,9 @@
 # Run this in a second terminal while vLLM server is running.
 # Change ONLY these three variables:
 DATASET="mmlu_all"
-MODEL_NAME="qwen3_5_4b"        # name used when paraphrases were generated
-RESULTS_MODEL_NAME="qwen3_5_4b_think"   # separate folder for thinking results
-MODEL_PATH="/data/models/Qwen3.5-4B"
+MODEL_NAME="qwen3_5_9b"        # name used when paraphrases were generated
+RESULTS_MODEL_NAME="qwen3_5_9b_think"   # separate folder for thinking results
+MODEL_PATH="/data/models/Qwen3.5-9B"
 # ════════════════════════════════════════════════════════════════════
 
 # Auto-derived (do not change)
