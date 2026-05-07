@@ -28,8 +28,25 @@ class OpenAIClient:
         frequency_penalty=0.0,
         presence_penalty=0.0,
         thinking=False,
+        extract_answer_only=False,
     ):
         import re
+
+        def extract_answer_letter(content):
+            content = str(content).strip()
+            if re.fullmatch(r"[A-Ea-e]", content):
+                return content.upper()
+
+            final_answer_match = re.search(
+                r"(?is)final\s*answer\s*[:\-]?\s*([A-Ea-e])\b",
+                content,
+            )
+            if final_answer_match:
+                return final_answer_match.group(1).upper()
+
+            all_letters = re.findall(r"\b([A-Ea-e])\b", content)
+            return all_letters[-1].upper() if all_letters else "E"
+
         messages = [{"role": "user", "content": text}]
         if thinking:
             max_tokens = 12000
@@ -43,8 +60,12 @@ class OpenAIClient:
                 "repetition_penalty": THINKING_MODE_SAMPLING_PARAMS["repetition_penalty"],
             }
         else:
-            # Explicitly disable thinking for models that support it.
-            extra = {"chat_template_kwargs": {"enable_thinking": False}}
+            # Keep non-thinking fully compatible with endpoints that reject
+            # chat_template_kwargs.
+            extra = None
+
+        supports_chat_template_kwargs = True
+        supports_custom_temperature = True
 
         for attempt in range(self.max_retries):
             try:
@@ -56,27 +77,34 @@ class OpenAIClient:
                     # Reasoning models need significantly more tokens
                     # Original max_tokens is multiplied by 10 to account for reasoning overhead
                     adjusted_tokens = max(max_tokens * 10, 100)
-                    response = self.client.chat.completions.create(
+                    adjusted_tokens = min(adjusted_tokens, 128000)
+                    request_kwargs = dict(
                         model=model,
                         max_completion_tokens=adjusted_tokens,
-                        temperature=temperature,
                         top_p=top_p,
                         frequency_penalty=frequency_penalty,
                         presence_penalty=presence_penalty,
                         messages=messages,
-                        extra_body=extra,
                     )
+                    if supports_custom_temperature:
+                        request_kwargs["temperature"] = temperature
+                    if supports_chat_template_kwargs and extra is not None:
+                        request_kwargs["extra_body"] = extra
+                    response = self.client.chat.completions.create(**request_kwargs)
                 else:
-                    response = self.client.chat.completions.create(
+                    request_kwargs = dict(
                         model=model,
                         max_tokens=max_tokens,
-                        temperature=temperature,
                         top_p=top_p,
                         frequency_penalty=frequency_penalty,
                         presence_penalty=presence_penalty,
                         messages=messages,
-                        extra_body=extra,
                     )
+                    if supports_custom_temperature:
+                        request_kwargs["temperature"] = temperature
+                    if supports_chat_template_kwargs and extra is not None:
+                        request_kwargs["extra_body"] = extra
+                    response = self.client.chat.completions.create(**request_kwargs)
 
                 # Check if the response has valid data
                 if response.choices and len(response.choices) > 0:
@@ -98,19 +126,8 @@ class OpenAIClient:
                                 # Strip everything up to and including </think>
                                 content = re.sub(r'^.*?</think>\s*', '', content, flags=re.DOTALL).strip()
 
-                            # Normalize to a single option letter for downstream counting.
-                            if not re.match(r'^[A-E]$', content):
-                                # Prefer explicit "Final answer" marker when present.
-                                final_answer_match = re.search(
-                                    r'(?is)final\s*answer\s*[:\-]?\s*([A-E])\b',
-                                    content,
-                                )
-                                if final_answer_match:
-                                    content = final_answer_match.group(1)
-                                else:
-                                    # Fallback: use the last standalone option letter.
-                                    all_letters = re.findall(r'\b([A-E])\b', content)
-                                    content = all_letters[-1] if all_letters else 'E'
+                            if extract_answer_only:
+                                return extract_answer_letter(content)
 
                             return content
                         
@@ -135,6 +152,20 @@ class OpenAIClient:
 
             except Exception as e:
                 error_str = str(e)
+                if supports_chat_template_kwargs and (
+                    "chat_template_kwargs" in error_str
+                    or "unknown_parameter" in error_str.lower()
+                ):
+                    supports_chat_template_kwargs = False
+                    print("⚠️ Endpoint does not support chat_template_kwargs. Retrying without it.")
+                    continue
+                if supports_custom_temperature and (
+                    "temperature" in error_str.lower()
+                    and "default (1) value is supported" in error_str.lower()
+                ):
+                    supports_custom_temperature = False
+                    print("⚠️ Model only supports default temperature. Retrying without explicit temperature.")
+                    continue
                 is_rate_limit = "rate_limit" in error_str.lower() or "429" in error_str
                 is_last_attempt = attempt == self.max_retries - 1
 

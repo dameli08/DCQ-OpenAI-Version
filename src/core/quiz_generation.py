@@ -46,11 +46,26 @@ class QuizGeneration(ExperimentResultSaver):
             max_tokens=16000,
             temperature=1.0,
         )
+        self._update_parsed_options_for_index(index)
+
+    def _update_parsed_options_for_index(self, index):
+        parsed = self.parse_generated_options(
+            self.df.at[index, "generated_options"],
+            self.args.quiz_options_column_names,
+        )
+
+        for column in self.args.quiz_options_column_names:
+            if column not in self.df.columns:
+                self.df[column] = pd.NA
+
+            value = parsed.get(column, "")
+            self.df.at[index, column] = value if str(value).strip() else pd.NA
 
     def generate_all_quiz_options(self):
         pbar = tqdm(total=len(self.df), desc="Generating Quiz Options")
         for index, row in self.df.iterrows():
             self._generate_quiz_options(index, row)
+            self.save_to_csv()
             pbar.update(1)
             time.sleep(3)
         pbar.close()
@@ -140,6 +155,7 @@ class QuizGeneration(ExperimentResultSaver):
             for index in rows_with_empty:
                 row = self.df.loc[index]
                 self._generate_quiz_options(index, row, retry_attempt=retry + 1)
+                self.save_to_csv()
                 time.sleep(3)
                 pbar.update(1)
             pbar.close()

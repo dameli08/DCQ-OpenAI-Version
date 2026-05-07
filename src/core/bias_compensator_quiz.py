@@ -80,8 +80,9 @@ class BiasCompensatorQuiz(ExperimentResultSaver):
 
         result_key = f"bcq_results_for_position_{non_preferred_option.lower()}"
         self.df.at[index, result_key] = self.openai_client.get_text(
-            text=formatted_prompt, model=self.args.model, max_tokens=10, temperature=0.0,
+            text=formatted_prompt, model=self.args.model, max_tokens=100, temperature=0.0,
             thinking=getattr(self.args, 'thinking', False),
+            extract_answer_only=True,
         )
 
     def process(self):
