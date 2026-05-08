@@ -6,7 +6,7 @@ MODEL_NAME="${MODEL_NAME:-qwen3_5_4b}"
 MODEL_PATH="${MODEL_PATH:-/data/models/Qwen3.5-4B}"
 
 DATASETS=(
-  #mmlu_all
+  mmlu_all
   mmlu_pro_all
   mmlu_cf_all
   kazmmlu_all
@@ -30,8 +30,8 @@ for DATASET in "${DATASETS[@]}"; do
   echo "MODEL_NAME=${MODEL_NAME}"
   echo "============================================================"
 
-  #DATASET="${DATASET}" MODEL_NAME="${MODEL_NAME}" \
-    #bash scripts/our_dcq/generate_options_nothink.sh
+  DATASET="${DATASET}" MODEL_NAME="${MODEL_NAME}" \
+    bash scripts/our_dcq/generate_options_nothink.sh
 
   DATASET="${DATASET}" MODEL_NAME="${MODEL_NAME}" MODEL_PATH="${MODEL_PATH}" \
     bash scripts/our_dcq/run_contamination_nothink.sh

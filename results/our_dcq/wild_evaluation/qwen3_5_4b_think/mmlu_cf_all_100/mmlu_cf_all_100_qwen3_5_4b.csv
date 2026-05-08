@@ -1,4 +1,4 @@
-question,choice_A,choice_B,choice_C,choice_D,answer,category,split,instance,generated_options,option_a,option_b,option_c,option_d
+question,choice_A,choice_B,choice_C,choice_D,answer,category,split,instance,generated_options,option_a,option_b,option_c,option_d,bdq_results
 "What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy have in common?", All of them were among the prominent revolutionaries outside India operating in different countries during the freedom movement, M. Barkatullah was the Prime Minister and the rest were ministers in the Provisional Government of free India established by a group of revolutionaries at Kabul, All of them were leading members of the International Communist Movement, All of them were accused in the case relating to the throwing of a bomb on Lord Hardinge,A,,val,"question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy have in common?","A)
 question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy share in common?
 
@@ -9,7 +9,7 @@ C)
 question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy hold in common?
 
 D)
-question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy enjoy in common?","question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy share in common?","question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy possess in common?","question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy hold in common?","question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy enjoy in common?"
+question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy enjoy in common?","question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy share in common?","question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy possess in common?","question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy hold in common?","question: What did Madam Bhikaji Cama, M. Barkatullah, V.V.S. Iyer, and M.N. Roy enjoy in common?",A
 The Hill-Climbing approach encounters difficulties for the following reasons., Plateaux, Ridges, Local maxima, All of above,C,,val,question: The Hill-Climbing approach encounters difficulties for the following reasons.,"A)
 question: The Hill-Climbing method faces challenges for the following reasons.
 
@@ -20,7 +20,7 @@ C)
 question: The Hill-Climbing strategy meets obstacles for the following reasons.
 
 D)
-question: The Hill-Climbing approach faces difficulties for the following reasons.",question: The Hill-Climbing method faces challenges for the following reasons.,question: The Hill-Climbing technique runs into problems for the following reasons.,question: The Hill-Climbing strategy meets obstacles for the following reasons.,question: The Hill-Climbing approach faces difficulties for the following reasons.
+question: The Hill-Climbing approach faces difficulties for the following reasons.",question: The Hill-Climbing method faces challenges for the following reasons.,question: The Hill-Climbing technique runs into problems for the following reasons.,question: The Hill-Climbing strategy meets obstacles for the following reasons.,question: The Hill-Climbing approach faces difficulties for the following reasons.,A
 What is the typical particle size of cement?, 100 microns, 45 microns, None of the other choices, 75 microns,C,,val,question: What is the typical particle size of cement?,"A)
 question: What is the average particle diameter of cement?
 
@@ -31,7 +31,7 @@ C)
 question: What is the usual grain size of cement?
 
 D)
-question: What is the standard particulate size of cement?",question: What is the average particle diameter of cement?,question: What is the common particle dimension of cement?,question: What is the usual grain size of cement?,question: What is the standard particulate size of cement?
+question: What is the standard particulate size of cement?",question: What is the average particle diameter of cement?,question: What is the common particle dimension of cement?,question: What is the usual grain size of cement?,question: What is the standard particulate size of cement?,A
 Which of the following options is incorrect?, Tape format D7 is the SMPTE ratified standard for Panasonics DVCPRO., Tape format D10 is the SMPTE ratified standard for Sony IMX., Tape format D8 is the SMPTE ratified standard for Sony Digital-8., Tape format D11 is the SMPTE ratified standard for Sony HDCAM.,C,,val,question: Which of the following options is incorrect?,"A)
 question: Which of the following options is erroneous?
 
@@ -42,7 +42,7 @@ C)
 question: Which of the following choices is wrong?
 
 D)
-question: Which of the subsequent alternatives is inaccurate?",question: Which of the following options is erroneous?,question: Which of the subsequent options is incorrect?,question: Which of the following choices is wrong?,question: Which of the subsequent alternatives is inaccurate?
+question: Which of the subsequent alternatives is inaccurate?",question: Which of the following options is erroneous?,question: Which of the subsequent options is incorrect?,question: Which of the following choices is wrong?,question: Which of the subsequent alternatives is inaccurate?,A
 A Horn clause is a clause that contains _______ positive literal., None, At least one, All, At most one,B,,val,question: A Horn clause is a clause that contains _______ positive literal.,"A)
 question: A Horn clause is a clause that includes _______ positive literal.
 
@@ -53,7 +53,7 @@ C)
 question: A Horn clause is a clause that holds _______ positive literal.
 
 D)
-question: A Horn clause is a clause that contains _______ affirmative literal.",question: A Horn clause is a clause that includes _______ positive literal.,question: A Horn clause is a clause that comprises _______ positive literal.,question: A Horn clause is a clause that holds _______ positive literal.,question: A Horn clause is a clause that contains _______ affirmative literal.
+question: A Horn clause is a clause that contains _______ affirmative literal.",question: A Horn clause is a clause that includes _______ positive literal.,question: A Horn clause is a clause that comprises _______ positive literal.,question: A Horn clause is a clause that holds _______ positive literal.,question: A Horn clause is a clause that contains _______ affirmative literal.,A
 A primary focus on reminder advertising and sales promotion is emphasized during ___________., existing non-durable brand., None of the other choices, the products which is in saturation stage of its life cycle., existing durable brand.,A,,val,question: A primary focus on reminder advertising and sales promotion is emphasized during ___________.,"A)
 question: A main emphasis on reminder advertising and sales promotion is stressed during ___________.
 
@@ -64,7 +64,7 @@ C)
 question: A central focus on reminder advertising and sales promotion is emphasized during ___________.
 
 D)
-question: A primary focus on reminder ads and sales promotion is emphasized during ___________.",question: A main emphasis on reminder advertising and sales promotion is stressed during ___________.,question: A primary emphasis on reminder advertising and sales promotion is highlighted during ___________.,question: A central focus on reminder advertising and sales promotion is emphasized during ___________.,question: A primary focus on reminder ads and sales promotion is emphasized during ___________.
+question: A primary focus on reminder ads and sales promotion is emphasized during ___________.",question: A main emphasis on reminder advertising and sales promotion is stressed during ___________.,question: A primary emphasis on reminder advertising and sales promotion is highlighted during ___________.,question: A central focus on reminder advertising and sales promotion is emphasized during ___________.,question: A primary focus on reminder ads and sales promotion is emphasized during ___________.,A
 "The three themes in the study of delinquency are delinquency prevention, delinquency across the life course, and delinquency and ________.", historical policy, economic policy, social policy, legal policy,C,,val,"question: The three themes in the study of delinquency are delinquency prevention, delinquency across the life course, and delinquency and ________.","A)
 The three themes in the examination of delinquency are delinquency prevention, delinquency across the life course, and delinquency and ________.
 
@@ -75,7 +75,7 @@ C)
 The three themes in the study of delinquency are prevention of delinquency, delinquency across the life course, and delinquency and ________.
 
 D)
-The three themes in the study of delinquency are delinquency prevention, delinquency throughout the life course, and delinquency and ________.","The three themes in the examination of delinquency are delinquency prevention, delinquency across the life course, and delinquency and ________.","The three topics in the study of delinquency are delinquency prevention, delinquency across the life course, and delinquency and ________.","The three themes in the study of delinquency are prevention of delinquency, delinquency across the life course, and delinquency and ________.","The three themes in the study of delinquency are delinquency prevention, delinquency throughout the life course, and delinquency and ________."
+The three themes in the study of delinquency are delinquency prevention, delinquency throughout the life course, and delinquency and ________.","The three themes in the examination of delinquency are delinquency prevention, delinquency across the life course, and delinquency and ________.","The three topics in the study of delinquency are delinquency prevention, delinquency across the life course, and delinquency and ________.","The three themes in the study of delinquency are prevention of delinquency, delinquency across the life course, and delinquency and ________.","The three themes in the study of delinquency are delinquency prevention, delinquency throughout the life course, and delinquency and ________.",B
 "When deficiency symptoms of an element appear first in young leaves, it indicates that the element is relatively immobile. Which of the following elemental deficiencies would exhibit these symptoms?", nitrogen, potassium, sulphur, magnesium,C,,val,"question: When deficiency symptoms of an element appear first in young leaves, it indicates that the element is relatively immobile. Which of the following elemental deficiencies would exhibit these symptoms?","A)
 question: When deficiency symptoms of a nutrient appear first in young leaves, it indicates that the nutrient is comparatively immobile. Which of the following nutrient deficiencies would exhibit these symptoms?
 
@@ -86,7 +86,7 @@ C)
 question: When deficiency symptoms of a mineral appear first in juvenile leaves, it indicates that the mineral is relatively immobile. Which of the following mineral deficiencies would show these symptoms?
 
 D)
-question: When deficiency symptoms of an element appear first in immature leaves, it indicates that the element is comparatively immobile. Which of the following elemental shortages would exhibit these symptoms?","question: When deficiency symptoms of a nutrient appear first in young leaves, it indicates that the nutrient is comparatively immobile. Which of the following nutrient deficiencies would exhibit these symptoms?","question: When deficiency symptoms of an element manifest first in new leaves, it indicates that the element is relatively immobile. Which of the following elemental deficiencies would display these symptoms?","question: When deficiency symptoms of a mineral appear first in juvenile leaves, it indicates that the mineral is relatively immobile. Which of the following mineral deficiencies would show these symptoms?","question: When deficiency symptoms of an element appear first in immature leaves, it indicates that the element is comparatively immobile. Which of the following elemental shortages would exhibit these symptoms?"
+question: When deficiency symptoms of an element appear first in immature leaves, it indicates that the element is comparatively immobile. Which of the following elemental shortages would exhibit these symptoms?","question: When deficiency symptoms of a nutrient appear first in young leaves, it indicates that the nutrient is comparatively immobile. Which of the following nutrient deficiencies would exhibit these symptoms?","question: When deficiency symptoms of an element manifest first in new leaves, it indicates that the element is relatively immobile. Which of the following elemental deficiencies would display these symptoms?","question: When deficiency symptoms of a mineral appear first in juvenile leaves, it indicates that the mineral is relatively immobile. Which of the following mineral deficiencies would show these symptoms?","question: When deficiency symptoms of an element appear first in immature leaves, it indicates that the element is comparatively immobile. Which of the following elemental shortages would exhibit these symptoms?",A
 Which cognitive changes during adolescence contribute to enhanced critical thinking?, Improvement in concrete thinking., Engaging in imaginary audience and personal story processes., None of the other choices, Increased breadth of content knowledge in a variety of domains.,D,,val,question: Which cognitive changes during adolescence contribute to enhanced critical thinking?,"A)
 question: Which cognitive developments during adolescence contribute to improved critical thinking?
 
@@ -97,7 +97,7 @@ C)
 question: Which cognitive shifts during adolescence contribute to better critical thinking?
 
 D)
-question: Which cognitive changes across adolescence contribute to advanced critical thinking?",question: Which cognitive developments during adolescence contribute to improved critical thinking?,question: Which mental changes during adolescence contribute to heightened critical thinking?,question: Which cognitive shifts during adolescence contribute to better critical thinking?,question: Which cognitive changes across adolescence contribute to advanced critical thinking?
+question: Which cognitive changes across adolescence contribute to advanced critical thinking?",question: Which cognitive developments during adolescence contribute to improved critical thinking?,question: Which mental changes during adolescence contribute to heightened critical thinking?,question: Which cognitive shifts during adolescence contribute to better critical thinking?,question: Which cognitive changes across adolescence contribute to advanced critical thinking?,A
 Which field in the `cdc.lsn_time_mapping` table has a `varbinary` data type?, tran_begin_time, start_lsn, tran_id, All of the mentioned,A,,val,question: Which field in the `cdc.lsn_time_mapping` table has a `varbinary` data type?,"A)
 question: What column in the `cdc.lsn_time_mapping` table has a `varbinary` data type?
 
@@ -108,7 +108,7 @@ C)
 question: Which column in the `cdc.lsn_time_mapping` table has a `varbinary` data type?
 
 D)
-question: Which attribute in the `cdc.lsn_time_mapping` table has a `varbinary` data type?",question: What column in the `cdc.lsn_time_mapping` table has a `varbinary` data type?,question: What field in the `cdc.lsn_time_mapping` table has a `varbinary` data type?,question: Which column in the `cdc.lsn_time_mapping` table has a `varbinary` data type?,question: Which attribute in the `cdc.lsn_time_mapping` table has a `varbinary` data type?
+question: Which attribute in the `cdc.lsn_time_mapping` table has a `varbinary` data type?",question: What column in the `cdc.lsn_time_mapping` table has a `varbinary` data type?,question: What field in the `cdc.lsn_time_mapping` table has a `varbinary` data type?,question: Which column in the `cdc.lsn_time_mapping` table has a `varbinary` data type?,question: Which attribute in the `cdc.lsn_time_mapping` table has a `varbinary` data type?,A
 "What is the type of reasoning called that necessitates drawing a conclusion beyond the presented information, relying on your own background knowledge?", divergent, descriptive, inferential, convergent,D,,val,"question: What is the type of reasoning called that necessitates drawing a conclusion beyond the presented information, relying on your own background knowledge?","A)
 question: What is the kind of reasoning known as that requires drawing a conclusion beyond the provided information, relying on your own prior knowledge?
 
@@ -119,7 +119,7 @@ C)
 question: What is the sort of reasoning referred to as that requires drawing a conclusion beyond the provided information, drawing on your own background knowledge?
 
 D)
-question: What is the category of reasoning named that compels drawing a conclusion beyond the given information, relying on your prior knowledge?","question: What is the kind of reasoning known as that requires drawing a conclusion beyond the provided information, relying on your own prior knowledge?","question: What is the form of reasoning termed that necessitates inferring a conclusion beyond the presented information, depending on your own background knowledge?","question: What is the sort of reasoning referred to as that requires drawing a conclusion beyond the provided information, drawing on your own background knowledge?","question: What is the category of reasoning named that compels drawing a conclusion beyond the given information, relying on your prior knowledge?"
+question: What is the category of reasoning named that compels drawing a conclusion beyond the given information, relying on your prior knowledge?","question: What is the kind of reasoning known as that requires drawing a conclusion beyond the provided information, relying on your own prior knowledge?","question: What is the form of reasoning termed that necessitates inferring a conclusion beyond the presented information, depending on your own background knowledge?","question: What is the sort of reasoning referred to as that requires drawing a conclusion beyond the provided information, drawing on your own background knowledge?","question: What is the category of reasoning named that compels drawing a conclusion beyond the given information, relying on your prior knowledge?",A
 Why is trust essential for developing social capital?, Contracts between a firm and its suppliers cannot be enforced., Contracts do not exist between a firm and its customers., Partners must be confident that neither party will take advantage of the other ., Firms must be reassured that they will be reimbursed for their expenses.,C,,val,question: Why is trust essential for developing social capital?,"A)
 question: Wherefore is confidence crucial for building social capital?
 
@@ -130,7 +130,7 @@ C)
 question: What makes reliance indispensable for fostering social capital?
 
 D)
-question: How come credibility is necessary for cultivating social capital?",question: Wherefore is confidence crucial for building social capital?,question: For what reason is faith vital for creating social capital?,question: What makes reliance indispensable for fostering social capital?,question: How come credibility is necessary for cultivating social capital?
+question: How come credibility is necessary for cultivating social capital?",question: Wherefore is confidence crucial for building social capital?,question: For what reason is faith vital for creating social capital?,question: What makes reliance indispensable for fostering social capital?,question: How come credibility is necessary for cultivating social capital?,A
 What factors contributed to the eventual collapse of the fixed currency exchange rate system established at Bretton Woods?, Several unexpected economic shocks to member nations., Widely divergent national monetary and fiscal policies among member nations., Differential rates of inflation across member nations., all of the above,D,,val,question: What factors contributed to the eventual collapse of the fixed currency exchange rate system established at Bretton Woods?,"A)
 question: Which factors contributed to the ultimate collapse of the pegged currency exchange rate system instituted at Bretton Woods?
 
@@ -141,7 +141,7 @@ C)
 question: What factors helped bring about the eventual collapse of the fixed currency exchange rate regime created at Bretton Woods?
 
 D)
-question: What causes contributed to the eventual failure of the fixed currency exchange rate arrangement agreed at Bretton Woods?",question: Which factors contributed to the ultimate collapse of the pegged currency exchange rate system instituted at Bretton Woods?,question: What elements contributed to the eventual demise of the fixed currency exchange rate system established at Bretton Woods?,question: What factors helped bring about the eventual collapse of the fixed currency exchange rate regime created at Bretton Woods?,question: What causes contributed to the eventual failure of the fixed currency exchange rate arrangement agreed at Bretton Woods?
+question: What causes contributed to the eventual failure of the fixed currency exchange rate arrangement agreed at Bretton Woods?",question: Which factors contributed to the ultimate collapse of the pegged currency exchange rate system instituted at Bretton Woods?,question: What elements contributed to the eventual demise of the fixed currency exchange rate system established at Bretton Woods?,question: What factors helped bring about the eventual collapse of the fixed currency exchange rate regime created at Bretton Woods?,question: What causes contributed to the eventual failure of the fixed currency exchange rate arrangement agreed at Bretton Woods?,A
 "Which of the following French possessions was not integrated into India on November 1, 1954?", Yanam, Karikal, Mahe, Chandranagore,A,,val,"question: Which of the following French possessions was not integrated into India on November 1, 1954?","A)
 question: Which of the following French territories was not incorporated into India on November 1, 1954?
 
@@ -152,7 +152,7 @@ C)
 question: Which of the following French holdings was not annexed to India on November 1, 1954?
 
 D)
-question: Which of the following French dominions was not merged into India on November 1, 1954?","question: Which of the following French territories was not incorporated into India on November 1, 1954?","question: Which of the following French colonies was not absorbed into India on November 1, 1954?","question: Which of the following French holdings was not annexed to India on November 1, 1954?","question: Which of the following French dominions was not merged into India on November 1, 1954?"
+question: Which of the following French dominions was not merged into India on November 1, 1954?","question: Which of the following French territories was not incorporated into India on November 1, 1954?","question: Which of the following French colonies was not absorbed into India on November 1, 1954?","question: Which of the following French holdings was not annexed to India on November 1, 1954?","question: Which of the following French dominions was not merged into India on November 1, 1954?",A
 "According to the Caraka Samhita, which of the following Mahābhūtas primarily make up Amla Rasa?", Pṛthvī and Agni, Vāyu and Jala, Agni and Vāyu, Jala and Agni,A,,val,"question: According to the Caraka Samhita, which of the following Mahābhūtas primarily make up Amla Rasa?","A)
 question: According to the Caraka Samhita, which of the following Mahābhūtas chiefly constitute Amla Rasa?
 
@@ -163,7 +163,7 @@ C)
 question: In accordance with the Caraka Samhita, which of the following Mahābhūtas mainly compose Amla Rasa?
 
 D)
-question: Based on the Caraka Samhita, which of the following Mahābhūtas predominantly comprise Amla Rasa?","question: According to the Caraka Samhita, which of the following Mahābhūtas chiefly constitute Amla Rasa?","question: As per the Caraka Samhita, which of the following Mahābhūtas primarily make up Amla Rasa?","question: In accordance with the Caraka Samhita, which of the following Mahābhūtas mainly compose Amla Rasa?","question: Based on the Caraka Samhita, which of the following Mahābhūtas predominantly comprise Amla Rasa?"
+question: Based on the Caraka Samhita, which of the following Mahābhūtas predominantly comprise Amla Rasa?","question: According to the Caraka Samhita, which of the following Mahābhūtas chiefly constitute Amla Rasa?","question: As per the Caraka Samhita, which of the following Mahābhūtas primarily make up Amla Rasa?","question: In accordance with the Caraka Samhita, which of the following Mahābhūtas mainly compose Amla Rasa?","question: Based on the Caraka Samhita, which of the following Mahābhūtas predominantly comprise Amla Rasa?",A
 "What would be the most appropriate label for the psychologist's role in evaluating whether Project New Chance, a program aimed at assisting welfare recipients in securing and maintaining employment, has met its objectives?", advocate, policy evaluator, basic scientist, pure scientist,B,,val,"question: What would be the most appropriate label for the psychologist's role in evaluating whether Project New Chance, a program aimed at assisting welfare recipients in securing and maintaining employment, has met its objectives?","A)
 question: What would be the most appropriate designation for the psychologist's role in assessing whether Project New Chance, a program designed to help welfare beneficiaries in obtaining and sustaining employment, has achieved its goals?
 
@@ -174,7 +174,7 @@ C)
 question: What would be the most appropriate appellation for the psychologist's role in appraising whether Project New Chance, a program focused on aiding welfare clients in securing and preserving employment, has reached its aims?
 
 D)
-question: What would be the most appropriate descriptor for the psychologist's role in examining whether Project New Chance, a program aimed at helping welfare recipients in finding and keeping employment, has accomplished its objectives?","question: What would be the most appropriate designation for the psychologist's role in assessing whether Project New Chance, a program designed to help welfare beneficiaries in obtaining and sustaining employment, has achieved its goals?","question: What would be the most appropriate title for the psychologist's role in determining whether Project New Chance, a program intended to support public assistance recipients in gaining and retaining employment, has fulfilled its objectives?","question: What would be the most appropriate appellation for the psychologist's role in appraising whether Project New Chance, a program focused on aiding welfare clients in securing and preserving employment, has reached its aims?","question: What would be the most appropriate descriptor for the psychologist's role in examining whether Project New Chance, a program aimed at helping welfare recipients in finding and keeping employment, has accomplished its objectives?"
+question: What would be the most appropriate descriptor for the psychologist's role in examining whether Project New Chance, a program aimed at helping welfare recipients in finding and keeping employment, has accomplished its objectives?","question: What would be the most appropriate designation for the psychologist's role in assessing whether Project New Chance, a program designed to help welfare beneficiaries in obtaining and sustaining employment, has achieved its goals?","question: What would be the most appropriate title for the psychologist's role in determining whether Project New Chance, a program intended to support public assistance recipients in gaining and retaining employment, has fulfilled its objectives?","question: What would be the most appropriate appellation for the psychologist's role in appraising whether Project New Chance, a program focused on aiding welfare clients in securing and preserving employment, has reached its aims?","question: What would be the most appropriate descriptor for the psychologist's role in examining whether Project New Chance, a program aimed at helping welfare recipients in finding and keeping employment, has accomplished its objectives?",A
 "You have received an urgent call from management requesting a cost estimate for a new project. Given the time sensitivity and the need to provide this estimate quickly, which technique will you use to determine the project cost?", Bottom Up, Analogous, Triangular Estimate, Parametric,B,,val,"question: You have received an urgent call from management requesting a cost estimate for a new project. Given the time sensitivity and the need to provide this estimate quickly, which technique will you use to determine the project cost?","A)
 question: You have got an immediate phone call from management asking for a cost estimate for a new project. Given the time constraints and the need to provide this estimate promptly, which method will you use to calculate the project cost?
 
@@ -185,7 +185,7 @@ C)
 question: You have received a pressing call from management seeking a cost estimate for a new project. Given the time sensitivity and the requirement to deliver this estimate swiftly, which technique will you use to compute the project cost?
 
 D)
-question: You have obtained an urgent call from management soliciting a cost estimate for a new project. Given the limited time and the need to furnish this estimate rapidly, which procedure will you use to ascertain the project cost?","question: You have got an immediate phone call from management asking for a cost estimate for a new project. Given the time constraints and the need to provide this estimate promptly, which method will you use to calculate the project cost?","question: You have been alerted by management through an urgent call requesting a cost estimate for a new project. Given the tight timeframe and the necessity to supply this estimate quickly, which approach will you use to determine the project cost?","question: You have received a pressing call from management seeking a cost estimate for a new project. Given the time sensitivity and the requirement to deliver this estimate swiftly, which technique will you use to compute the project cost?","question: You have obtained an urgent call from management soliciting a cost estimate for a new project. Given the limited time and the need to furnish this estimate rapidly, which procedure will you use to ascertain the project cost?"
+question: You have obtained an urgent call from management soliciting a cost estimate for a new project. Given the limited time and the need to furnish this estimate rapidly, which procedure will you use to ascertain the project cost?","question: You have got an immediate phone call from management asking for a cost estimate for a new project. Given the time constraints and the need to provide this estimate promptly, which method will you use to calculate the project cost?","question: You have been alerted by management through an urgent call requesting a cost estimate for a new project. Given the tight timeframe and the necessity to supply this estimate quickly, which approach will you use to determine the project cost?","question: You have received a pressing call from management seeking a cost estimate for a new project. Given the time sensitivity and the requirement to deliver this estimate swiftly, which technique will you use to compute the project cost?","question: You have obtained an urgent call from management soliciting a cost estimate for a new project. Given the limited time and the need to furnish this estimate rapidly, which procedure will you use to ascertain the project cost?",A
 Which economist is responsible for developing the critical minimum effort theory?, W.W.Rostow, H.Leibenstien, Rosenstein Rodan, None of above,B,,val,question: Which economist is responsible for developing the critical minimum effort theory?,"A)
 question: Which economist is credited with formulating the critical minimum effort theory?
 
@@ -196,7 +196,7 @@ C)
 question: Which economist is responsible for originating the critical minimum effort theory?
 
 D)
-question: Which economist is responsible for creating the critical minimum effort theory?",question: Which economist is credited with formulating the critical minimum effort theory?,question: Which economist is answerable for devising the critical minimum effort theory?,question: Which economist is responsible for originating the critical minimum effort theory?,question: Which economist is responsible for creating the critical minimum effort theory?
+question: Which economist is responsible for creating the critical minimum effort theory?",question: Which economist is credited with formulating the critical minimum effort theory?,question: Which economist is answerable for devising the critical minimum effort theory?,question: Which economist is responsible for originating the critical minimum effort theory?,question: Which economist is responsible for creating the critical minimum effort theory?,A
 "In sysfs, does every subsystem have", a shared attribute structure, both (a) and (b), its own attribute structure, none of the mentioned,A,,val,"question: In sysfs, does every subsystem have","A)
 question: Within sysfs, does every subsystem possess
 
@@ -207,7 +207,7 @@ C)
 question: In sysfs, does every subsystem own
 
 D)
-question: Within sysfs, does each subsystem possess","question: Within sysfs, does every subsystem possess","question: Inside sysfs, does each subsystem have","question: In sysfs, does every subsystem own","question: Within sysfs, does each subsystem possess"
+question: Within sysfs, does each subsystem possess","question: Within sysfs, does every subsystem possess","question: Inside sysfs, does each subsystem have","question: In sysfs, does every subsystem own","question: Within sysfs, does each subsystem possess",D
 Who is the author of ‘The Khadias’?, S.C. Roy, Dr. K. N. Singh, Dr. K.S. Singh, Dr. L.P. Vidyarthi,A,,val,question: Who is the author of ‘The Khadias’?,"A)
 question: Who is the writer of ‘The Khadias’?
 
@@ -218,7 +218,7 @@ C)
 question: Who is the originator of ‘The Khadias’?
 
 D)
-question: Who is the penman of ‘The Khadias’?",question: Who is the writer of ‘The Khadias’?,question: Who is the creator of ‘The Khadias’?,question: Who is the originator of ‘The Khadias’?,question: Who is the penman of ‘The Khadias’?
+question: Who is the penman of ‘The Khadias’?",question: Who is the writer of ‘The Khadias’?,question: Who is the creator of ‘The Khadias’?,question: Who is the originator of ‘The Khadias’?,question: Who is the penman of ‘The Khadias’?,A
 "In the experiment, how is the dependent variable operationally defined when measuring the impact of nutrition on energy levels by providing participants with either fast food or a healthy diet for three days and then asking them to engage in a prolonged period of physical activity?", Engaging in physical activity, Fast food, Healthy diet, Amount of time participants continue to engage in physical activity,D,,val,"question: In the experiment, how is the dependent variable operationally defined when measuring the impact of nutrition on energy levels by providing participants with either fast food or a healthy diet for three days and then asking them to engage in a prolonged period of physical activity?","A)
 question: In the experiment, how is the outcome variable operationally specified when assessing the effect of diet on energy levels by supplying participants with either junk food or a nutritious diet for three days and then instructing them to undertake an extended bout of physical activity?
 
@@ -229,7 +229,7 @@ C)
 question: In the experiment, how is the outcome measure operationalized when evaluating the influence of dietary intake on energy levels by giving participants either fast food or a wholesome diet for three days and subsequently requesting that they engage in a prolonged session of physical activity?
 
 D)
-question: In the experiment, how is the dependent variable operationally specified when assessing the impact of nutrition on energy levels by furnishing participants with either junk food or a balanced diet for three days and then directing them to perform an extended period of physical activity?","question: In the experiment, how is the outcome variable operationally specified when assessing the effect of diet on energy levels by supplying participants with either junk food or a nutritious diet for three days and then instructing them to undertake an extended bout of physical activity?","question: In the experiment, how is the dependent measure operationally defined when measuring the impact of nutrition on energy levels by providing subjects with either fast food or a healthy diet for three days and then asking them to engage in a sustained period of exercise?","question: In the experiment, how is the outcome measure operationalized when evaluating the influence of dietary intake on energy levels by giving participants either fast food or a wholesome diet for three days and subsequently requesting that they engage in a prolonged session of physical activity?","question: In the experiment, how is the dependent variable operationally specified when assessing the impact of nutrition on energy levels by furnishing participants with either junk food or a balanced diet for three days and then directing them to perform an extended period of physical activity?"
+question: In the experiment, how is the dependent variable operationally specified when assessing the impact of nutrition on energy levels by furnishing participants with either junk food or a balanced diet for three days and then directing them to perform an extended period of physical activity?","question: In the experiment, how is the outcome variable operationally specified when assessing the effect of diet on energy levels by supplying participants with either junk food or a nutritious diet for three days and then instructing them to undertake an extended bout of physical activity?","question: In the experiment, how is the dependent measure operationally defined when measuring the impact of nutrition on energy levels by providing subjects with either fast food or a healthy diet for three days and then asking them to engage in a sustained period of exercise?","question: In the experiment, how is the outcome measure operationalized when evaluating the influence of dietary intake on energy levels by giving participants either fast food or a wholesome diet for three days and subsequently requesting that they engage in a prolonged session of physical activity?","question: In the experiment, how is the dependent variable operationally specified when assessing the impact of nutrition on energy levels by furnishing participants with either junk food or a balanced diet for three days and then directing them to perform an extended period of physical activity?",A
 "Who was the chairperson of the Committee established in October 1984 by the Dept. of Culture, Govt. of India, to develop the ‘National Policy for Library and Information System’?", Dr. C.D. Deshmukh, Prof. D.P. Chattopadhya, B.S.Kesavan, Dr. S.R.Ranganathan,B,,val,"question: Who was the chairperson of the Committee established in October 1984 by the Dept. of Culture, Govt. of India, to develop the ‘National Policy for Library and Information System’?","A)
 question: Who served as the chairperson of the Committee constituted in October 1984 by the Dept. of Culture, Govt. of India, to frame the ‘National Policy for Library and Information System’?
 
@@ -240,7 +240,7 @@ C)
 question: Who was the chairman of the Committee established in October 1984 by the Dept. of Culture, Govt. of India, to devise the ‘National Policy for Library and Information System’?
 
 D)
-question: Who occupied the chairpersonship of the Committee set up in October 1984 by the Dept. of Culture, Govt. of India, to formulate the ‘National Policy for Library and Information System’?","question: Who served as the chairperson of the Committee constituted in October 1984 by the Dept. of Culture, Govt. of India, to frame the ‘National Policy for Library and Information System’?","question: Who acted as the chair of the Committee formed in October 1984 by the Dept. of Culture, Govt. of India, to develop the ‘National Policy for Library and Information System’?","question: Who was the chairman of the Committee established in October 1984 by the Dept. of Culture, Govt. of India, to devise the ‘National Policy for Library and Information System’?","question: Who occupied the chairpersonship of the Committee set up in October 1984 by the Dept. of Culture, Govt. of India, to formulate the ‘National Policy for Library and Information System’?"
+question: Who occupied the chairpersonship of the Committee set up in October 1984 by the Dept. of Culture, Govt. of India, to formulate the ‘National Policy for Library and Information System’?","question: Who served as the chairperson of the Committee constituted in October 1984 by the Dept. of Culture, Govt. of India, to frame the ‘National Policy for Library and Information System’?","question: Who acted as the chair of the Committee formed in October 1984 by the Dept. of Culture, Govt. of India, to develop the ‘National Policy for Library and Information System’?","question: Who was the chairman of the Committee established in October 1984 by the Dept. of Culture, Govt. of India, to devise the ‘National Policy for Library and Information System’?","question: Who occupied the chairpersonship of the Committee set up in October 1984 by the Dept. of Culture, Govt. of India, to formulate the ‘National Policy for Library and Information System’?",A
 What is one of the functions of pectinases from the following options?, None of the other choices, Manufacturing of soap, Clearing of fruit juices, Cleaning of hides,C,,val,question: What is one of the functions of pectinases from the following options?,"A)
 question: What is one of the roles of pectinases from the following options?
 
@@ -251,7 +251,7 @@ C)
 question: What is one of the purposes of pectinases from the following options?
 
 D)
-question: What is one of the duties of pectinases from the following options?",question: What is one of the roles of pectinases from the following options?,question: What is one of the activities of pectinases from the following options?,question: What is one of the purposes of pectinases from the following options?,question: What is one of the duties of pectinases from the following options?
+question: What is one of the duties of pectinases from the following options?",question: What is one of the roles of pectinases from the following options?,question: What is one of the activities of pectinases from the following options?,question: What is one of the purposes of pectinases from the following options?,question: What is one of the duties of pectinases from the following options?,A
 "In The Calling of Saint Matthew, Caravaggio depicted his subjects wearing the clothing of his own era, rather than that of Jesus's time.", to portray the painting’s patrons realistically., to conform with other paintings in the series., to enable the audience to identify with them., so that he could use richer colors and brushstrokes.,C,,val,"question: In The Calling of Saint Matthew, Caravaggio depicted his subjects wearing the clothing of his own era, rather than that of Jesus's time.","A)
 question: In The Calling of Saint Matthew, Caravaggio portrayed his figures wearing the clothing of his own era, rather than that of Jesus's time.
 
@@ -262,7 +262,7 @@ C)
 question: In The Calling of Saint Matthew, Caravaggio painted his models wearing the attire of his own age, rather than that of Jesus's time.
 
 D)
-question: In The Calling of Saint Matthew, Caravaggio rendered his persons wearing the attire of his own period, rather than that of Jesus's time.","question: In The Calling of Saint Matthew, Caravaggio portrayed his figures wearing the clothing of his own era, rather than that of Jesus's time.","question: In The Calling of Saint Matthew, Caravaggio represented his people wearing the garments of his own period, rather than that of Jesus's time.","question: In The Calling of Saint Matthew, Caravaggio painted his models wearing the attire of his own age, rather than that of Jesus's time.","question: In The Calling of Saint Matthew, Caravaggio rendered his persons wearing the attire of his own period, rather than that of Jesus's time."
+question: In The Calling of Saint Matthew, Caravaggio rendered his persons wearing the attire of his own period, rather than that of Jesus's time.","question: In The Calling of Saint Matthew, Caravaggio portrayed his figures wearing the clothing of his own era, rather than that of Jesus's time.","question: In The Calling of Saint Matthew, Caravaggio represented his people wearing the garments of his own period, rather than that of Jesus's time.","question: In The Calling of Saint Matthew, Caravaggio painted his models wearing the attire of his own age, rather than that of Jesus's time.","question: In The Calling of Saint Matthew, Caravaggio rendered his persons wearing the attire of his own period, rather than that of Jesus's time.",A
 Which of the following materials is not utilized as a pyroelectric material in pyroelectric transducers for Infrared spectroscopy?, None of the other choices, Deutrated Triglycine Sulphate, Tetraglycine sulphate, Some Polymers,C,,val,question: Which of the following materials is not utilized as a pyroelectric material in pyroelectric transducers for Infrared spectroscopy?,"A)
 question: Which of the following materials is not used as a pyroelectric material in pyroelectric transducers for Infrared spectroscopy?
 
@@ -273,7 +273,7 @@ C)
 question: Which of the following materials is not utilized as a pyroelectric medium in pyroelectric transducers for Infrared spectroscopy?
 
 D)
-question: Which of the following substances is not utilized as a pyroelectric material in pyroelectric transducers for Infrared spectroscopy?",question: Which of the following materials is not used as a pyroelectric material in pyroelectric transducers for Infrared spectroscopy?,question: Which of the following materials is not employed as a pyroelectric material in pyroelectric transducers for Infrared spectroscopy?,question: Which of the following materials is not utilized as a pyroelectric medium in pyroelectric transducers for Infrared spectroscopy?,question: Which of the following substances is not utilized as a pyroelectric material in pyroelectric transducers for Infrared spectroscopy?
+question: Which of the following substances is not utilized as a pyroelectric material in pyroelectric transducers for Infrared spectroscopy?",question: Which of the following materials is not used as a pyroelectric material in pyroelectric transducers for Infrared spectroscopy?,question: Which of the following materials is not employed as a pyroelectric material in pyroelectric transducers for Infrared spectroscopy?,question: Which of the following materials is not utilized as a pyroelectric medium in pyroelectric transducers for Infrared spectroscopy?,question: Which of the following substances is not utilized as a pyroelectric material in pyroelectric transducers for Infrared spectroscopy?,A
 "In accordance with the Partnership Act, the term “Business” encompasses ___________.", Trade, Profession, Occupation, All of the above.,D,,val,"question: In accordance with the Partnership Act, the term “Business” encompasses ___________.","A)
 question: Pursuant to the Partnership Act, the expression “Business” includes ___________.
 
@@ -284,7 +284,7 @@ C)
 question: In keeping with the Partnership Act, the designation “Business” embraces ___________.
 
 D)
-question: Consistent with the Partnership Act, the phrase “Business” incorporates ___________.","question: Pursuant to the Partnership Act, the expression “Business” includes ___________.","question: In conformity with the Partnership Act, the word “Business” comprises ___________.","question: In keeping with the Partnership Act, the designation “Business” embraces ___________.","question: Consistent with the Partnership Act, the phrase “Business” incorporates ___________."
+question: Consistent with the Partnership Act, the phrase “Business” incorporates ___________.","question: Pursuant to the Partnership Act, the expression “Business” includes ___________.","question: In conformity with the Partnership Act, the word “Business” comprises ___________.","question: In keeping with the Partnership Act, the designation “Business” embraces ___________.","question: Consistent with the Partnership Act, the phrase “Business” incorporates ___________.",A
 "If you were to set up a cost-per-acquisition campaign for your company, Google AdWords has three general rules you must follow. Which one of the following rules is NOT required to use the Google AdWords Conversion Optimizer?", The campaign must have received at least 15 conversions in the last 30 days., The campaign must have been receiving conversions at a similar rate for at least a few days., The campaign must have a CPC bid of at least 3 percent of the sale of the item being tracked., None of the other choices,C,,val,"question: If you were to set up a cost-per-acquisition campaign for your company, Google AdWords has three general rules you must follow. Which one of the following rules is NOT required to use the Google AdWords Conversion Optimizer?","A)
 question: If you were to set up a cost-per-acquisition campaign for your company, Google AdWords has three general rules you must follow. Which one of the following rules is NOT necessary to use the Google AdWords Conversion Optimizer?
 
@@ -295,7 +295,7 @@ C)
 question: If you were to create a cost-per-acquisition campaign for your firm, Google AdWords imposes three general rules you must follow. Which one of the following rules is NOT mandatory to use the Google AdWords Conversion Optimizer?
 
 D)
-question: If you were to configure a cost-per-acquisition campaign for your organization, Google AdWords has three basic rules you must follow. Which one of the following rules is NOT required to use the Google AdWords Conversion Optimizer?","question: If you were to set up a cost-per-acquisition campaign for your company, Google AdWords has three general rules you must follow. Which one of the following rules is NOT necessary to use the Google AdWords Conversion Optimizer?","question: If you were to establish a cost-per-acquisition campaign for your business, Google AdWords has three general rules you must follow. Which one of the following rules is NOT required to use the Google AdWords Conversion Optimizer?","question: If you were to create a cost-per-acquisition campaign for your firm, Google AdWords imposes three general rules you must follow. Which one of the following rules is NOT mandatory to use the Google AdWords Conversion Optimizer?","question: If you were to configure a cost-per-acquisition campaign for your organization, Google AdWords has three basic rules you must follow. Which one of the following rules is NOT required to use the Google AdWords Conversion Optimizer?"
+question: If you were to configure a cost-per-acquisition campaign for your organization, Google AdWords has three basic rules you must follow. Which one of the following rules is NOT required to use the Google AdWords Conversion Optimizer?","question: If you were to set up a cost-per-acquisition campaign for your company, Google AdWords has three general rules you must follow. Which one of the following rules is NOT necessary to use the Google AdWords Conversion Optimizer?","question: If you were to establish a cost-per-acquisition campaign for your business, Google AdWords has three general rules you must follow. Which one of the following rules is NOT required to use the Google AdWords Conversion Optimizer?","question: If you were to create a cost-per-acquisition campaign for your firm, Google AdWords imposes three general rules you must follow. Which one of the following rules is NOT mandatory to use the Google AdWords Conversion Optimizer?","question: If you were to configure a cost-per-acquisition campaign for your organization, Google AdWords has three basic rules you must follow. Which one of the following rules is NOT required to use the Google AdWords Conversion Optimizer?",A
 What steps are included in the IT strategy formulation process? Each correct answer provides a complete solution. Select all that apply., Map out the big picture., Decide how to get from here to there., Assess process maturity., Evaluate changes.,B,,val,question: What steps are included in the IT strategy formulation process? Each correct answer provides a complete solution. Select all that apply.,"A)
 question: What stages are encompassed in the IT strategy development process? Each correct response provides a complete solution. Select all that apply.
 
@@ -306,7 +306,7 @@ C)
 question: What procedures are incorporated in the IT strategy formulation process? Each correct answer furnishes a complete solution. Select all that apply.
 
 D)
-question: What measures are part of the IT strategy design process? Each correct answer supplies a complete solution. Select all that apply.",question: What stages are encompassed in the IT strategy development process? Each correct response provides a complete solution. Select all that apply.,question: What phases are involved in the IT strategy development process? Each correct response supplies a complete solution. Select all that apply.,question: What procedures are incorporated in the IT strategy formulation process? Each correct answer furnishes a complete solution. Select all that apply.,question: What measures are part of the IT strategy design process? Each correct answer supplies a complete solution. Select all that apply.
+question: What measures are part of the IT strategy design process? Each correct answer supplies a complete solution. Select all that apply.",question: What stages are encompassed in the IT strategy development process? Each correct response provides a complete solution. Select all that apply.,question: What phases are involved in the IT strategy development process? Each correct response supplies a complete solution. Select all that apply.,question: What procedures are incorporated in the IT strategy formulation process? Each correct answer furnishes a complete solution. Select all that apply.,question: What measures are part of the IT strategy design process? Each correct answer supplies a complete solution. Select all that apply.,A
 What are two methods for connecting when performing a local deployment of Cisco Configuration Assistant? (Select two.), Connect remotely via a metropolitan area network., Connect to an IP Phone PC port., Connect directly to a UC520 PoE port., Connect directly to any access point.,C,,val,question: What are two methods for connecting when performing a local deployment of Cisco Configuration Assistant? (Select two.),"A)
 question: What are two ways for connecting when performing a local deployment of Cisco Configuration Assistant? (Select two.)
 
@@ -317,7 +317,7 @@ C)
 question: What are two techniques for connecting when performing a local deployment of Cisco Configuration Assistant? (Select two.)
 
 D)
-question: What are two methods for establishing connections when performing a local deployment of Cisco Configuration Assistant? (Select two.)",question: What are two ways for connecting when performing a local deployment of Cisco Configuration Assistant? (Select two.),question: What are two means for connecting when performing a local deployment of Cisco Configuration Assistant? (Select two.),question: What are two techniques for connecting when performing a local deployment of Cisco Configuration Assistant? (Select two.),question: What are two methods for establishing connections when performing a local deployment of Cisco Configuration Assistant? (Select two.)
+question: What are two methods for establishing connections when performing a local deployment of Cisco Configuration Assistant? (Select two.)",question: What are two ways for connecting when performing a local deployment of Cisco Configuration Assistant? (Select two.),question: What are two means for connecting when performing a local deployment of Cisco Configuration Assistant? (Select two.),question: What are two techniques for connecting when performing a local deployment of Cisco Configuration Assistant? (Select two.),question: What are two methods for establishing connections when performing a local deployment of Cisco Configuration Assistant? (Select two.),A
 What is the effect of cutting the barrel length in a shotgun?, Decrease in dispersion of pellets, No change in dispersion of pellets, Increase in dispersion of pellets, Distortion of pellets,C,,val,question: What is the effect of cutting the barrel length in a shotgun?,"A)
 question: What is the impact of shortening the barrel length in a shotgun?
 
@@ -328,7 +328,7 @@ C)
 question: What is the result of trimming the barrel length in a shotgun?
 
 D)
-question: What is the outcome of reducing the barrel length in a shotgun?",question: What is the impact of shortening the barrel length in a shotgun?,question: What is the consequence of shortening the barrel length in a shotgun?,question: What is the result of trimming the barrel length in a shotgun?,question: What is the outcome of reducing the barrel length in a shotgun?
+question: What is the outcome of reducing the barrel length in a shotgun?",question: What is the impact of shortening the barrel length in a shotgun?,question: What is the consequence of shortening the barrel length in a shotgun?,question: What is the result of trimming the barrel length in a shotgun?,question: What is the outcome of reducing the barrel length in a shotgun?,A
 What is the process called where we predict the value of a dependent variable based on one or more independent variables?, Correlation, Residual, None of the other choices, Regression,D,,val,question: What is the process called where we predict the value of a dependent variable based on one or more independent variables?,"A)
 question: What is the procedure called where we predict the value of a dependent variable based on one or more independent variables?
 
@@ -339,7 +339,7 @@ C)
 question: What is the technique known as where we forecast the value of a dependent variable based on one or more independent variables?
 
 D)
-question: What is the operation referred to where we project the value of a dependent variable based on one or more independent variables?",question: What is the procedure called where we predict the value of a dependent variable based on one or more independent variables?,question: What is the method termed where we estimate the value of a dependent variable based on one or more independent variables?,question: What is the technique known as where we forecast the value of a dependent variable based on one or more independent variables?,question: What is the operation referred to where we project the value of a dependent variable based on one or more independent variables?
+question: What is the operation referred to where we project the value of a dependent variable based on one or more independent variables?",question: What is the procedure called where we predict the value of a dependent variable based on one or more independent variables?,question: What is the method termed where we estimate the value of a dependent variable based on one or more independent variables?,question: What is the technique known as where we forecast the value of a dependent variable based on one or more independent variables?,question: What is the operation referred to where we project the value of a dependent variable based on one or more independent variables?,A
 "Which of the following would test for stimulus generalization, given that subjects jump when they see a flashing blue light paired with a mild electric shock?", Extinguish the response and then present the blue light., Present the flashing blue light without the shock., None of the other choices, Present the shock without the blue light.,C,,val,"question: Which of the following would test for stimulus generalization, given that subjects jump when they see a flashing blue light paired with a mild electric shock?","A)
 question: Which of the following would assess stimulus generalization, given that subjects jump when they see a flashing blue light paired with a mild electric shock?
 
@@ -350,7 +350,7 @@ C)
 question: Which of the following would evaluate stimulus generalization, given that subjects startle when they see a flashing blue light coupled with a mild electric shock?
 
 D)
-question: Which of the following would examine stimulus generalization, given that participants startle when they see a blinking blue light paired with a mild electric shock?","question: Which of the following would assess stimulus generalization, given that subjects jump when they see a flashing blue light paired with a mild electric shock?","question: Which of the following would test for stimulus generalisation, given that participants jump when they see a blinking blue light paired with a mild electric shock?","question: Which of the following would evaluate stimulus generalization, given that subjects startle when they see a flashing blue light coupled with a mild electric shock?","question: Which of the following would examine stimulus generalization, given that participants startle when they see a blinking blue light paired with a mild electric shock?"
+question: Which of the following would examine stimulus generalization, given that participants startle when they see a blinking blue light paired with a mild electric shock?","question: Which of the following would assess stimulus generalization, given that subjects jump when they see a flashing blue light paired with a mild electric shock?","question: Which of the following would test for stimulus generalisation, given that participants jump when they see a blinking blue light paired with a mild electric shock?","question: Which of the following would evaluate stimulus generalization, given that subjects startle when they see a flashing blue light coupled with a mild electric shock?","question: Which of the following would examine stimulus generalization, given that participants startle when they see a blinking blue light paired with a mild electric shock?",A
 What is the number of deltas needed for a fingerprint to be classified as a whorl pattern?, It varies depending on the size of the pattern, Two, One, None of the other choices,B,,val,question: What is the number of deltas needed for a fingerprint to be classified as a whorl pattern?,"A)
 question: What is the count of deltas required for a fingerprint to be classified as a whorl pattern?
 
@@ -361,7 +361,7 @@ C)
 question: What is the total of deltas required for a finger impression to be deemed a whorl type?
 
 D)
-question: What is the tally of deltas necessary for a finger mark to be identified as a whorl arrangement?",question: What is the count of deltas required for a fingerprint to be classified as a whorl pattern?,question: What is the quantity of deltas necessary for a fingerprint to be categorized as a whorl pattern?,question: What is the total of deltas required for a finger impression to be deemed a whorl type?,question: What is the tally of deltas necessary for a finger mark to be identified as a whorl arrangement?
+question: What is the tally of deltas necessary for a finger mark to be identified as a whorl arrangement?",question: What is the count of deltas required for a fingerprint to be classified as a whorl pattern?,question: What is the quantity of deltas necessary for a fingerprint to be categorized as a whorl pattern?,question: What is the total of deltas required for a finger impression to be deemed a whorl type?,question: What is the tally of deltas necessary for a finger mark to be identified as a whorl arrangement?,A
 Which unit is responsible for implementing multiple branch prediction in the Pentium-Pro?, None of the other choices, control unit, bus interface unit, branch instruction register,B,,val,question: Which unit is responsible for implementing multiple branch prediction in the Pentium-Pro?,"A)
 question: Which module is charged with implementing multiple branch prediction in the Pentium-Pro?
 
@@ -372,7 +372,7 @@ C)
 question: Which unit is responsible for carrying out multiple branch prediction in the Pentium-Pro?
 
 D)
-question: Which block is responsible for implementing multiple branch prediction in the Pentium-Pro?",question: Which module is charged with implementing multiple branch prediction in the Pentium-Pro?,question: Which component is accountable for implementing multiple branch prediction in the Pentium-Pro?,question: Which unit is responsible for carrying out multiple branch prediction in the Pentium-Pro?,question: Which block is responsible for implementing multiple branch prediction in the Pentium-Pro?
+question: Which block is responsible for implementing multiple branch prediction in the Pentium-Pro?",question: Which module is charged with implementing multiple branch prediction in the Pentium-Pro?,question: Which component is accountable for implementing multiple branch prediction in the Pentium-Pro?,question: Which unit is responsible for carrying out multiple branch prediction in the Pentium-Pro?,question: Which block is responsible for implementing multiple branch prediction in the Pentium-Pro?,A
 Worm gears are commonly utilized to transmit power at ______________ velocity ratios between shafts that do not intersect., high, medium, low, none of the mentioned,A,,val,question: Worm gears are commonly utilized to transmit power at ______________ velocity ratios between shafts that do not intersect.,"A)
 Worm gears are commonly used to transmit power at ______________ velocity ratios between shafts that do not intersect.
 
@@ -383,7 +383,7 @@ C)
 Worm gears are commonly utilized to convey power at ______________ velocity ratios between shafts that do not intersect.
 
 D)
-Worm gears are commonly utilized to transmit torque at ______________ velocity ratios between shafts that do not intersect.",Worm gears are commonly used to transmit power at ______________ velocity ratios between shafts that do not intersect.,Worm gears are often utilized to transmit power at ______________ velocity ratios between shafts that do not intersect.,Worm gears are commonly utilized to convey power at ______________ velocity ratios between shafts that do not intersect.,Worm gears are commonly utilized to transmit torque at ______________ velocity ratios between shafts that do not intersect.
+Worm gears are commonly utilized to transmit torque at ______________ velocity ratios between shafts that do not intersect.",Worm gears are commonly used to transmit power at ______________ velocity ratios between shafts that do not intersect.,Worm gears are often utilized to transmit power at ______________ velocity ratios between shafts that do not intersect.,Worm gears are commonly utilized to convey power at ______________ velocity ratios between shafts that do not intersect.,Worm gears are commonly utilized to transmit torque at ______________ velocity ratios between shafts that do not intersect.,A
 How can electrons in the same orbitals be distinguished?, Spin quantum number, Azimuthal quantum number, None of the other choices, Principal quantum number,A,,val,question: How can electrons in the same orbitals be distinguished?,"A)
 question: In what way can electrons within identical orbitals be differentiated?
 
@@ -394,7 +394,7 @@ C)
 question: How can electrons occupying identical orbitals be distinguished?
 
 D)
-question: In which manner can electrons residing in the same orbitals be discriminated?",question: In what way can electrons within identical orbitals be differentiated?,question: By what means can electrons in the same orbitals be told apart?,question: How can electrons occupying identical orbitals be distinguished?,question: In which manner can electrons residing in the same orbitals be discriminated?
+question: In which manner can electrons residing in the same orbitals be discriminated?",question: In what way can electrons within identical orbitals be differentiated?,question: By what means can electrons in the same orbitals be told apart?,question: How can electrons occupying identical orbitals be distinguished?,question: In which manner can electrons residing in the same orbitals be discriminated?,A
 Which of the following is not an advantage of parallel processing?, Availability, Speedup, Scale up, Autonomy,D,,val,question: Which of the following is not an advantage of parallel processing?,"A)
 question: Which of the following is not a benefit of parallel processing?
 
@@ -405,7 +405,7 @@ C)
 question: Which of the following is not a benefit of concurrent processing?
 
 D)
-question: Which of the following is not an advantage of simultaneous processing?",question: Which of the following is not a benefit of parallel processing?,question: Which of the following is not an advantage of concurrent processing?,question: Which of the following is not a benefit of concurrent processing?,question: Which of the following is not an advantage of simultaneous processing?
+question: Which of the following is not an advantage of simultaneous processing?",question: Which of the following is not a benefit of parallel processing?,question: Which of the following is not an advantage of concurrent processing?,question: Which of the following is not a benefit of concurrent processing?,question: Which of the following is not an advantage of simultaneous processing?,A
 What is the principal amount if the simple interest and the true discount on it for a certain period at a certain rate are Rs. 85 and Rs. 80 respectively?, Rs. 6800, None of the other choices, Rs. 1450, Rs. 1800,B,,val,question: What is the principal amount if the simple interest and the true discount on it for a certain period at a certain rate are Rs. 85 and Rs. 80 respectively?,"A)
 question: What is the principal sum if the simple interest and the true discount on it for a certain period at a certain rate are Rs. 85 and Rs. 80 respectively?
 
@@ -416,7 +416,7 @@ C)
 question: What is the principal amount if the simple interest and the true discount on the same for a particular period at a particular rate are Rs. 85 and Rs. 80 respectively?
 
 D)
-question: What is the capital sum if the simple interest and the true discount thereon for a particular period at a certain rate are Rs. 85 and Rs. 80 respectively?",question: What is the principal sum if the simple interest and the true discount on it for a certain period at a certain rate are Rs. 85 and Rs. 80 respectively?,question: What is the capital amount if the simple interest and the true discount on it for a given period at a given rate are Rs. 85 and Rs. 80 respectively?,question: What is the principal amount if the simple interest and the true discount on the same for a particular period at a particular rate are Rs. 85 and Rs. 80 respectively?,question: What is the capital sum if the simple interest and the true discount thereon for a particular period at a certain rate are Rs. 85 and Rs. 80 respectively?
+question: What is the capital sum if the simple interest and the true discount thereon for a particular period at a certain rate are Rs. 85 and Rs. 80 respectively?",question: What is the principal sum if the simple interest and the true discount on it for a certain period at a certain rate are Rs. 85 and Rs. 80 respectively?,question: What is the capital amount if the simple interest and the true discount on it for a given period at a given rate are Rs. 85 and Rs. 80 respectively?,question: What is the principal amount if the simple interest and the true discount on the same for a particular period at a particular rate are Rs. 85 and Rs. 80 respectively?,question: What is the capital sum if the simple interest and the true discount thereon for a particular period at a certain rate are Rs. 85 and Rs. 80 respectively?,A
 Who received the 2018 Nobel Prize in Physiology or Medicine?, James P Allison and Tasuku Honjo, Michael W. Young and Michael Rosbash, Tu Youyou and Satoshi Omura, Jeffrey C. Hall and Yoshinori Ohsumi,A,,val,question: Who received the 2018 Nobel Prize in Physiology or Medicine?,"A)
 question: Who was awarded the 2018 Nobel Prize in Physiology or Medicine?
 
@@ -427,7 +427,7 @@ C)
 question: Who was conferred the 2018 Nobel Prize in Physiology or Medicine?
 
 D)
-question: Who was presented the 2018 Nobel Prize in Physiology or Medicine?",question: Who was awarded the 2018 Nobel Prize in Physiology or Medicine?,question: Who was granted the 2018 Nobel Prize in Physiology or Medicine?,question: Who was conferred the 2018 Nobel Prize in Physiology or Medicine?,question: Who was presented the 2018 Nobel Prize in Physiology or Medicine?
+question: Who was presented the 2018 Nobel Prize in Physiology or Medicine?",question: Who was awarded the 2018 Nobel Prize in Physiology or Medicine?,question: Who was granted the 2018 Nobel Prize in Physiology or Medicine?,question: Who was conferred the 2018 Nobel Prize in Physiology or Medicine?,question: Who was presented the 2018 Nobel Prize in Physiology or Medicine?,A
 "A simple pendulum has a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y represents the vertical distance traveled and k equals 1 m/s², the period changes to T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?", \(\frac { 5 }{ 6 }\), \(\frac { 11 }{ 10 }\), \(\frac { 6 }{ 5 }\), None of the other choices,C,,val,"question: A simple pendulum has a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y represents the vertical distance traveled and k equals 1 m/s², the period changes to T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?","A)
 question: An ideal pendulum possesses a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y denotes the vertical distance travelled and k equals 1 m/s², the period alters to T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?
 
@@ -438,7 +438,7 @@ C)
 question: A plain pendulum bears a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y stands for the vertical distance traveled and k equals 1 m/s², the period becomes T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?
 
 D)
-question: A simple pendulum exhibits a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y indicates the vertical distance traveled and k equals 1 m/s², the period is modified to T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?","question: An ideal pendulum possesses a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y denotes the vertical distance travelled and k equals 1 m/s², the period alters to T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?","question: A basic pendulum has a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y represents the vertical distance traveled and k equals 1 m/s², the period changes to T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?","question: A plain pendulum bears a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y stands for the vertical distance traveled and k equals 1 m/s², the period becomes T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?","question: A simple pendulum exhibits a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y indicates the vertical distance traveled and k equals 1 m/s², the period is modified to T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?"
+question: A simple pendulum exhibits a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y indicates the vertical distance traveled and k equals 1 m/s², the period is modified to T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?","question: An ideal pendulum possesses a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y denotes the vertical distance travelled and k equals 1 m/s², the period alters to T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?","question: A basic pendulum has a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y represents the vertical distance traveled and k equals 1 m/s², the period changes to T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?","question: A plain pendulum bears a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y stands for the vertical distance traveled and k equals 1 m/s², the period becomes T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?","question: A simple pendulum exhibits a period of T1. When the point from which it is suspended moves vertically upwards following the equation y = kt², where y indicates the vertical distance traveled and k equals 1 m/s², the period is modified to T2. Given g = 10 m/s², what is the value of \(\frac{\mathrm{T}_{1}^{2}}{\mathrm{~T}_{2}^{2}}\)?",D
 Can you explain what Amplitude Modulation is?, Change in amplitude of carrier according to modulating signal amplitude, Change in frequency of carrier according to modulating signal amplitude, Change in amplitude of carrier according to modulating signal frequency, Change in amplitude of modulating signal according to carrier signal amplitude,A,,val,question: Can you explain what Amplitude Modulation is?,"A)
 question: Can you describe what Amplitude Modulation is?
 
@@ -449,7 +449,7 @@ C)
 question: Can you elucidate what Amplitude Modulation is?
 
 D)
-question: Can you explicate what Amplitude Modulation is?",question: Can you describe what Amplitude Modulation is?,question: Can you clarify what Amplitude Modulation is?,question: Can you elucidate what Amplitude Modulation is?,question: Can you explicate what Amplitude Modulation is?
+question: Can you explicate what Amplitude Modulation is?",question: Can you describe what Amplitude Modulation is?,question: Can you clarify what Amplitude Modulation is?,question: Can you elucidate what Amplitude Modulation is?,question: Can you explicate what Amplitude Modulation is?,A
 Who was the British Commanding Officer at Barrackpore during the 1857 Revolt?, None of the other choices, Hearsey, Colonel Finnis, Henry Lawrence,B,,val,question: Who was the British Commanding Officer at Barrackpore during the 1857 Revolt?,"A)
 question: Who served as the British Commanding Officer at Barrackpore during the 1857 Revolt?
 
@@ -460,7 +460,7 @@ C)
 question: Who was the British Commandant at Barrackpore during the 1857 Revolt?
 
 D)
-question: Who was the British Commanding Officer in Barrackpore during the 1857 Revolt?",question: Who served as the British Commanding Officer at Barrackpore during the 1857 Revolt?,question: Who acted as the British Commanding Officer at Barrackpore during the 1857 Revolt?,question: Who was the British Commandant at Barrackpore during the 1857 Revolt?,question: Who was the British Commanding Officer in Barrackpore during the 1857 Revolt?
+question: Who was the British Commanding Officer in Barrackpore during the 1857 Revolt?",question: Who served as the British Commanding Officer at Barrackpore during the 1857 Revolt?,question: Who acted as the British Commanding Officer at Barrackpore during the 1857 Revolt?,question: Who was the British Commandant at Barrackpore during the 1857 Revolt?,question: Who was the British Commanding Officer in Barrackpore during the 1857 Revolt?,A
 What is the process called where food and beverage items are analyzed for poison and harmful substances to assist in investigations?, None of the other choices, Forensic Pathology, Food Forensics, Forensic Anthropology,C,,val,question: What is the process called where food and beverage items are analyzed for poison and harmful substances to assist in investigations?,"A)
 question: What is the procedure called where food and drink items are examined for toxins and hazardous substances to aid in investigations?
 
@@ -471,7 +471,7 @@ C)
 question: What is the procedure referred to where food and beverage items are tested for poison and dangerous substances to support investigations?
 
 D)
-question: What is the process called in which food and beverage items are inspected for toxicants and harmful substances to help with investigations?",question: What is the procedure called where food and drink items are examined for toxins and hazardous substances to aid in investigations?,question: What is the process known as where food and beverage products are analyzed for poisons and harmful compounds to assist in inquiries?,question: What is the procedure referred to where food and beverage items are tested for poison and dangerous substances to support investigations?,question: What is the process called in which food and beverage items are inspected for toxicants and harmful substances to help with investigations?
+question: What is the process called in which food and beverage items are inspected for toxicants and harmful substances to help with investigations?",question: What is the procedure called where food and drink items are examined for toxins and hazardous substances to aid in investigations?,question: What is the process known as where food and beverage products are analyzed for poisons and harmful compounds to assist in inquiries?,question: What is the procedure referred to where food and beverage items are tested for poison and dangerous substances to support investigations?,question: What is the process called in which food and beverage items are inspected for toxicants and harmful substances to help with investigations?,A
 Which of these engines will need a heavier flywheel compared to the others?, 30 kW two stroke diesel engine running at 750 r.p.m., 30 kW four stroke petrol engine running at 1500 r.p.m., None of the other choices, 30 kW four stroke diesel engine running at 750 r.p.m.,B,,val,question: Which of these engines will need a heavier flywheel compared to the others?,"A)
 question: Which of these engines will require a more massive flywheel relative to the others?
 
@@ -482,7 +482,7 @@ C)
 question: Which of these engines will need a heavier flywheel relative to the others?
 
 D)
-question: Which of these motors will need a heavier flywheel relative to the others?",question: Which of these engines will require a more massive flywheel relative to the others?,question: Which of these motors will require a more massive flywheel relative to the others?,question: Which of these engines will need a heavier flywheel relative to the others?,question: Which of these motors will need a heavier flywheel relative to the others?
+question: Which of these motors will need a heavier flywheel relative to the others?",question: Which of these engines will require a more massive flywheel relative to the others?,question: Which of these motors will require a more massive flywheel relative to the others?,question: Which of these engines will need a heavier flywheel relative to the others?,question: Which of these motors will need a heavier flywheel relative to the others?,A
 What is the phase difference between the input signal voltage and the output voltage in a common base amplifier?, π/2, None of the other choices,0, π/4,C,,val,question: What is the phase difference between the input signal voltage and the output voltage in a common base amplifier?,"A)
 question: What is the phase shift between the input signal voltage and the output voltage in a common base amplifier?
 
@@ -493,7 +493,7 @@ C)
 question: What is the phase angle between the input signal voltage and the output voltage in a common base amplifier?
 
 D)
-question: What is the phase relation between the input signal voltage and the output voltage in a common base amplifier?",question: What is the phase shift between the input signal voltage and the output voltage in a common base amplifier?,question: What is the phase displacement between the input signal voltage and the output voltage in a common base amplifier?,question: What is the phase angle between the input signal voltage and the output voltage in a common base amplifier?,question: What is the phase relation between the input signal voltage and the output voltage in a common base amplifier?
+question: What is the phase relation between the input signal voltage and the output voltage in a common base amplifier?",question: What is the phase shift between the input signal voltage and the output voltage in a common base amplifier?,question: What is the phase displacement between the input signal voltage and the output voltage in a common base amplifier?,question: What is the phase angle between the input signal voltage and the output voltage in a common base amplifier?,question: What is the phase relation between the input signal voltage and the output voltage in a common base amplifier?,A
 Select the statement that is incorrect from the options below:, Polyspermy is prevented by the chemical changes in the egg surface, Colostrum contains antibodies and nutrients, None of the other choices, In birds and mammals internal fertilisation takes place,A,,val,question: Select the statement that is incorrect from the options below:,"A)
 question: Choose the assertion that is erroneous from the choices below:
 
@@ -504,7 +504,7 @@ C)
 question: Choose the proposition that is erroneous from the choices below:
 
 D)
-question: Choose the proposition that is false from the choices below:",question: Choose the assertion that is erroneous from the choices below:,question: Choose the assertion that is false from the choices below:,question: Choose the proposition that is erroneous from the choices below:,question: Choose the proposition that is false from the choices below:
+question: Choose the proposition that is false from the choices below:",question: Choose the assertion that is erroneous from the choices below:,question: Choose the assertion that is false from the choices below:,question: Choose the proposition that is erroneous from the choices below:,question: Choose the proposition that is false from the choices below:,A
 Which of the following statements is accurate for a negatively skewed distribution?, Median is higher than the mode., Mode is lower than the mean., Mean is lower than the mode., None of the other choices,C,,val,question: Which of the following statements is accurate for a negatively skewed distribution?,"A)
 question: Which of the following statements is true for a negatively skewed distribution?
 
@@ -515,7 +515,7 @@ C)
 question: Which of the following statements is accurate for a left-skewed distribution?
 
 D)
-question: Which of the following statements is correct for a negatively skewed distribution?",question: Which of the following statements is true for a negatively skewed distribution?,question: Which of the following assertions is accurate for a negatively skewed distribution?,question: Which of the following statements is accurate for a left-skewed distribution?,question: Which of the following statements is correct for a negatively skewed distribution?
+question: Which of the following statements is correct for a negatively skewed distribution?",question: Which of the following statements is true for a negatively skewed distribution?,question: Which of the following assertions is accurate for a negatively skewed distribution?,question: Which of the following statements is accurate for a left-skewed distribution?,question: Which of the following statements is correct for a negatively skewed distribution?,A
 Which of the following does not apply to a life insurance contract?, Indemnity contract, Unilateral contract, Conditional contract, None of the above,A,,val,question: Which of the following does not apply to a life insurance contract?,"A)
 question: Which of the following is not applicable to a life insurance policy?
 
@@ -526,7 +526,7 @@ C)
 question: Which of the following is not relevant to a life assurance contract?
 
 D)
-question: Which of the following does not concern a life insurance policy?",question: Which of the following is not applicable to a life insurance policy?,question: Which of the following does not pertain to a life insurance agreement?,question: Which of the following is not relevant to a life assurance contract?,question: Which of the following does not concern a life insurance policy?
+question: Which of the following does not concern a life insurance policy?",question: Which of the following is not applicable to a life insurance policy?,question: Which of the following does not pertain to a life insurance agreement?,question: Which of the following is not relevant to a life assurance contract?,question: Which of the following does not concern a life insurance policy?,A
 "In the given indexed addressing mode instruction, MOV 5(R1),LOC, what is the effective address?", EA = 5+R1, EA = [R1], EA = R1, None of the other choices,A,,val,"question: In the given indexed addressing mode instruction, MOV 5(R1),LOC, what is the effective address?","A)
 In the provided indexed addressing mode instruction, MOV 5(R1),LOC, what is the resulting address?
 
@@ -537,7 +537,7 @@ C)
 In the stated indexed addressing mode instruction, MOV 5(R1),LOC, what is the actual address?
 
 D)
-In the presented indexed addressing mode instruction, MOV 5(R1),LOC, what is the resultant address?","In the provided indexed addressing mode instruction, MOV 5(R1),LOC, what is the resulting address?","In the supplied indexed addressing mode instruction, MOV 5(R1),LOC, what is the computed address?","In the stated indexed addressing mode instruction, MOV 5(R1),LOC, what is the actual address?","In the presented indexed addressing mode instruction, MOV 5(R1),LOC, what is the resultant address?"
+In the presented indexed addressing mode instruction, MOV 5(R1),LOC, what is the resultant address?","In the provided indexed addressing mode instruction, MOV 5(R1),LOC, what is the resulting address?","In the supplied indexed addressing mode instruction, MOV 5(R1),LOC, what is the computed address?","In the stated indexed addressing mode instruction, MOV 5(R1),LOC, what is the actual address?","In the presented indexed addressing mode instruction, MOV 5(R1),LOC, what is the resultant address?",A
 "What type of drug would a physician prescribe to stimulate the bone marrow to produce erythrocytes, in order to maintain the red blood cell count in a patient undergoing chemotherapy?", anticoagulant, vitamin B12, erythropoietin, immunosuppressant,C,,val,"question: What type of drug would a physician prescribe to stimulate the bone marrow to produce erythrocytes, in order to maintain the red blood cell count in a patient undergoing chemotherapy?","A)
 question: What kind of medication would a doctor prescribe to stimulate the bone marrow to produce erythrocytes, in order to maintain the red blood cell count in a patient undergoing chemotherapy?
 
@@ -548,7 +548,7 @@ C)
 question: What category of agent would a clinician order to encourage the bone marrow to generate erythrocytes, so as to keep the red blood cell count in a patient undergoing chemotherapy?
 
 D)
-question: What class of medication would a physician prescribe to stimulate the bone marrow to produce erythrocytes, in order to sustain the red blood cell count in a patient receiving chemotherapy?","question: What kind of medication would a doctor prescribe to stimulate the bone marrow to produce erythrocytes, in order to maintain the red blood cell count in a patient undergoing chemotherapy?","question: What type of drug would a physician prescribe to stimulate the bone marrow to produce red blood cells, in order to preserve the erythrocyte count in a patient receiving chemotherapy?","question: What category of agent would a clinician order to encourage the bone marrow to generate erythrocytes, so as to keep the red blood cell count in a patient undergoing chemotherapy?","question: What class of medication would a physician prescribe to stimulate the bone marrow to produce erythrocytes, in order to sustain the red blood cell count in a patient receiving chemotherapy?"
+question: What class of medication would a physician prescribe to stimulate the bone marrow to produce erythrocytes, in order to sustain the red blood cell count in a patient receiving chemotherapy?","question: What kind of medication would a doctor prescribe to stimulate the bone marrow to produce erythrocytes, in order to maintain the red blood cell count in a patient undergoing chemotherapy?","question: What type of drug would a physician prescribe to stimulate the bone marrow to produce red blood cells, in order to preserve the erythrocyte count in a patient receiving chemotherapy?","question: What category of agent would a clinician order to encourage the bone marrow to generate erythrocytes, so as to keep the red blood cell count in a patient undergoing chemotherapy?","question: What class of medication would a physician prescribe to stimulate the bone marrow to produce erythrocytes, in order to sustain the red blood cell count in a patient receiving chemotherapy?",A
 Which was the most significant organization among the pre-congress nationalist groups?, Indian association of Calcutta, None of the other choices, Bengal British India society, Young Bengal association,A,,val,question: Which was the most significant organization among the pre-congress nationalist groups?,"A)
 question: Which was the most important organization among the pre-congress nationalist groups?
 
@@ -559,7 +559,7 @@ C)
 question: Which was the most prominent association among the pre-congress nationalist groups?
 
 D)
-question: Which was the most consequential organization among the pre-congress nationalist movements?",question: Which was the most important organization among the pre-congress nationalist groups?,question: Which was the most influential organization among the pre-congress nationalist groups?,question: Which was the most prominent association among the pre-congress nationalist groups?,question: Which was the most consequential organization among the pre-congress nationalist movements?
+question: Which was the most consequential organization among the pre-congress nationalist movements?",question: Which was the most important organization among the pre-congress nationalist groups?,question: Which was the most influential organization among the pre-congress nationalist groups?,question: Which was the most prominent association among the pre-congress nationalist groups?,question: Which was the most consequential organization among the pre-congress nationalist movements?,A
 What extra functions can be integrated on the same chip of RISC?, memory management and floating point arithmetic units, floating point units," RAM, ROM", memory management units,D,,val,question: What extra functions can be integrated on the same chip of RISC?,"A)
 question: Which additional functions can be incorporated on the same chip of RISC?
 
@@ -570,7 +570,7 @@ C)
 question: What additional features can be integrated on the same chip of RISC?
 
 D)
-question: What extra functions can be implemented on the same chip of RISC?",question: Which additional functions can be incorporated on the same chip of RISC?,question: Which extra capabilities can be embedded on the same chip of RISC?,question: What additional features can be integrated on the same chip of RISC?,question: What extra functions can be implemented on the same chip of RISC?
+question: What extra functions can be implemented on the same chip of RISC?",question: Which additional functions can be incorporated on the same chip of RISC?,question: Which extra capabilities can be embedded on the same chip of RISC?,question: What additional features can be integrated on the same chip of RISC?,question: What extra functions can be implemented on the same chip of RISC?,A
 "The statement ""Head hunting is wrong"" reflects the perspective of which viewpoint?", cultural relativity, None of the other choices, ethnic uniformity, ethnocentrism,D,,val,"question: The statement ""Head hunting is wrong"" reflects the perspective of which viewpoint?","A)
 question: The assertion ""Head hunting is wrong"" represents the standpoint of which position?
 
@@ -581,7 +581,7 @@ C)
 question: The declaration ""Head hunting is wrong"" embodies the angle of which perspective?
 
 D)
-question: The remark ""Head hunting is wrong"" articulates the view of which opinion?","question: The assertion ""Head hunting is wrong"" represents the standpoint of which position?","question: The claim ""Head hunting is wrong"" conveys the outlook of which stance?","question: The declaration ""Head hunting is wrong"" embodies the angle of which perspective?","question: The remark ""Head hunting is wrong"" articulates the view of which opinion?"
+question: The remark ""Head hunting is wrong"" articulates the view of which opinion?","question: The assertion ""Head hunting is wrong"" represents the standpoint of which position?","question: The claim ""Head hunting is wrong"" conveys the outlook of which stance?","question: The declaration ""Head hunting is wrong"" embodies the angle of which perspective?","question: The remark ""Head hunting is wrong"" articulates the view of which opinion?",A
 In what year was the Convention on the Law of the Sea signed in Jamaica?,1982,1975,1948, None of these,A,,val,question: In what year was the Convention on the Law of the Sea signed in Jamaica?,"A)
 question: In which year was the Convention concerning the Law of the Sea signed in Jamaica?
 
@@ -592,7 +592,7 @@ C)
 question: In which year was the Convention on the Law of the Sea endorsed in Jamaica?
 
 D)
-question: In what year was the Convention regarding the Law of the Sea signed in Jamaica?",question: In which year was the Convention concerning the Law of the Sea signed in Jamaica?,question: In what year was the Convention on the Law of the Sea executed in Jamaica?,question: In which year was the Convention on the Law of the Sea endorsed in Jamaica?,question: In what year was the Convention regarding the Law of the Sea signed in Jamaica?
+question: In what year was the Convention regarding the Law of the Sea signed in Jamaica?",question: In which year was the Convention concerning the Law of the Sea signed in Jamaica?,question: In what year was the Convention on the Law of the Sea executed in Jamaica?,question: In which year was the Convention on the Law of the Sea endorsed in Jamaica?,question: In what year was the Convention regarding the Law of the Sea signed in Jamaica?,A
 Which Commission was the first to decentralize primary education?, Mudaliar Commission, Kothari Commission, Sadler Commission, Hunter Commission,D,,val,question: Which Commission was the first to decentralize primary education?,"A)
 Which Committee was the earliest to decentralize primary education?
 
@@ -603,7 +603,7 @@ C)
 Which Commission was the earliest to decentralise elementary education?
 
 D)
-Which Panel was the first to decentralize primary schooling?",Which Committee was the earliest to decentralize primary education?,Which Committee was the first to devolve primary education?,Which Commission was the earliest to decentralise elementary education?,Which Panel was the first to decentralize primary schooling?
+Which Panel was the first to decentralize primary schooling?",Which Committee was the earliest to decentralize primary education?,Which Committee was the first to devolve primary education?,Which Commission was the earliest to decentralise elementary education?,Which Panel was the first to decentralize primary schooling?,A
 Explain that aes_auto is utilized for automatic aesthetic mapping. Identify the correct statement:, theme_bw is theme with grey background and white gridlines, update_element update contents of a theme, Use theme_update_element to modify a small number of elements of the current theme or use theme_set to completely override it, All of the mentioned,B,,val,question: Explain that aes_auto is utilized for automatic aesthetic mapping. Identify the correct statement:,"A)
 question: Describe that aes_auto is used for automated aesthetic mapping. Select the correct statement:
 
@@ -614,7 +614,7 @@ C)
 question: Explain that aes_auto is utilized for automated visual mapping. Identify the correct statement:
 
 D)
-question: State that aes_auto is applied to automatic aesthetic mapping. Determine the correct statement:",question: Describe that aes_auto is used for automated aesthetic mapping. Select the correct statement:,question: Clarify that aes_auto is employed for automatic stylistic mapping. Choose the correct statement:,question: Explain that aes_auto is utilized for automated visual mapping. Identify the correct statement:,question: State that aes_auto is applied to automatic aesthetic mapping. Determine the correct statement:
+question: State that aes_auto is applied to automatic aesthetic mapping. Determine the correct statement:",question: Describe that aes_auto is used for automated aesthetic mapping. Select the correct statement:,question: Clarify that aes_auto is employed for automatic stylistic mapping. Choose the correct statement:,question: Explain that aes_auto is utilized for automated visual mapping. Identify the correct statement:,question: State that aes_auto is applied to automatic aesthetic mapping. Determine the correct statement:,A
 Which vitamin is associated with the coenzyme Biocytin?, Thiamine, None of the other choices, Biotin, Nicotinic acid,C,,val,question: Which vitamin is associated with the coenzyme Biocytin?,"A)
 question: What vitamin is linked to the coenzyme Biocytin?
 
@@ -625,7 +625,7 @@ C)
 question: Which vitamin is related to the coenzyme Biocytin?
 
 D)
-question: Which vitamin corresponds to the coenzyme Biocytin?",question: What vitamin is linked to the coenzyme Biocytin?,question: Which vitamin is connected with the coenzyme Biocytin?,question: Which vitamin is related to the coenzyme Biocytin?,question: Which vitamin corresponds to the coenzyme Biocytin?
+question: Which vitamin corresponds to the coenzyme Biocytin?",question: What vitamin is linked to the coenzyme Biocytin?,question: Which vitamin is connected with the coenzyme Biocytin?,question: Which vitamin is related to the coenzyme Biocytin?,question: Which vitamin corresponds to the coenzyme Biocytin?,A
 "When we persuade our students that pleasure isn't the sole good in life, we are challenging the teachings of __________.", Humanism, None of the other choices, Skepticism, Epicureanism,D,,val,"question: When we persuade our students that pleasure isn't the sole good in life, we are challenging the teachings of __________.","A)
 question: When we convince our pupils that pleasure isn't the only benefit in life, we are challenging the teachings of __________.
 
@@ -636,7 +636,7 @@ C)
 question: When we tell our disciples that pleasure isn't the single good in life, we are challenging the teachings of __________.
 
 D)
-question: When we assure our followers that pleasure isn't the solitary good in life, we are challenging the teachings of __________.","question: When we convince our pupils that pleasure isn't the only benefit in life, we are challenging the teachings of __________.","question: When we sway our learners that pleasure isn't the exclusive value in life, we are challenging the teachings of __________.","question: When we tell our disciples that pleasure isn't the single good in life, we are challenging the teachings of __________.","question: When we assure our followers that pleasure isn't the solitary good in life, we are challenging the teachings of __________."
+question: When we assure our followers that pleasure isn't the solitary good in life, we are challenging the teachings of __________.","question: When we convince our pupils that pleasure isn't the only benefit in life, we are challenging the teachings of __________.","question: When we sway our learners that pleasure isn't the exclusive value in life, we are challenging the teachings of __________.","question: When we tell our disciples that pleasure isn't the single good in life, we are challenging the teachings of __________.","question: When we assure our followers that pleasure isn't the solitary good in life, we are challenging the teachings of __________.",A
 Both kuru and mad cow disease are caused by __________ consumed from infected meat., heavy metals, a virus, prions, bacteria,C,,val,question: Both kuru and mad cow disease are caused by __________ consumed from infected meat.,"A)
 question: Both kuru and mad cow disease are triggered by __________ ingested from contaminated meat.
 
@@ -647,7 +647,7 @@ C)
 question: Both kuru and mad cow disease are produced by __________ taken in from infected meat.
 
 D)
-question: Both kuru and mad cow disease are caused by __________ ingested from tainted flesh.",question: Both kuru and mad cow disease are triggered by __________ ingested from contaminated meat.,question: Both kuru and mad cow disease are brought on by __________ consumed from tainted meat.,question: Both kuru and mad cow disease are produced by __________ taken in from infected meat.,question: Both kuru and mad cow disease are caused by __________ ingested from tainted flesh.
+question: Both kuru and mad cow disease are caused by __________ ingested from tainted flesh.",question: Both kuru and mad cow disease are triggered by __________ ingested from contaminated meat.,question: Both kuru and mad cow disease are brought on by __________ consumed from tainted meat.,question: Both kuru and mad cow disease are produced by __________ taken in from infected meat.,question: Both kuru and mad cow disease are caused by __________ ingested from tainted flesh.,A
 What type of image does a single concave spherical mirror produce?, real only if the object distance is greater than f., real only if the object distance is less than f., always real., always virtual.,A,,val,question: What type of image does a single concave spherical mirror produce?,"A)
 question: What kind of image does a single concave spherical mirror produce?
 
@@ -658,7 +658,7 @@ C)
 question: What type of picture does a single concave spherical mirror form?
 
 D)
-question: Which type of image does a lone concave spherical mirror produce?",question: What kind of image does a single concave spherical mirror produce?,question: What type of image does a solitary concave spherical mirror produce?,question: What type of picture does a single concave spherical mirror form?,question: Which type of image does a lone concave spherical mirror produce?
+question: Which type of image does a lone concave spherical mirror produce?",question: What kind of image does a single concave spherical mirror produce?,question: What type of image does a solitary concave spherical mirror produce?,question: What type of picture does a single concave spherical mirror form?,question: Which type of image does a lone concave spherical mirror produce?,A
 The flow of water after spilling over the weir crest in chute spillway and side channel spillway respectively are, “You shouldn’t allow anyone to pressure you into sex.”, “It sounds like this problem is related to your paralysis.”, “I can refer you to a spiritual counselor if you like.”, “How do you feel about being pressured into sex by your boyfriend?”,D,,val,question: The flow of water after spilling over the weir crest in chute spillway and side channel spillway respectively are,"A)
 question: The discharge of water after overflowing the weir crest in chute spillway and side channel spillway respectively are
 
@@ -669,7 +669,7 @@ C)
 question: The flow of water after overflowing the weir crest in chute spillway and lateral channel spillway respectively are
 
 D)
-question: The discharge of water after spilling over the weir crest in chute spillway and lateral channel spillway respectively are",question: The discharge of water after overflowing the weir crest in chute spillway and side channel spillway respectively are,question: The movement of water after cascading over the weir crest in chute spillway and side channel spillway respectively are,question: The flow of water after overflowing the weir crest in chute spillway and lateral channel spillway respectively are,question: The discharge of water after spilling over the weir crest in chute spillway and lateral channel spillway respectively are
+question: The discharge of water after spilling over the weir crest in chute spillway and lateral channel spillway respectively are",question: The discharge of water after overflowing the weir crest in chute spillway and side channel spillway respectively are,question: The movement of water after cascading over the weir crest in chute spillway and side channel spillway respectively are,question: The flow of water after overflowing the weir crest in chute spillway and lateral channel spillway respectively are,question: The discharge of water after spilling over the weir crest in chute spillway and lateral channel spillway respectively are,A
 Adler believed that the true cause behind self-accusation was, an unacceptable sexual impulse., None of the other choices, an attempt to hurt other people or at least get their attention., a cry for help.,C,,val,question: Adler believed that the true cause behind self-accusation was,"A)
 question: Adler asserted that the genuine reason behind self-blame was
 
@@ -680,7 +680,7 @@ C)
 question: Adler contended that the real source behind self-accusation was
 
 D)
-question: Adler thought that the authentic origin behind self-accusation was",question: Adler asserted that the genuine reason behind self-blame was,question: Adler maintained that the actual cause behind self-blame was,question: Adler contended that the real source behind self-accusation was,question: Adler thought that the authentic origin behind self-accusation was
+question: Adler thought that the authentic origin behind self-accusation was",question: Adler asserted that the genuine reason behind self-blame was,question: Adler maintained that the actual cause behind self-blame was,question: Adler contended that the real source behind self-accusation was,question: Adler thought that the authentic origin behind self-accusation was,A
 What does the Tertiary period include?," Pliocene, Miocene, Oligocene, Eocene and Palaeocene", Miocene and Pliocene only, Eocene and Miocene, Oligocene and Palaeocene only,A,,val,question: What does the Tertiary period include?,"A)
 question: What does the Tertiary period comprise?
 
@@ -691,7 +691,7 @@ C)
 question: What does the Tertiary period encompass?
 
 D)
-question: What does the Tertiary period consist of?",question: What does the Tertiary period comprise?,question: What does the Tertiary period contain?,question: What does the Tertiary period encompass?,question: What does the Tertiary period consist of?
+question: What does the Tertiary period consist of?",question: What does the Tertiary period comprise?,question: What does the Tertiary period contain?,question: What does the Tertiary period encompass?,question: What does the Tertiary period consist of?,A
 Which technique is employed during a physical examination to evaluate the airflow through the tracheobronchial tree?, None of the other choices, Palpation, Inspection, Auscultation,D,,val,question: Which technique is employed during a physical examination to evaluate the airflow through the tracheobronchial tree?,"A)
 Which method is used during a clinical examination to assess the airflow through the tracheobronchial tree?
 
@@ -702,7 +702,7 @@ C)
 Which procedure is utilized during a bedside examination to appraise the airflow through the tracheobronchial tree?
 
 D)
-Which approach is applied during a physical examination to gauge the airflow through the tracheobronchial tree?",Which method is used during a clinical examination to assess the airflow through the tracheobronchial tree?,Which technique is employed during a physical exam to evaluate the airflow through the tracheobronchial tree?,Which procedure is utilized during a bedside examination to appraise the airflow through the tracheobronchial tree?,Which approach is applied during a physical examination to gauge the airflow through the tracheobronchial tree?
+Which approach is applied during a physical examination to gauge the airflow through the tracheobronchial tree?",Which method is used during a clinical examination to assess the airflow through the tracheobronchial tree?,Which technique is employed during a physical exam to evaluate the airflow through the tracheobronchial tree?,Which procedure is utilized during a bedside examination to appraise the airflow through the tracheobronchial tree?,Which approach is applied during a physical examination to gauge the airflow through the tracheobronchial tree?,A
 Which term describes the percentage increase in an industry's value added per unit of output due to a nation's trade barriers?, effective rate of protection, monopsony power," one-dollar, one-vote metric", terms-of-trade effect,A,,val,question: Which term describes the percentage increase in an industry's value added per unit of output due to a nation's trade barriers?,"A)
 question: What term denotes the percent rise in a sector's value added per unit of production because of a country's trade restrictions?
 
@@ -713,7 +713,7 @@ C)
 question: What expression defines the percentage uplift in an industry's value added per unit of output attributable to a nation's trade restrictions?
 
 D)
-question: Which term describes the percent increase in an industry's value added per unit of output as a result of a country's trade barriers?",question: What term denotes the percent rise in a sector's value added per unit of production because of a country's trade restrictions?,question: Which phrase characterizes the percentage gain in an industry's value added per unit of output owing to a nation's trade barriers?,question: What expression defines the percentage uplift in an industry's value added per unit of output attributable to a nation's trade restrictions?,question: Which term describes the percent increase in an industry's value added per unit of output as a result of a country's trade barriers?
+question: Which term describes the percent increase in an industry's value added per unit of output as a result of a country's trade barriers?",question: What term denotes the percent rise in a sector's value added per unit of production because of a country's trade restrictions?,question: Which phrase characterizes the percentage gain in an industry's value added per unit of output owing to a nation's trade barriers?,question: What expression defines the percentage uplift in an industry's value added per unit of output attributable to a nation's trade restrictions?,question: Which term describes the percent increase in an industry's value added per unit of output as a result of a country's trade barriers?,A
 Do consumption expenditures equate to disposable income?, at every point on the saving function., at every point on the 45-degree line., when saving equals disposable income., at every point on the consumption function.,B,,val,question: Do consumption expenditures equate to disposable income?,"A)
 question: Do consumer expenditures equate to disposable income?
 
@@ -724,7 +724,7 @@ C)
 question: Do consumption expenditures equal disposable income?
 
 D)
-question: Do consumption expenditures correspond to disposable income?",question: Do consumer expenditures equate to disposable income?,question: Do consumption outlays equate to disposable income?,question: Do consumption expenditures equal disposable income?,question: Do consumption expenditures correspond to disposable income?
+question: Do consumption expenditures correspond to disposable income?",question: Do consumer expenditures equate to disposable income?,question: Do consumption outlays equate to disposable income?,question: Do consumption expenditures equal disposable income?,question: Do consumption expenditures correspond to disposable income?,A
 "During the 19th century, what did nationalism in Europe result in?", Nation states with centralised power, Decentralised power structures," Small, independent city-states", Multi-national dynastic empires,A,,val,"question: During the 19th century, what did nationalism in Europe result in?","A)
 question: During the 19th century, what did patriotism in Europe lead to?
 
@@ -735,7 +735,7 @@ C)
 question: During the 19th century, what did national consciousness in Europe cause?
 
 D)
-question: During the 19th century, what did nationalist fervor in Europe bring about?","question: During the 19th century, what did patriotism in Europe lead to?","question: During the 19th century, what did national sentiment in Europe produce?","question: During the 19th century, what did national consciousness in Europe cause?","question: During the 19th century, what did nationalist fervor in Europe bring about?"
+question: During the 19th century, what did nationalist fervor in Europe bring about?","question: During the 19th century, what did patriotism in Europe lead to?","question: During the 19th century, what did national sentiment in Europe produce?","question: During the 19th century, what did national consciousness in Europe cause?","question: During the 19th century, what did nationalist fervor in Europe bring about?",A
 Cross compound steam turbines were once utilized in _____________, automobiles, generation of electricity, marine ships, none of the mentioned,B,,val,question: Cross compound steam turbines were once utilized in _____________,"A)
 question: Transverse combined vapor turbines were formerly employed in _____________
 
@@ -746,7 +746,7 @@ C)
 question: Lateral combined steam turbines were formerly used in _____________
 
 D)
-question: Transverse compound steam turbines were once employed in _____________",question: Transverse combined vapor turbines were formerly employed in _____________,question: Crosswise compound vapor turbines were previously employed in _____________,question: Lateral combined steam turbines were formerly used in _____________,question: Transverse compound steam turbines were once employed in _____________
+question: Transverse compound steam turbines were once employed in _____________",question: Transverse combined vapor turbines were formerly employed in _____________,question: Crosswise compound vapor turbines were previously employed in _____________,question: Lateral combined steam turbines were formerly used in _____________,question: Transverse compound steam turbines were once employed in _____________,A
 In what environments or conditions can viruses be cultivated?, Whole plant, Cell lines, Chick Embryo, All of the mentioned,D,,val,question: In what environments or conditions can viruses be cultivated?,"A)
 question: Within which settings or circumstances can viruses be cultivated?
 
@@ -757,7 +757,7 @@ C)
 question: In which surroundings or circumstances can viruses be cultivated?
 
 D)
-question: Within what environments or conditions can viruses be cultivated?",question: Within which settings or circumstances can viruses be cultivated?,question: Under what environments or conditions can viruses be cultivated?,question: In which surroundings or circumstances can viruses be cultivated?,question: Within what environments or conditions can viruses be cultivated?
+question: Within what environments or conditions can viruses be cultivated?",question: Within which settings or circumstances can viruses be cultivated?,question: Under what environments or conditions can viruses be cultivated?,question: In which surroundings or circumstances can viruses be cultivated?,question: Within what environments or conditions can viruses be cultivated?,A
 "To which theory of development does Dr. Winsock likely subscribe, given that she frequently designs flowcharts to outline the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?", information-processing approach, psychoanalytic perspective, social-cognitive approach, None of the other choices,A,,val,"question: To which theory of development does Dr. Winsock likely subscribe, given that she frequently designs flowcharts to outline the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?","A)
 question: To which theory of development does Dr. Winsock probably subscribe, given that she often designs flowcharts to outline the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?
 
@@ -768,7 +768,7 @@ C)
 question: To which theory of development does Dr. Winsock likely subscribe, given that she frequently devises flowcharts to outline the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?
 
 D)
-question: To which theory of development does Dr. Winsock likely subscribe, given that she frequently designs flowcharts to map the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?","question: To which theory of development does Dr. Winsock probably subscribe, given that she often designs flowcharts to outline the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?","question: To which theory of development does Dr. Winsock likely adhere, given that she frequently designs flowcharts to outline the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?","question: To which theory of development does Dr. Winsock likely subscribe, given that she frequently devises flowcharts to outline the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?","question: To which theory of development does Dr. Winsock likely subscribe, given that she frequently designs flowcharts to map the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?"
+question: To which theory of development does Dr. Winsock likely subscribe, given that she frequently designs flowcharts to map the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?","question: To which theory of development does Dr. Winsock probably subscribe, given that she often designs flowcharts to outline the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?","question: To which theory of development does Dr. Winsock likely adhere, given that she frequently designs flowcharts to outline the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?","question: To which theory of development does Dr. Winsock likely subscribe, given that she frequently devises flowcharts to outline the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?","question: To which theory of development does Dr. Winsock likely subscribe, given that she frequently designs flowcharts to map the exact steps her research participants take to solve problems and complete tasks, in a manner similar to how programmers create plans for computers to execute a series of ""mental operations""?",C
 A max heap can be transformed into a min heap in ________., Logarithmic time, Quadratic time, Linear time, Exponential time,C,,val,question: A max heap can be transformed into a min heap in ________.,"A)
 question: A max heap can be converted into a min heap in ________.
 
@@ -779,7 +779,7 @@ C)
 question: A max heap may be transformed into a min heap in ________.
 
 D)
-question: A max heap can be changed into a min heap in ________.",question: A max heap can be converted into a min heap in ________.,question: A maximum heap can be transformed into a minimum heap in ________.,question: A max heap may be transformed into a min heap in ________.,question: A max heap can be changed into a min heap in ________.
+question: A max heap can be changed into a min heap in ________.",question: A max heap can be converted into a min heap in ________.,question: A maximum heap can be transformed into a minimum heap in ________.,question: A max heap may be transformed into a min heap in ________.,question: A max heap can be changed into a min heap in ________.,A
 "According to Article 284 of the Indian Constitution, where should all money received by or deposited with any officer working for the Union's affairs, in his official capacity, be deposited, excluding revenues or public money raised or received by the Government?", The Consolidated Fund., The Current Account., The Contingency Fund., The Public Account.,D,,val,"question: According to Article 284 of the Indian Constitution, where should all money received by or deposited with any officer working for the Union's affairs, in his official capacity, be deposited, excluding revenues or public money raised or received by the Government?","A)
 question: As per Article 284 of the Indian Constitution, where should all funds received by or lodged with any officer employed for the Union's affairs, in his official capacity, be deposited, excluding receipts or public funds raised or received by the Government?
 
@@ -790,7 +790,7 @@ C)
 question: In accordance with Article 284 of the Indian Constitution, where should all sums received by or deposited with any officer serving for the Union's affairs, in his official capacity, be kept, excluding receipts or public money raised or received by the Government?
 
 D)
-question: Per Article 284 of the Indian Constitution, where should all funds received by or lodged with any official acting for the Union's affairs, in his official capacity, be deposited, excluding revenues or public funds raised or received by the Government?","question: As per Article 284 of the Indian Constitution, where should all funds received by or lodged with any officer employed for the Union's affairs, in his official capacity, be deposited, excluding receipts or public funds raised or received by the Government?","question: Pursuant to Article 284 of the Indian Constitution, where should all money obtained by or deposited with any official working for the Union's affairs, in his official capacity, be placed, excluding revenues or public money collected or received by the Government?","question: In accordance with Article 284 of the Indian Constitution, where should all sums received by or deposited with any officer serving for the Union's affairs, in his official capacity, be kept, excluding receipts or public money raised or received by the Government?","question: Per Article 284 of the Indian Constitution, where should all funds received by or lodged with any official acting for the Union's affairs, in his official capacity, be deposited, excluding revenues or public funds raised or received by the Government?"
+question: Per Article 284 of the Indian Constitution, where should all funds received by or lodged with any official acting for the Union's affairs, in his official capacity, be deposited, excluding revenues or public funds raised or received by the Government?","question: As per Article 284 of the Indian Constitution, where should all funds received by or lodged with any officer employed for the Union's affairs, in his official capacity, be deposited, excluding receipts or public funds raised or received by the Government?","question: Pursuant to Article 284 of the Indian Constitution, where should all money obtained by or deposited with any official working for the Union's affairs, in his official capacity, be placed, excluding revenues or public money collected or received by the Government?","question: In accordance with Article 284 of the Indian Constitution, where should all sums received by or deposited with any officer serving for the Union's affairs, in his official capacity, be kept, excluding receipts or public money raised or received by the Government?","question: Per Article 284 of the Indian Constitution, where should all funds received by or lodged with any official acting for the Union's affairs, in his official capacity, be deposited, excluding revenues or public funds raised or received by the Government?",A
 What is the average rate at which alcohol is eliminated or 'burned off' from the body?, 0.15% w/v per hr., 0.05% w/v per hr., 0.5% w/v per hr., None of the other choices,A,,val,question: What is the average rate at which alcohol is eliminated or 'burned off' from the body?,"A)
 question: What is the typical speed at which alcohol is removed or 'burned off' from the body?
 
@@ -801,7 +801,7 @@ C)
 question: What is the normal velocity at which alcohol is expelled or 'burned off' from the body?
 
 D)
-question: What is the customary tempo at which alcohol is discharged or 'burned off' from the body?",question: What is the typical speed at which alcohol is removed or 'burned off' from the body?,question: What is the mean pace at which alcohol is cleared or 'burned off' from the body?,question: What is the normal velocity at which alcohol is expelled or 'burned off' from the body?,question: What is the customary tempo at which alcohol is discharged or 'burned off' from the body?
+question: What is the customary tempo at which alcohol is discharged or 'burned off' from the body?",question: What is the typical speed at which alcohol is removed or 'burned off' from the body?,question: What is the mean pace at which alcohol is cleared or 'burned off' from the body?,question: What is the normal velocity at which alcohol is expelled or 'burned off' from the body?,question: What is the customary tempo at which alcohol is discharged or 'burned off' from the body?,A
 What is the vapor quality of a saturated liquid?,100%,50%,0%, None of the mentioned,A,,val,question: What is the vapor quality of a saturated liquid?,"A)
 question: What is the vapour quality of a saturated liquid?
 
@@ -812,7 +812,7 @@ C)
 question: What is the vapor quality of a saturated fluid?
 
 D)
-question: What is the vapor content of a saturated liquid?",question: What is the vapour quality of a saturated liquid?,question: What is the vapor fraction of a saturated liquid?,question: What is the vapor quality of a saturated fluid?,question: What is the vapor content of a saturated liquid?
+question: What is the vapor content of a saturated liquid?",question: What is the vapour quality of a saturated liquid?,question: What is the vapor fraction of a saturated liquid?,question: What is the vapor quality of a saturated fluid?,question: What is the vapor content of a saturated liquid?,A
 What method is used to analyze stability?, Root locus method, Routh Hurwitz criteria, Nyquisit criteria, All of the above,D,,val,question: What method is used to analyze stability?,"A)
 question: Which technique is employed to assess stability?
 
@@ -823,7 +823,7 @@ C)
 question: Which procedure is applied to examine stability?
 
 D)
-question: Which method is used to analyze steadiness?",question: Which technique is employed to assess stability?,question: Which approach is utilized to evaluate stability?,question: Which procedure is applied to examine stability?,question: Which method is used to analyze steadiness?
+question: Which method is used to analyze steadiness?",question: Which technique is employed to assess stability?,question: Which approach is utilized to evaluate stability?,question: Which procedure is applied to examine stability?,question: Which method is used to analyze steadiness?,A
 Which of the following is not a part of a gamma camera?, Pre-amplifier, Detector crystal, Collimator, Position logic circuit,A,,val,question: Which of the following is not a part of a gamma camera?,"A)
 question: Which of the following is not a component of a gamma camera?
 
@@ -834,7 +834,7 @@ C)
 question: Which of the following is not an element of a gamma camera?
 
 D)
-question: Which of the following is not a portion of a gamma camera?",question: Which of the following is not a component of a gamma camera?,question: Which of the following is not a constituent of a gamma camera?,question: Which of the following is not an element of a gamma camera?,question: Which of the following is not a portion of a gamma camera?
+question: Which of the following is not a portion of a gamma camera?",question: Which of the following is not a component of a gamma camera?,question: Which of the following is not a constituent of a gamma camera?,question: Which of the following is not an element of a gamma camera?,question: Which of the following is not a portion of a gamma camera?,A
 How many solutions are there to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?, Two, Three, Six, Four,B,,val,question: How many solutions are there to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?,"A)
 question: How many roots are there to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?
 
@@ -845,7 +845,7 @@ C)
 question: How many answers are there to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?
 
 D)
-question: How many solutions exist to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?",question: How many roots are there to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?,question: How many zeros are there to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?,question: How many answers are there to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?,question: How many solutions exist to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?
+question: How many solutions exist to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?",question: How many roots are there to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?,question: How many zeros are there to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?,question: How many answers are there to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?,question: How many solutions exist to the equation 4 cos x = 1 in the interval from x = 0 to x = 3π?,A
 Which of these risks is NOT a focus of the International Country Risk Guide?, Financial risk, Political risk, None of the other choices, Economic risk,C,,val,question: Which of these risks is NOT a focus of the International Country Risk Guide?,"A)
 question: Which of these hazards is NOT a focus of the International Country Risk Guide?
 
@@ -856,7 +856,7 @@ C)
 question: Which of these perils is NOT a focus of the International Country Risk Guide?
 
 D)
-question: Which of these risks is NOT an emphasis of the International Country Risk Guide?",question: Which of these hazards is NOT a focus of the International Country Risk Guide?,question: Which of these threats is NOT a focus of the International Country Risk Guide?,question: Which of these perils is NOT a focus of the International Country Risk Guide?,question: Which of these risks is NOT an emphasis of the International Country Risk Guide?
+question: Which of these risks is NOT an emphasis of the International Country Risk Guide?",question: Which of these hazards is NOT a focus of the International Country Risk Guide?,question: Which of these threats is NOT a focus of the International Country Risk Guide?,question: Which of these perils is NOT a focus of the International Country Risk Guide?,question: Which of these risks is NOT an emphasis of the International Country Risk Guide?,A
 "An object with mass m starts moving on a plane inclined at an angle θ. Given that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?", mg, None of the other choices, μs mg sin θ, μs mg cos θ,D,,val,"question: An object with mass m starts moving on a plane inclined at an angle θ. Given that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?","A)
 question: A body with mass m starts moving on a plane sloped at an angle θ. Given that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?
 
@@ -867,7 +867,7 @@ C)
 question: A body of mass m starts moving on a plane slanted at an angle θ. Provided that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?
 
 D)
-question: An object with mass m begins moving on a plane inclined at an angle θ. Supposing that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?","question: A body with mass m starts moving on a plane sloped at an angle θ. Given that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?","question: An object of mass m starts moving on a plane inclined at an angle θ. Assuming that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?","question: A body of mass m starts moving on a plane slanted at an angle θ. Provided that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?","question: An object with mass m begins moving on a plane inclined at an angle θ. Supposing that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?"
+question: An object with mass m begins moving on a plane inclined at an angle θ. Supposing that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?","question: A body with mass m starts moving on a plane sloped at an angle θ. Given that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?","question: An object of mass m starts moving on a plane inclined at an angle θ. Assuming that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?","question: A body of mass m starts moving on a plane slanted at an angle θ. Provided that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?","question: An object with mass m begins moving on a plane inclined at an angle θ. Supposing that the coefficient of static friction for the inclined surface is us, what is the maximum static friction that the object can experience?",B
 "You enjoy watching meteors, but since they are unpredictable, your excitement when you spot one is strengthened on a:", None of the other choices, variable interval schedule., fixed interval schedule., fixed ratio schedule.,B,,val,"question: You enjoy watching meteors, but since they are unpredictable, your excitement when you spot one is strengthened on a:","A)
 question: You relish viewing meteors, but since they are unpredictable, your excitement when you spot one is heightened on a:
 
@@ -878,7 +878,7 @@ C)
 question: You like observing shooting stars, but since they are unpredictable, your excitement when you notice one is intensified on a:
 
 D)
-question: You appreciate watching meteors, but since they are unpredictable, your excitement when you spot one is amplified on a:","question: You relish viewing meteors, but since they are unpredictable, your excitement when you spot one is heightened on a:","question: You enjoy watching meteors, but since they are erratic, your thrill when you spot one is strengthened on a:","question: You like observing shooting stars, but since they are unpredictable, your excitement when you notice one is intensified on a:","question: You appreciate watching meteors, but since they are unpredictable, your excitement when you spot one is amplified on a:"
+question: You appreciate watching meteors, but since they are unpredictable, your excitement when you spot one is amplified on a:","question: You relish viewing meteors, but since they are unpredictable, your excitement when you spot one is heightened on a:","question: You enjoy watching meteors, but since they are erratic, your thrill when you spot one is strengthened on a:","question: You like observing shooting stars, but since they are unpredictable, your excitement when you notice one is intensified on a:","question: You appreciate watching meteors, but since they are unpredictable, your excitement when you spot one is amplified on a:",A
 What kind of powder is utilized to develop fingerprints on dark or colored surfaces by creating a contrast with the background?, Fluorescent Powder, None of the other choices, Magnetic Powder, White Powder,D,,val,question: What kind of powder is utilized to develop fingerprints on dark or colored surfaces by creating a contrast with the background?,"A)
 question: What type of powder is used to visualize fingerprints on dark or colored surfaces by creating a contrast with the background?
 
@@ -889,7 +889,7 @@ C)
 question: What kind of dust is used to reveal fingerprints on dark or colored surfaces by creating a contrast with the background?
 
 D)
-question: What category of powder is utilized to uncover fingerprints on dark or colored surfaces by creating a contrast with the background?",question: What type of powder is used to visualize fingerprints on dark or colored surfaces by creating a contrast with the background?,question: What sort of powder is employed to develop fingerprints on dark or colored surfaces by creating a contrast with the background?,question: What kind of dust is used to reveal fingerprints on dark or colored surfaces by creating a contrast with the background?,question: What category of powder is utilized to uncover fingerprints on dark or colored surfaces by creating a contrast with the background?
+question: What category of powder is utilized to uncover fingerprints on dark or colored surfaces by creating a contrast with the background?",question: What type of powder is used to visualize fingerprints on dark or colored surfaces by creating a contrast with the background?,question: What sort of powder is employed to develop fingerprints on dark or colored surfaces by creating a contrast with the background?,question: What kind of dust is used to reveal fingerprints on dark or colored surfaces by creating a contrast with the background?,question: What category of powder is utilized to uncover fingerprints on dark or colored surfaces by creating a contrast with the background?,A
 "What is ""Die Leiden des jungen Werther""?", A heroic novel, A historical novel, An epistolary novel, A mystery novel,C,,val,"question: What is ""Die Leiden des jungen Werther""?","A)
 question: Which is ""Die Leiden des jungen Werther""?
 
@@ -900,7 +900,7 @@ C)
 question: What represents ""Die Leiden des jungen Werther""?
 
 D)
-question: What denotes ""Die Leiden des jungen Werther""?","question: Which is ""Die Leiden des jungen Werther""?","question: What constitutes ""Die Leiden des jungen Werther""?","question: What represents ""Die Leiden des jungen Werther""?","question: What denotes ""Die Leiden des jungen Werther""?"
+question: What denotes ""Die Leiden des jungen Werther""?","question: Which is ""Die Leiden des jungen Werther""?","question: What constitutes ""Die Leiden des jungen Werther""?","question: What represents ""Die Leiden des jungen Werther""?","question: What denotes ""Die Leiden des jungen Werther""?",A
 Provisioning for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?, Continuity concept, Realization concept, Conservatism concept, All of these,B,,val,question: Provisioning for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?,"A)
 question: Providing for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?
 
@@ -911,7 +911,7 @@ C)
 question: Making provision for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?
 
 D)
-question: Creating provisions for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?",question: Providing for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?,question: Setting aside for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?,question: Making provision for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?,question: Creating provisions for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?
+question: Creating provisions for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?",question: Providing for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?,question: Setting aside for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?,question: Making provision for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?,question: Creating provisions for doubtful debts and discounts on receivables in anticipation of actual bad debts and discounts illustrates which accounting concept?,C
 What outcomes are most probable during frame transmission using the Stop-and-Wait ARQ method?, All of the above, Loss of frame or an acknowledgement, Delay in an acknowledgement, normal operation,D,,val,question: What outcomes are most probable during frame transmission using the Stop-and-Wait ARQ method?,"A)
 question: What outcomes are most likely during frame transmission using the Stop-and-Wait ARQ method?
 
@@ -922,7 +922,7 @@ C)
 question: What results are most probable during frame transmission using the Stop-and-Wait ARQ method?
 
 D)
-question: Which results are most likely during frame transmission using the Stop-and-Wait ARQ method?",question: What outcomes are most likely during frame transmission using the Stop-and-Wait ARQ method?,question: What results are most likely during frame transmission using the Stop-and-Wait ARQ method?,question: What results are most probable during frame transmission using the Stop-and-Wait ARQ method?,question: Which results are most likely during frame transmission using the Stop-and-Wait ARQ method?
+question: Which results are most likely during frame transmission using the Stop-and-Wait ARQ method?",question: What outcomes are most likely during frame transmission using the Stop-and-Wait ARQ method?,question: What results are most likely during frame transmission using the Stop-and-Wait ARQ method?,question: What results are most probable during frame transmission using the Stop-and-Wait ARQ method?,question: Which results are most likely during frame transmission using the Stop-and-Wait ARQ method?,A
 What is the work done by the Sun’s gravitational force on the Earth?, Can be positive or negative, None of the other choices, Always positive, Always negative,A,,val,question: What is the work done by the Sun’s gravitational force on the Earth?,"A)
 question: What is the work performed by the Sun’s gravitational force on the Earth?
 
@@ -933,7 +933,7 @@ C)
 question: What is the work exerted by the Sun’s gravitational force on the Earth?
 
 D)
-question: What is the work done by the Sun’s gravitation force on the Earth?",question: What is the work performed by the Sun’s gravitational force on the Earth?,question: What is the work done by the Sun’s gravitational attraction on the Earth?,question: What is the work exerted by the Sun’s gravitational force on the Earth?,question: What is the work done by the Sun’s gravitation force on the Earth?
+question: What is the work done by the Sun’s gravitation force on the Earth?",question: What is the work performed by the Sun’s gravitational force on the Earth?,question: What is the work done by the Sun’s gravitational attraction on the Earth?,question: What is the work exerted by the Sun’s gravitational force on the Earth?,question: What is the work done by the Sun’s gravitation force on the Earth?,A
 What is the primary emphasis of Bronfenbrenner's ecological theory of human development?, children's biological needs., the interactions among the contexts in which children live and develop., environmental stimuli that elicit and reinforce behavior., genetic or hereditary patterns.,B,,val,question: What is the primary emphasis of Bronfenbrenner's ecological theory of human development?,"A)
 question: What is the main focus of Bronfenbrenner's ecological model of human development?
 
@@ -944,7 +944,7 @@ C)
 question: What is the chief emphasis of Bronfenbrenner's ecological theory of human maturation?
 
 D)
-question: What is the principal concern of Bronfenbrenner's ecological framework of human development?",question: What is the main focus of Bronfenbrenner's ecological model of human development?,question: What is the central focus of Bronfenbrenner's ecological theory of human development?,question: What is the chief emphasis of Bronfenbrenner's ecological theory of human maturation?,question: What is the principal concern of Bronfenbrenner's ecological framework of human development?
+question: What is the principal concern of Bronfenbrenner's ecological framework of human development?",question: What is the main focus of Bronfenbrenner's ecological model of human development?,question: What is the central focus of Bronfenbrenner's ecological theory of human development?,question: What is the chief emphasis of Bronfenbrenner's ecological theory of human maturation?,question: What is the principal concern of Bronfenbrenner's ecological framework of human development?,A
 "If sin(A) + sin(2A) equals 1, what is the value of the expression (cos(2A) + cos(4A))?",2,3,1, 1/2,C,,val,"question: If sin(A) + sin(2A) equals 1, what is the value of the expression (cos(2A) + cos(4A))?","A)
 question: Suppose sin(A) + sin(2A) equals 1, what is the value of the expression (cos(2A) + cos(4A))?
 
@@ -955,7 +955,7 @@ C)
 question: Assume sin(A) + sin(2A) is equal to 1, what is the value of the expression (cos(2A) + cos(4A))?
 
 D)
-question: Provided sin(A) + sin(2A) equals 1, find the value of the expression (cos(2A) + cos(4A))?","question: Suppose sin(A) + sin(2A) equals 1, what is the value of the expression (cos(2A) + cos(4A))?","question: Given that sin(A) + sin(2A) equals 1, what is the value of the quantity (cos(2A) + cos(4A))?","question: Assume sin(A) + sin(2A) is equal to 1, what is the value of the expression (cos(2A) + cos(4A))?","question: Provided sin(A) + sin(2A) equals 1, find the value of the expression (cos(2A) + cos(4A))?"
+question: Provided sin(A) + sin(2A) equals 1, find the value of the expression (cos(2A) + cos(4A))?","question: Suppose sin(A) + sin(2A) equals 1, what is the value of the expression (cos(2A) + cos(4A))?","question: Given that sin(A) + sin(2A) equals 1, what is the value of the quantity (cos(2A) + cos(4A))?","question: Assume sin(A) + sin(2A) is equal to 1, what is the value of the expression (cos(2A) + cos(4A))?","question: Provided sin(A) + sin(2A) equals 1, find the value of the expression (cos(2A) + cos(4A))?",A
 "Cloud Kicks has numerous customers who frequently renew their ""shoe of the month"" club membership. The sales team utilizes an Account type termed ""shoe of the month"" club for these clients. Sales management aims to automate these recurring opportunities within Salesforce. What should a Consultant suggest to fulfill this need?", Configure a workflow rule for renewal customers that inserts a copy of an Opportunity for the sales representative when it reaches the closed/won stage., None of the other choices, Configure a Process Builder process for renewal customers that sends a reminder task to the sales representative to create a new Opportunity when it reaches the closed/won stage., Develop an Apex trigger for renewal customers that inserts a copy of an Opportunity for the sales representative when it reaches the closed/won stage.,D,,val,"question: Cloud Kicks has numerous customers who frequently renew their ""shoe of the month"" club membership. The sales team utilizes an Account type termed ""shoe of the month"" club for these clients. Sales management aims to automate these recurring opportunities within Salesforce. What should a Consultant suggest to fulfill this need?","A)
 question: Cloud Kicks serves many customers who regularly renew their ""shoe of the month"" club subscription. The sales team uses an Account type called ""shoe of the month"" club for these clients. Sales management intends to automate these recurring opportunities within Salesforce. What should a Consultant recommend to fulfill this need?
 
@@ -966,7 +966,7 @@ C)
 question: Cloud Kicks has many customers who often renew their ""shoe of the month"" club membership. The sales team utilizes an Account type labeled ""shoe of the month"" club for these clients. Sales management wants to automate these recurring opportunities within Salesforce. What should a Consultant advise to meet this need?
 
 D)
-question: Cloud Kicks counts several customers who frequently renew their ""shoe of the month"" club membership. The sales team uses an Account type referred to as ""shoe of the month"" club for these clients. Sales management desires to automate these recurring opportunities within Salesforce. What should a Consultant suggest to fulfill this need?","question: Cloud Kicks serves many customers who regularly renew their ""shoe of the month"" club subscription. The sales team uses an Account type called ""shoe of the month"" club for these clients. Sales management intends to automate these recurring opportunities within Salesforce. What should a Consultant recommend to fulfill this need?","question: Cloud Kicks maintains numerous patrons who routinely renew their ""shoe of the month"" club membership. The sales team employs an Account type named ""shoe of the month"" club for these patrons. Sales management seeks to automate these recurring opportunities within Salesforce. What should a Consultant propose to address this need?","question: Cloud Kicks has many customers who often renew their ""shoe of the month"" club membership. The sales team utilizes an Account type labeled ""shoe of the month"" club for these clients. Sales management wants to automate these recurring opportunities within Salesforce. What should a Consultant advise to meet this need?","question: Cloud Kicks counts several customers who frequently renew their ""shoe of the month"" club membership. The sales team uses an Account type referred to as ""shoe of the month"" club for these clients. Sales management desires to automate these recurring opportunities within Salesforce. What should a Consultant suggest to fulfill this need?"
+question: Cloud Kicks counts several customers who frequently renew their ""shoe of the month"" club membership. The sales team uses an Account type referred to as ""shoe of the month"" club for these clients. Sales management desires to automate these recurring opportunities within Salesforce. What should a Consultant suggest to fulfill this need?","question: Cloud Kicks serves many customers who regularly renew their ""shoe of the month"" club subscription. The sales team uses an Account type called ""shoe of the month"" club for these clients. Sales management intends to automate these recurring opportunities within Salesforce. What should a Consultant recommend to fulfill this need?","question: Cloud Kicks maintains numerous patrons who routinely renew their ""shoe of the month"" club membership. The sales team employs an Account type named ""shoe of the month"" club for these patrons. Sales management seeks to automate these recurring opportunities within Salesforce. What should a Consultant propose to address this need?","question: Cloud Kicks has many customers who often renew their ""shoe of the month"" club membership. The sales team utilizes an Account type labeled ""shoe of the month"" club for these clients. Sales management wants to automate these recurring opportunities within Salesforce. What should a Consultant advise to meet this need?","question: Cloud Kicks counts several customers who frequently renew their ""shoe of the month"" club membership. The sales team uses an Account type referred to as ""shoe of the month"" club for these clients. Sales management desires to automate these recurring opportunities within Salesforce. What should a Consultant suggest to fulfill this need?",A
 What does Average Accounting Return measure in relation to accounting profit?, Book value, Cost, Intrinsic value, Market value,C,,val,question: What does Average Accounting Return measure in relation to accounting profit?,"A)
 question: What does Mean Accounting Return measure in relation to accounting profit?
 
@@ -977,7 +977,7 @@ C)
 question: What does Mean Bookkeeping Return assess in relation to accounting profit?
 
 D)
-question: What does Typical Accounting Return gauge in relation to accounting profit?",question: What does Mean Accounting Return measure in relation to accounting profit?,question: What does Average Bookkeeping Return measure in relation to accounting profit?,question: What does Mean Bookkeeping Return assess in relation to accounting profit?,question: What does Typical Accounting Return gauge in relation to accounting profit?
+question: What does Typical Accounting Return gauge in relation to accounting profit?",question: What does Mean Accounting Return measure in relation to accounting profit?,question: What does Average Bookkeeping Return measure in relation to accounting profit?,question: What does Mean Bookkeeping Return assess in relation to accounting profit?,question: What does Typical Accounting Return gauge in relation to accounting profit?,A
 In which injuries is the bevelling of a wound observed?, Abrasion, Incised wound, Laceration, None of the other choices,B,,val,question: In which injuries is the bevelling of a wound observed?,"A)
 question: In what lesions is the bevelling of a wound observed?
 
@@ -988,7 +988,7 @@ C)
 question: In what injuries is the beveling of a lesion observed?
 
 D)
-question: In which lesions is the beveling of an injury seen?",question: In what lesions is the bevelling of a wound observed?,question: In which traumas is the bevelling of a wound noted?,question: In what injuries is the beveling of a lesion observed?,question: In which lesions is the beveling of an injury seen?
+question: In which lesions is the beveling of an injury seen?",question: In what lesions is the bevelling of a wound observed?,question: In which traumas is the bevelling of a wound noted?,question: In what injuries is the beveling of a lesion observed?,question: In which lesions is the beveling of an injury seen?,A
 "What is the most likely reaction if Argus fell into the waters surrounding Labrador, where the temperature is 1°C (34°F)?", piloerection, None of the other choices, increased blood flow to hands, dilation of the blood vessels of the dermis,A,,val,"question: What is the most likely reaction if Argus fell into the waters surrounding Labrador, where the temperature is 1°C (34°F)?","A)
 question: Which is the most probable response if Argus fell into the waters surrounding Labrador, where the temperature is 1°C (34°F)?
 
@@ -999,7 +999,7 @@ C)
 question: Which is the most probable reaction if Argus fell into the waters around Labrador, where the temperature is 1°C (34°F)?
 
 D)
-question: What is the most likely reaction if Argus plunged into the waters surrounding Labrador, where the temperature is 1°C (34°F)?","question: Which is the most probable response if Argus fell into the waters surrounding Labrador, where the temperature is 1°C (34°F)?","question: What is the most likely response if Argus plunged into the waters surrounding Labrador, where the temperature is 1°C (34°F)?","question: Which is the most probable reaction if Argus fell into the waters around Labrador, where the temperature is 1°C (34°F)?","question: What is the most likely reaction if Argus plunged into the waters surrounding Labrador, where the temperature is 1°C (34°F)?"
+question: What is the most likely reaction if Argus plunged into the waters surrounding Labrador, where the temperature is 1°C (34°F)?","question: Which is the most probable response if Argus fell into the waters surrounding Labrador, where the temperature is 1°C (34°F)?","question: What is the most likely response if Argus plunged into the waters surrounding Labrador, where the temperature is 1°C (34°F)?","question: Which is the most probable reaction if Argus fell into the waters around Labrador, where the temperature is 1°C (34°F)?","question: What is the most likely reaction if Argus plunged into the waters surrounding Labrador, where the temperature is 1°C (34°F)?",A
 What is not included in research ethics?, Integrity, Objectivity, Subjectivity, None of the other choices,C,,val,question: What is not included in research ethics?,"A)
 question: What is not contained in research ethics?
 
@@ -1010,7 +1010,7 @@ C)
 question: What is not incorporated in research ethics?
 
 D)
-question: What is not part of research ethics?",question: What is not contained in research ethics?,question: What is not covered in research ethics?,question: What is not incorporated in research ethics?,question: What is not part of research ethics?
+question: What is not part of research ethics?",question: What is not contained in research ethics?,question: What is not covered in research ethics?,question: What is not incorporated in research ethics?,question: What is not part of research ethics?,B
 Which of the following changes in the family institution is not true?, marriage rates have declined, the birthrate has greatly declined, there has been an increase in voluntary childlessness, families have gotten larger,D,,val,question: Which of the following changes in the family institution is not true?,"A)
 question: Which of the following alterations in the family institution is not true?
 
@@ -1021,7 +1021,7 @@ C)
 question: Which of the following modifications in the family institution is not true?
 
 D)
-question: Which of the following shifts in the family institution is not true?",question: Which of the following alterations in the family institution is not true?,question: Which of the following changes within the family institution is not true?,question: Which of the following modifications in the family institution is not true?,question: Which of the following shifts in the family institution is not true?
+question: Which of the following shifts in the family institution is not true?",question: Which of the following alterations in the family institution is not true?,question: Which of the following changes within the family institution is not true?,question: Which of the following modifications in the family institution is not true?,question: Which of the following shifts in the family institution is not true?,A
 Which Article of the Indian Constitution addresses the authority of Judicial Review?, 32 and 226, 21 and 371, None of the other choices, 217 and 283,A,,val,question: Which Article of the Indian Constitution addresses the authority of Judicial Review?,"A)
 question: Which Article of the Indian Constitution deals with the power of Judicial Review?
 
@@ -1032,7 +1032,7 @@ C)
 question: Which Article of the Indian Constitution concerns the jurisdiction of Judicial Review?
 
 D)
-question: Which Article of the Indian Constitution relates to the competence of Judicial Review?",question: Which Article of the Indian Constitution deals with the power of Judicial Review?,question: Which Article of the Indian Constitution pertains to the authority of Judicial Review?,question: Which Article of the Indian Constitution concerns the jurisdiction of Judicial Review?,question: Which Article of the Indian Constitution relates to the competence of Judicial Review?
+question: Which Article of the Indian Constitution relates to the competence of Judicial Review?",question: Which Article of the Indian Constitution deals with the power of Judicial Review?,question: Which Article of the Indian Constitution pertains to the authority of Judicial Review?,question: Which Article of the Indian Constitution concerns the jurisdiction of Judicial Review?,question: Which Article of the Indian Constitution relates to the competence of Judicial Review?,A
 Which of the following is not included in the Bhamashah Yojna 2014?, Bhamashah Health Insurance Scheme, Bhamashah Crop Insurance Scheme, None of the other choices, Saving Bank Account holder in any branch of Bank supported by core banking,B,,val,question: Which of the following is not included in the Bhamashah Yojna 2014?,"A)
 question: Which of the following is not covered under the Bhamashah Yojna 2014?
 
@@ -1043,7 +1043,7 @@ C)
 question: Which of the following is not part of the Bhamashah Yojna 2014?
 
 D)
-question: Which of the following is not incorporated in the Bhamashah Yojna 2014?",question: Which of the following is not covered under the Bhamashah Yojna 2014?,question: Which among the following is not included in the Bhamashah Yojna 2014?,question: Which of the following is not part of the Bhamashah Yojna 2014?,question: Which of the following is not incorporated in the Bhamashah Yojna 2014?
+question: Which of the following is not incorporated in the Bhamashah Yojna 2014?",question: Which of the following is not covered under the Bhamashah Yojna 2014?,question: Which among the following is not included in the Bhamashah Yojna 2014?,question: Which of the following is not part of the Bhamashah Yojna 2014?,question: Which of the following is not incorporated in the Bhamashah Yojna 2014?,A
 What does the function sin²(ωt) represent?," a periodic, but not simple harmonic motion with a period 2π/ω", a simple harmonic motion with a period 2π/ω," a periodic, but not simple harmonic motion with a period π/ω", None of the other choices,D,,val,question: What does the function sin²(ωt) represent?,"A)
 question: What does the waveform sin²(ωt) denote?
 
@@ -1054,7 +1054,7 @@ C)
 question: What does the mapping sin²(ωt) express?
 
 D)
-question: What does the function sin²(ωt) symbolize?",question: What does the waveform sin²(ωt) denote?,question: What does the signal sin²(ωt) indicate?,question: What does the mapping sin²(ωt) express?,question: What does the function sin²(ωt) symbolize?
+question: What does the function sin²(ωt) symbolize?",question: What does the waveform sin²(ωt) denote?,question: What does the signal sin²(ωt) indicate?,question: What does the mapping sin²(ωt) express?,question: What does the function sin²(ωt) symbolize?,A
 What causes the end of the vas deferens to dilate?, For temporary storage of sperms, To enter the urinary bladder, To enter the inguinal canal, For support,A,,val,question: What causes the end of the vas deferens to dilate?,"A)
 question: What induces the distal end of the vas deferens to widen?
 
@@ -1065,7 +1065,7 @@ C)
 question: What triggers the terminal segment of the vas deferens to distend?
 
 D)
-question: What produces the extremity of the vas deferens to enlarge?",question: What induces the distal end of the vas deferens to widen?,question: What provokes the terminal part of the vas deferens to expand?,question: What triggers the terminal segment of the vas deferens to distend?,question: What produces the extremity of the vas deferens to enlarge?
+question: What produces the extremity of the vas deferens to enlarge?",question: What induces the distal end of the vas deferens to widen?,question: What provokes the terminal part of the vas deferens to expand?,question: What triggers the terminal segment of the vas deferens to distend?,question: What produces the extremity of the vas deferens to enlarge?,A
 Which art movement was caricaturist Honore Daumier associated with?, None of the other choices, Expressionism, Neoclassicism, Romanticism,A,,val,question: Which art movement was caricaturist Honore Daumier associated with?,"A)
 question: Which artistic movement was cartoonist Honore Daumier connected with?
 
@@ -1076,7 +1076,7 @@ C)
 question: Which artistic movement was satirical illustrator Honore Daumier associated with?
 
 D)
-question: Which art movement was political caricaturist Honore Daumier linked with?",question: Which artistic movement was cartoonist Honore Daumier connected with?,question: Which art movement was caricature artist Honore Daumier affiliated with?,question: Which artistic movement was satirical illustrator Honore Daumier associated with?,question: Which art movement was political caricaturist Honore Daumier linked with?
+question: Which art movement was political caricaturist Honore Daumier linked with?",question: Which artistic movement was cartoonist Honore Daumier connected with?,question: Which art movement was caricature artist Honore Daumier affiliated with?,question: Which artistic movement was satirical illustrator Honore Daumier associated with?,question: Which art movement was political caricaturist Honore Daumier linked with?,A
 What is the term for the annual amount of water that can be extracted and the rate at which this extraction can occur without negatively impacting the aquifer's reserves?, Percent yield, Monthly yield, Operational yield, Annual yield,C,,val,question: What is the term for the annual amount of water that can be extracted and the rate at which this extraction can occur without negatively impacting the aquifer's reserves?,"A)
 question: What is the phrase for the yearly quantity of water that may be withdrawn and the rate at which such withdrawal may occur without adversely affecting the aquifer's reserves?
 
@@ -1087,7 +1087,7 @@ C)
 question: What is the designation for the yearly amount of water that can be abstracted and the pace at which this abstraction can happen without harming the aquifer's reserves?
 
 D)
-question: What is the term for the annual volume of water that can be drawn off and the speed at which this drawing off can proceed without adversely impacting the aquifer's reserves?",question: What is the phrase for the yearly quantity of water that may be withdrawn and the rate at which such withdrawal may occur without adversely affecting the aquifer's reserves?,question: What is the name for the annual quantity of water that can be taken out and the rate at which this removal can take place without negatively affecting the aquifer's reserves?,question: What is the designation for the yearly amount of water that can be abstracted and the pace at which this abstraction can happen without harming the aquifer's reserves?,question: What is the term for the annual volume of water that can be drawn off and the speed at which this drawing off can proceed without adversely impacting the aquifer's reserves?
+question: What is the term for the annual volume of water that can be drawn off and the speed at which this drawing off can proceed without adversely impacting the aquifer's reserves?",question: What is the phrase for the yearly quantity of water that may be withdrawn and the rate at which such withdrawal may occur without adversely affecting the aquifer's reserves?,question: What is the name for the annual quantity of water that can be taken out and the rate at which this removal can take place without negatively affecting the aquifer's reserves?,question: What is the designation for the yearly amount of water that can be abstracted and the pace at which this abstraction can happen without harming the aquifer's reserves?,question: What is the term for the annual volume of water that can be drawn off and the speed at which this drawing off can proceed without adversely impacting the aquifer's reserves?,A
 Which of these flow measurement devices works according to Bernoulli's equation?, Coriolis flow meter, Ultrasonic flow meter, Venturi meter, Magnetic flow meter,C,,val,question: Which of these flow measurement devices works according to Bernoulli's equation?,"A)
 question: Which of these fluid measuring instruments works according to Bernoulli's equation?
 
@@ -1098,4 +1098,4 @@ C)
 question: Which of these flow measuring instruments works according to Bernoulli's equation?
 
 D)
-question: Which of these flow measurement instruments operates according to Bernoulli's equation?",question: Which of these fluid measuring instruments works according to Bernoulli's equation?,question: Which of these fluid measurement instruments works according to Bernoulli's equation?,question: Which of these flow measuring instruments works according to Bernoulli's equation?,question: Which of these flow measurement instruments operates according to Bernoulli's equation?
+question: Which of these flow measurement instruments operates according to Bernoulli's equation?",question: Which of these fluid measuring instruments works according to Bernoulli's equation?,question: Which of these fluid measurement instruments works according to Bernoulli's equation?,question: Which of these flow measuring instruments works according to Bernoulli's equation?,question: Which of these flow measurement instruments operates according to Bernoulli's equation?,A
